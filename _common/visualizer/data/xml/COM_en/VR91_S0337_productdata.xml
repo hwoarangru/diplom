@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content id="metallic">
+<content id="P0381">
+<text id="name">Le-Mans-Blau metallic</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0A22">
+<text id="name">Sparkling Graphite</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0300">
+<text id="name">Alpine White</text>
+</content>
+<content id="P0A61">
+<text id="name">Crimson Red</text>
+</content>
+</content>
+<content id="leather">
+<content id="FLCB4">
+<text id="name">Beige Dakota leather</text>
+</content>
+<content id="FLCAD">
+<text id="name">Grey Dakota leather</text>
+</content>
+<content id="FLCB7">
+<text id="name">Lemon Dakota leather</text>
+</content>
+<content id="FLCSW">
+<text id="name">Black Dakota leather</text>
+</content>
+<content id="FLCB8">
+<text id="name">Terra Dakota leather</text>
+</content>
+</content>
+<content id="fabric">
+<content id="FANAT">
+<text id="name">Stoff Blue Shadow/Alcantara anthrazit/schwarz</text>
+</content>
+</content>
+<content id="trims">
+<content id="S04AB">
+<text id="name">Burr Walnut</text>
+</content>
+<content id="S04AC">
+<text id="name">Poplar</text>
+</content>
+<content id="S04MG">
+<text id="name">Interieurleisten Aluminium Glaciersilber</text>
+</content>
+<content id="S04AD">
+<text id="name">Brushed Aluminium</text>
+</content>
+</content>
+<content id="rims">
+<content id="S02ME">
+<text id="name">M Leichtmetallräder Doppelspeiche 194 M mit Mischbereifung</text>
+</content>
+<content id="S02MF">
+<text id="name">M Leichtmetallräder Sternspeiche 193 M mit Mischbereifung</text>
+</content>
+</content>
+</root>

@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Новости", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Специальные предложения", 
+		"/news/special/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сервис", 
+		"/news/special/service/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Запчасти и аксессуары BMW", 
+		"/news/special/accessories/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

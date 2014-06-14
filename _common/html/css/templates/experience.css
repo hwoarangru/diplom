@@ -1,0 +1,7 @@
+#mainContainer {position:absolute; left:0px; top:0px; z-index:3; width:100%; height:785px; overflow:hidden; visibility:hidden;}
+#headlineTop {position:absolute; top:101px; left:316px; z-index:5;}
+#headlineMiddle {position:absolute; top:133px; left:316px; z-index:5;}
+#headlineBottom {position:absolute; top:373px; left:316px; z-index:5;}
+#textBlock {position:relative; top:30px; left:318px; width:514px; height:auto;}
+#textBlockNoImage {position:relative; top:112px; left:318px; width:514px; height:auto;}
+#campaignDialog {position:absolute; top:137px; left:220px; width:725px; height:410px; z-index: 14; visibility:hidden; overflow:hidden;}

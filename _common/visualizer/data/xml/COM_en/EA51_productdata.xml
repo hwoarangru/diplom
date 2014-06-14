@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content default="P0475" id="metallic">
+<content id="P0A13">
+<text id="name">Atlantic Blue</text>
+</content>
+<content id="P0A39">
+<text id="name">Barbera Red</text>
+</content>
+<content id="P0A14">
+<text id="name">Mineral Silver</text>
+</content>
+<content id="P0A35">
+<text id="name">Monaco Blue</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0A52">
+<text id="name">Space Grey</text>
+</content>
+<content id="P0440">
+<text id="name">Stratus Grey</text>
+</content>
+<content id="P0A76">
+<text id="name">Deep Sea Blue</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0300">
+<text id="name">Alpine White</text>
+</content>
+<content id="P0668">
+<text id="name">Jet Black</text>
+</content>
+</content>
+<content default="FLCGE" id="leather">
+<content id="FLEGE">
+<text id="name">Cream Beige Exclusive Pearl leather</text>
+</content>
+<content id="FLESW">
+<text id="name">Black Exclusive Pearl leather</text>
+</content>
+<content id="FLECH">
+<text id="name">Chateau Exclusive Pearl leather</text>
+</content>
+<content id="FLED5">
+<text id="name">Saddle Brown Exclusive Pearl leather</text>
+</content>
+<content id="FLCCH">
+<text id="name">Chateau Dakota leather</text>
+</content>
+<content id="FLCGE">
+<text id="name">Creme Beige Dakota leather</text>
+</content>
+<content id="FLCSW">
+<text id="name">Black Dakota leather</text>
+</content>
+</content>
+<content id="fabric">
+<content id="FFCAT">
+<text id="name">Anthracite Finolino cloth/leather</text>
+</content>
+</content>
+<content id="trims">
+<content id="S04BW">
+<text id="name">Maple Grain</text>
+</content>
+<content id="S0436">
+<text id="name">Dark Birch high-gloss</text>
+</content>
+<content id="S04BK">
+<text id="name">Aluminium with lengthwise cutting</text>
+</content>
+<content id="S04CD">
+<text id="name">Ruthenium Grey metallic</text>
+</content>
+</content>
+<content default="S0595" id="rims">
+<content id="S02BV">
+<text id="name">Double-spoke style 266</text>
+</content>
+<content id="S02SF">
+<text id="name">Star-spoke style 249</text>
+</content>
+<content id="S02KP">
+<text id="name">V-spoke style 248</text>
+</content>
+<content id="S0595">
+<text id="name">Ellipsoid-spoke style 121</text>
+</content>
+<content id="S02C7">
+<text id="name">Star-spoke style 218</text>
+</content>
+</content>
+</root>

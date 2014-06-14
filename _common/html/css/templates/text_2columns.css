@@ -1,0 +1,6 @@
+#specificPageContent                 {position:relative; top: 98px; width:100%;}
+#topLineBox                          {position:relative; top: 0px; left: 0px; width:100%; overflow:hidden;}
+#topHeadlineText                     {position:relative; top: 6px; left: 318px; width:278px;}
+#topCopyText                         {position:relative; left: 318px; width:278px;}
+#topLinkText                         {position:relative; left: 318px; width:278px;}
+#innerPageContentText                {position:relative; left:318px; width:566px; height:auto;display:block;clear:both;}

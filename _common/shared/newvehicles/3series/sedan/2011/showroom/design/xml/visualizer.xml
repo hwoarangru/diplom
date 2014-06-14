@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <settings>
+    <locale country="COM" language="en" />
+    <components url="/_common/flash/components/components.swf" />
+    <utils url="/_common/flash/libraries/core_lib.swf" />
+  </settings>
+  <content>
+    <downloads>
+      <headline><![CDATA[]]></headline>
+    </downloads>
+    <info_layer visible="TRUE">
+      <copy><![CDATA[В визуализаторе в качестве примера BMW 3 серии представлена модель BMW 328i. Возможные цвета окраски кузова и варианты колесных дисков относятся именно к этой модели. Цвета, диски и их сочетания могут отличаться в зависимости от модели BMW 3 серии. Образцы вариантов салона и декоративных накладок представлены в визуализаторе для наглядности; доступны дополнительные комбинации.
+Если у вас возникли какие-либо вопросы в отношении конкретной модели и дополнительного оборудования, обращайтесь к ближайшему дилеру BMW.
+]]></copy>
+    </info_layer>
+    <visualizer>
+      <model_code visible="TRUE"><![CDATA[3A51]]></model_code>
+      <sportpackage_code><![CDATA[]]></sportpackage_code>
+      <individualpackage_code><![CDATA[3A51]]></individualpackage_code>
+      <default_sa_codes><![CDATA[S0240,S0249,S0302,S0320,S0322,S0403,S0423,S0431,S0459,S0493,S0494,S04AE,S0508,S0520,S0534,S0544,S05DA,S0606,S0676,S0696,S06NF,S06NH,S08EB,S08TF&interior=FLCSW]]></default_sa_codes>
+      <individual_sa_codes><![CDATA[]]></individual_sa_codes>
+      <sportpackage_sa_codes><![CDATA[]]></sportpackage_sa_codes>
+      <base_path url="http://www.bmw.com/_common/visualizer/data/rebrush_2009" />
+      <wallpaper_path url="http://www.bmw.com/imageservice/image/silo/bmw_wallpaper.jpg" />
+      <wallpaper_small><![CDATA[1024 x 768, JPG]]></wallpaper_small>
+	  <wallpaper_big><![CDATA[1280 x 1024, JPG]]></wallpaper_big>
+	  <wallpaper_back><![CDATA[Назад]]></wallpaper_back>
+
+      <copy_tab_regular>
+        <![CDATA[Базовая модель]]>
+
+      </copy_tab_regular>
+
+      <copy_tab_sport>
+        <![CDATA[Sport package]]>
+
+      </copy_tab_sport>
+
+      <copy_tab_individual>
+        <![CDATA[BMW Lines и M Спорт пакет]]>
+        <line_sport sort="0" code="3A51_S07AC">
+          <![CDATA[Sport Line]]>
+          <additional_sa_codes><![CDATA[S04U2,S0520,S0548,S02VF,S02VL,S0248,S0249,S0255,S0322,S04AE,S0403,S0423,S0430,S0431,S0459,S0481,S0488,S0493,S0494,S0496,S05AC,S05AD,S05AG,S05AL,S05DC,S05DL,S05DP,S0502,S0508,S0521,S0522,S0524,S0534,S0544,S0563,S06NL,S06WA,S0609,S0610,S0688,S0760,S0775,S08TF&interior=FLCL3]]></additional_sa_codes>
+        </line_sport>
+        <line_modern sort="1" code="3A51_S07S1">          <![CDATA[Modern Line]]>
+          <additional_sa_codes><![CDATA[S0216,S04U2,S0520,S0548,S02TB,S02VF,S0248,S0249,S0255,S0322,S04AE,S0403,S0423,S0430,S0431,S0459,S0481,S0488,S0493,S0494,S0496,S05AC,S05AD,S05AG,S05AL,S05DC,S05DL,S0502,S0508,S0521,S0522,S0524,S0534,S0544,S0563,S06NL,S06WA,S0609,S0610,S0676,S08TH,S08TF&interior=FLCL9]]></additional_sa_codes>
+        </line_modern>
+        <line_sportpackage sort="2" code="3A51_S07S2">          <![CDATA[Luxury Line]]>
+          <additional_sa_codes><![CDATA[S0216,S04U2,S0520,S0548,S02VF,S0205,S0248,S0249,S0255,S0322,S04AE,S0403,S0415,S0417,S0423,S0430,S0431,S0459,S0488,S0493,S0494,S0496,S05AC,S05AD,S05AG,S05AL,S05DC,S05DL,S05DP,S0502,S0508,S0521,S0522,S0524,S0534,S0544,S0563,S06NL,S06WA,S0609,S0610,S0688,S08TF&interior=FLCLX]]></additional_sa_codes>
+        </line_sportpackage>
+        <line_luxury sort="3" code="3A51_S0337">          <![CDATA[M Спорт пакет]]>
+          <additional_sa_codes><![CDATA[S0249,S02NH,S02VL,S0302,S0322,S0403,S0423,S0430,S0431,S0459,S0481,S0488,S0494,S04AE,S0502,S0508,S0520,S0522,S0534,S0563,S05Ac,S05AL,S05DC,S0609,S0688,S0704,S0710,S0760,S0775,S0715&interior=FHAAT]]></additional_sa_codes>
+        </line_luxury>
+
+      </copy_tab_individual>
+      <copy_mirrorcaps><![CDATA[Корпуса наружных зеркал:]]></copy_mirrorcaps>
+
+      <copy_ext_colors><![CDATA[Варианты окраски]]></copy_ext_colors>
+      <copy_metallic_colors><![CDATA[Металлик:]]></copy_metallic_colors>
+      <copy_uni_colors><![CDATA[Неметаллик:]]></copy_uni_colors>
+      <copy_rims><![CDATA[Шины]]></copy_rims>
+      <copy_rim><![CDATA[Колесные диски:]]></copy_rim>
+      <copy_roof><![CDATA[Цвет потолка:]]></copy_roof>
+      <copy_seats><![CDATA[Обивка]]></copy_seats>
+      <copy_leather><![CDATA[Кожа:]]></copy_leather>
+      <copy_fabric><![CDATA[Ткань:]]></copy_fabric>
+      <copy_int><![CDATA[Отделка салона]]></copy_int>
+      <copy_trim><![CDATA[Панели:]]></copy_trim>
+
+
+      <nav_high>
+        <link visible="TRUE" action="walkaround"><![CDATA[360° обзор снаружи]]></link>
+        <link visible="FALSE" action="panorama"><![CDATA[360° вид изнутри]]></link>
+        <link visible="FALSE" action="exterior"><![CDATA[Экстерьер]]></link>
+        <link visible="FALSE" action="dashboard"><![CDATA[Cockpit]]></link>
+        <link visible="FALSE" action="driverdoor"><![CDATA[Cockpit]]></link>
+        <link visible="FALSE" action="roof"><![CDATA[Verdeck schließen / öffnen]]></link>
+      </nav_high>
+
+      <nav_low>
+        <link visible="FALSE" action="walkaround"><![CDATA[360° обзор снаружи]]></link>
+        <link visible="FALSE" action="panorama"><![CDATA[360° вид изнутри]]></link>
+        <link visible="TRUE" action="exterior"><![CDATA[360° обзор снаружи]]></link>
+        <link visible="FALSE" action="dashboard"><![CDATA[360° вид изнутри]]></link>
+        <link visible="FALSE" action="driverdoor"><![CDATA[Cockpit]]></link>
+        <link visible="FALSE" action="roof"><![CDATA[Verdeck schließen / öffnen]]></link>
+      </nav_low>
+
+      <subnav>
+        <link visible="FALSE" action="ecom" target="_self" url="?model=[MODELCODE]&features=[FEATURES]"><![CDATA[Weiter zum BMW Konfigurator]]></link>
+      </subnav>
+
+    </visualizer>
+  </content>
+</root>

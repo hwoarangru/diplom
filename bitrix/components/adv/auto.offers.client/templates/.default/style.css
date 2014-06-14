@@ -1,0 +1,33 @@
+.outlet_table {width:100%;border-collapse:collapse;margin-bottom:21px;}
+	.outlet_table td {vertical-align:top;padding:10px;padding-bottom:20px;}
+	.image_box {width:200px;text-align:center;}
+	.buttons_box {width:200px;text-align:center;padding-bottom:10px;}
+		.buttons_box bprice {color:#C60A3A;display:block;font-weight:bold;font-size:18px;line-height:30px;}
+		.buttons_box price {color:#000;font-weight:bold;font-size:14px;padding-top:5px;line-height:30px;margin-top:-10px;text-decoration:line-through;}
+	.colormark {color:#C60A3A;}
+	.car_desc_box {font-size:16px !important;font-weight:bold;}
+		.car_desc_box div {padding-top:23px;}
+		.car_desc_box .colormark {font-size:16px !important;}
+		.car_desc_box p {font-size:14px !important;font-weight:100;padding-top:21px;}
+
+.button-silver {
+    display: block;
+	padding:5px;
+	margin:5px auto;
+	color:#fff !important;
+	background: #747474;
+	clear:both;
+	text-align:center;
+}
+.counterDescBox {font-size:14px;text-align:center;width:200px;}
+.counterSlicesBox {text-align:center;font-size:14px;}
+.counterSlicesBox h1 {font-size:16px;}
+.slicesLine {margin:0px auto;width:300px;padding-top:10px;}
+.daySlice, .hourSlice, .minutsSlice {float:left;width:100px;background:url(/bitrix/components/adv/auto.offers.client/templates/.default/images/slice_bg.png) no-repeat center top;font-weight:bold;}
+.slicesLine span {font-weight:100;color:#fff;display:block;padding-top:27px;padding-bottom:40px;text-align:center;font-size:50px;font-family:Tahoma;}
+.filter_headline {color:#000;font-size:18px;margin-top:25px;}
+.counter_box {background:#eee;}
+.detail_outlet_car_box {display:none;}
+.outlet_mark_box {background:#eee;padding:10px;}
+.whiteBgThief {width:100%;position:fixed;z-index: 9900;left:0px;top:0px;background:#000;}
+.popScrolled {display:none;position:absolute;width:310px;background:#eee;padding:15px;left:50%;margin-left:-160px;z-index:9910;}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content default="P0475" id="metallic">
+<content id="P0A17">
+<text id="name">Havanna</text>
+</content>
+<content id="P0A35">
+<text id="name">Monaco Blue</text>
+</content>
+<content id="P0A51">
+<text id="name">Montego Blue</text>
+</content>
+<content id="P0A71">
+<text id="name">Patagonia Green</text>
+</content>
+<content id="P0A18">
+<text id="name">Quartz Blue</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0A22">
+<text id="name">Sparkling Graphite</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0300">
+<text id="name">Alpine White</text>
+</content>
+<content id="P0A61">
+<text id="name">Crimson Red</text>
+</content>
+<content id="P0668">
+<text id="name">Jet Black</text>
+</content>
+</content>
+<content id="leather">
+<content id="FLWAL">
+<text id="name">Alaska Grey Boston leather</text>
+</content>
+<content id="FLWA5">
+<text id="name">Beige Boston leather</text>
+</content>
+<content id="FLWB7">
+<text id="name">Lemon Boston leather</text>
+</content>
+<content id="FLWSW">
+<text id="name">Black Boston leather</text>
+</content>
+<content id="FLWB8">
+<text id="name">Terra Boston leather</text>
+</content>
+</content>
+<content default="FFHF5" id="fabric">
+<content id="FEAAL">
+<text id="name">Alaska Grey Elektra cloth</text>
+</content>
+<content id="FEAAT">
+<text id="name">Anthracite Elektra cloth</text>
+</content>
+<content id="FAUAT">
+<text id="name">Anthracite Network cloth</text>
+</content>
+<content id="FAUF8">
+<text id="name">Cranberry Red Network cloth</text>
+</content>
+<content id="FAUD9">
+<text id="name">Monaco Blue Network cloth</text>
+</content>
+<content id="FFHF5">
+<text id="name">Orange Pearlpoint cloth/leather</text>
+</content>
+</content>
+<content default="S04B3" id="trims">
+<content id="S04A3">
+<text id="name">Light Burr Walnut</text>
+</content>
+<content id="S04AS">
+<text id="name">Dark Grey Poplar</text>
+</content>
+<content id="S04B3">
+<text id="name">Brushed Aluminium</text>
+</content>
+<content id="S04B1">
+<text id="name">Cashmere Silver</text>
+</content>
+<content id="S04AT">
+<text id="name">Black high-gloss</text>
+</content>
+<content id="S04BZ">
+<text id="name">Titanium light</text>
+</content>
+</content>
+<content default="S02KF" id="rims">
+<content id="S02BT">
+<text id="name">Double-spoke style 222</text>
+</content>
+<content id="S02CH">
+<text id="name">Star Spoke Style 142</text>
+</content>
+<content id="S02R2">
+<text id="name">Star-spoke style 256</text>
+</content>
+<content id="S02KC">
+<text id="name">V-spoke style 141</text>
+</content>
+<content id="S02KF">
+<text id="name">V-spoke style 217</text>
+</content>
+<content id="S02KH">
+<text id="name">V-spoke style 229</text>
+</content>
+<content id="S02KN">
+<text id="name">V-spoke style 255</text>
+</content>
+</content>
+</root>

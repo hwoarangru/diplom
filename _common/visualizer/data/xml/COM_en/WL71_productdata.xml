@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content default="P0A53" id="metallic">
+<content id="P0A34">
+<text id="name">Arctic</text>
+</content>
+<content id="P0A13">
+<text id="name">Atlantic Blue</text>
+</content>
+<content id="P0A39">
+<text id="name">Barbera Red</text>
+</content>
+<content id="P0A35">
+<text id="name">Monaco Blue</text>
+</content>
+<content id="P0A51">
+<text id="name">Montego Blue</text>
+</content>
+<content id="P0A53">
+<text id="name">Platinum Bronze</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0A52">
+<text id="name">Space Grey</text>
+</content>
+<content id="P0A22">
+<text id="name">Sparkling Graphite</text>
+</content>
+<content id="P0A43">
+<text id="name">Deep Green</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0300">
+<text id="name">Alpine White</text>
+</content>
+<content id="P0A61">
+<text id="name">Crimson Red</text>
+</content>
+<content id="P0668">
+<text id="name">Black</text>
+</content>
+</content>
+<content default="FLCGE" id="leather">
+<content id="FLCGE">
+<text id="name">Cream Beige Dakota leather</text>
+</content>
+<content id="FLCAD">
+<text id="name">Grey Dakota leather</text>
+</content>
+<content id="FLCD2">
+<text id="name">Jade Grey Dakota leather</text>
+</content>
+<content id="FLCD1">
+<text id="name">Coral Red Dakota leather</text>
+</content>
+<content id="FLCD3">
+<text id="name">Saddle Brown Dakota leather</text>
+</content>
+<content id="FLCSW">
+<text id="name">Black Dakota leather</text>
+</content>
+<content id="FLRD4">
+<text id="name">Camel Walknappa leather</text>
+</content>
+<content id="FLRGE">
+<text id="name">Cream Beige Walknappa leather</text>
+</content>
+<content id="FLRSW">
+<text id="name">Black Walknappa leather</text>
+</content>
+</content>
+<content id="fabric">
+<content id="FALAT">
+<text id="name">Anthracite Fluid cloth</text>
+</content>
+<content id="FALAD">
+<text id="name">Grey Fluid cloth</text>
+</content>
+</content>
+<content default="S04AB" id="trims">
+<content id="S04AB">
+<text id="name">Burr Walnut</text>
+</content>
+<content id="S04AS">
+<text id="name">Grain Grey Poplar</text>
+</content>
+<content id="S04AC">
+<text id="name">Grain Natural Poplar</text>
+</content>
+<content id="S04AD">
+<text id="name">Brushed Aluminium</text>
+</content>
+<content id="S04AT">
+<text id="name">Black high-gloss</text>
+</content>
+<content id="S04BZ">
+<text id="name">Titanium light</text>
+</content>
+</content>
+<content default="S02C6" id="rims">
+<content id="S02C6">
+<text id="name">Star-spoke style 189</text>
+</content>
+<content id="S02R4">
+<text id="name">Star-spoke style 230</text>
+</content>
+<content id="S02KE">
+<text id="name">V-spoke style 188</text>
+</content>
+</content>
+<content default="P0A53" id="roof" special="hardtop">
+<content id="P0A34">
+<text id="name">Arctic</text>
+</content>
+<content id="P0A13">
+<text id="name">Atlantic Blue</text>
+</content>
+<content id="P0A39">
+<text id="name">Barbera Red</text>
+</content>
+<content id="P0A35">
+<text id="name">Monaco Blue</text>
+</content>
+<content id="P0A51">
+<text id="name">Montego Blue</text>
+</content>
+<content id="P0A53">
+<text id="name">Platinum Bronze</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0A52">
+<text id="name">Space Grey</text>
+</content>
+<content id="P0A22">
+<text id="name">Sparkling Graphite</text>
+</content>
+<content id="P0A43">
+<text id="name">Deep Green</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+<content id="P0300">
+<text id="name">Alpine White</text>
+</content>
+<content id="P0A61">
+<text id="name">Crimson Red</text>
+</content>
+<content id="P0668">
+<text id="name">Black</text>
+</content>
+</content>
+</root>

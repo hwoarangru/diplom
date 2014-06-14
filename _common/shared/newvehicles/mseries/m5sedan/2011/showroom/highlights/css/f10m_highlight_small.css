@@ -1,0 +1,121 @@
+#design_intro .inner_content_1 {
+  position:absolute;
+  top:350px;
+  left:50px;
+}
+
+#design_intro .inner_content_2 {
+  position:absolute;
+  top:1600px;
+  left:90px;
+  width:845px;
+}
+
+#design_exterior .inner_content {
+  position:absolute;
+  top:540px;
+  left:0px;
+  width:100%;
+}
+
+#design_aero .inner_content {
+  position:absolute;
+  top:400px;
+  left:45px;
+  width:900px;
+}
+
+
+#design_sound .inner_content {
+  position:relative;
+  top:350px;
+  margin:auto;
+  width:903px;
+}
+
+
+#design_interior .inner_content {
+  position:absolute;
+  width:750px;
+  top:250px;
+  right:30px;
+}
+
+
+#driving_dynamics_intro .inner_content_1 {
+  position:absolute;
+  top:300px;
+  left:90px;
+  width:845px;
+}
+
+
+#driving_dynamics_intro .inner_content_2 {
+  position:absolute;
+  top:1600px;
+  left:50px;
+  width:900px;
+}
+
+
+#driving_dynamics_data .inner_content_1 {
+  position:absolute;
+  top:50px;
+  padding-left:290px;
+}
+
+#driving_dynamics_data .inner_content_2 {
+  position:absolute;
+  top:380px;
+  padding-left:60px;
+}
+
+#driving_dynamics_data .inner_content_3 {
+  position:absolute;
+  top:445px;
+  padding-left:690px;
+}
+
+#driving_dynamics_movie .inner_content_1 {
+  position:absolute;
+  top:50px;
+  left:112px;
+  width:591px;
+  height:332px;
+  overflow:hidden;
+}
+
+#driving_dynamics_movie .inner_content_2 {
+  position:absolute;
+  bottom:430px;
+  left:130px;
+  width:800px;
+}
+
+#driving_dynamics_chassis .inner_content {
+  position:absolute;
+  top:60px;
+  left:45px;
+  width:880px
+}
+
+#driving_dynamics_features .inner_content {
+  position:absolute;
+  width:800px;
+  top:200px;
+  right:0;
+}
+
+#driving_dynamics_engine .inner_content {
+  position:absolute;
+  top:65px;
+  margin-left:50px;
+  width:95%;
+}
+
+#driving_dynamics_summary .inner_content {
+  position:absolute;
+  top:400px;
+  left:50px;
+  width:845px;
+}

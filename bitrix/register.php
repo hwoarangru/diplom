@@ -1,0 +1,1 @@
+../../shared/bitrix/register.php

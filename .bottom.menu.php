@@ -1,0 +1,67 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"BMW в России", 
+		"http://www.bmw.ru/", 
+		Array(), 
+		Array("BLANK"=>"1"), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Мотоциклы", 
+		"http://www.moto-indep.ru/", 
+		Array(), 
+		Array("BLANK"=>"1"), 
+		"" 
+	),
+	Array(
+		"MINI", 
+		"http://www.mini.ru/", 
+		Array(), 
+		Array("BLANK"=>"1"), 
+		"" 
+	),	
+	Array(
+		"Карта сайта", 
+		"/sitemap/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"English", 
+		"http://www.bmw-indep.ru/english/", 
+		Array(), 
+		Array("BLANK"=>"1"), 
+		"" 
+	),
+	Array(
+		"Свяжитесь с нами", 
+		"/contacts/feedback/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Поиск", 
+		"/search/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Copyright", 
+		"/copyright/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

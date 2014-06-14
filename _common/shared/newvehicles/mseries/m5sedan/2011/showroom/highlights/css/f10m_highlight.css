@@ -1,0 +1,641 @@
+@font-face {
+  font-family: 'BMWType_Bold';
+  src: url('../../../../../../../../rebrush/font/BMWRgBd.eot');
+  src: local('?'),
+    url('/_common/rebrush/font/BMWRgBd.woff') format('woff'),
+    url('/_common/rebrush/font/BMWRgBd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#highlightCloseButton {
+  font-weight: bold;
+  padding-top: 10px;
+  position: absolute;
+  top: 595px;
+  left: 0px;
+  width: 116px;
+  height: 21px;
+  padding-left: 51px;
+  background: url(/_common/rebrush/img/standard_elements/button2_close.gif);
+  overflow: hidden;
+  z-index: 800;
+  background: url(/_common/rebrush/img/standard_elements/button2_close.gif);
+}
+
+#highlight a {
+  outline:none;
+}
+
+#bottomNavigation {
+  width:100%;
+  max-width: 1440px;
+}
+
+#idModuls {
+  position: absolute;
+  top: 0px;
+  left:0;
+  width:100%;
+  z-index: 1000;
+  max-width:1440px;
+  min-width:1000px;
+}
+
+#idModuls img {
+  position:absolute;
+  top:0;
+  right:45px;
+  width:187px;
+  height:95px;
+}
+
+#highlight {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  max-width:1440px;
+  min-width:1000px;
+  overflow:hidden;
+  height:0px;
+}
+
+#highlight h1 {
+  display:inline-block;
+  font-family: BMWType_Bold, Arial, sans-serif;
+  margin:0;
+  padding:0;
+  color:#fff;
+  font-size:126px;
+  line-height:1;
+  font-weight:bold;
+  letter-spacing: -2pt;
+  word-spacing: +5pt;
+}
+
+#highlight h2 {
+  display:inline;
+  font-family: BMWType_Bold, Arial, sans-serif;
+  margin:0;
+  padding:0;
+  color:#fff;
+  font-size:85px;
+  line-height:1;
+  font-weight:bold;
+  letter-spacing: -3pt;
+  word-spacing: +4pt;
+  margin-left: -5px;
+}
+
+#highlight h3 {
+  display:block;
+  font-family: BMWType_Bold, Arial, sans-serif;
+  margin:0;
+  padding:0;
+  color:#fff;
+  font-size:59px;
+  line-height:110%;
+  font-weight:bold;
+  letter-spacing: -2pt;
+  word-spacing: +2pt;
+  margin-left: -3px;
+}
+
+#highlight h3.thin {
+  display:inline;
+  font-family: Arial, sans-serif;
+  margin:0;
+  padding:0;
+  color:#fff;
+  font-size:59px;
+  line-height:1;
+  letter-spacing: -2pt;
+  word-spacing: +2pt;
+  font-weight:lighter;
+}
+
+#highlight h3 p {
+  display:none;
+  border-bottom:2px solid #fff;
+  padding-left:13px;
+  padding-bottom:11px;
+}
+
+#highlight h3 a, highlight h3 a:hover {
+  color:#fff;
+  margin:0;
+  padding:0;
+  display:block;
+  padding-left:10px;
+  padding-top:3px;
+  opacity:0.5;
+}
+
+#highlight h3 a.active, highlight h3 a.active:hover {
+  color:#fff;
+  display:block;
+  border-top:2px solid #fff;
+  padding-left:10px;
+  padding-top:3px;
+  opacity:1;
+}
+
+#highlight h4 {
+  display:inline-block;
+  font-family: BMWType_Bold, Arial, sans-serif;
+  margin:0;
+  padding:0;
+  color:#fff;
+  font-size:20px;
+  line-height:1;
+  font-weight:bold;
+  word-spacing: +2pt;
+  margin-left: -2px;
+}
+
+#highlight p {
+  font-family: Arial, sans-serif;
+  font-size:17px;
+  line-height:1;
+  color:#fff;
+  font-weight:normal;
+  letter-spacing:0pt;
+  word-spacing: 0pt;
+  -webkit-margin-after: 0;
+}
+
+#highlight .paragraph {
+  position: relative;
+  overflow: hidden;
+  width:100%;
+  height: 1000px;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+/*  background-color:#000;*/
+  z-index:25;
+}
+
+#highlight .intro {
+  height: 2000px !important;
+}
+
+#highlight .content {
+  position: relative;
+  width:100%;
+  height:1000px;
+  z-index:50;
+}
+
+#highlight .background {
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+}
+
+#design_intro {
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_design_intro.jpg );
+}
+
+#design_exterior {
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_design_exterior_front.jpg );
+}
+
+#design_aero {
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_design_aero.jpg );
+}
+
+#design_sound {
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_design_sound.jpg );
+}
+
+#design_interior {
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_design_interior_steering_wheel.jpg );
+}
+
+#driving_dynamics_intro {
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_driving_dynamics_intro.jpg );
+}
+
+#driving_dynamics_data {
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_driving_dynamics_data.jpg );
+}
+
+#driving_dynamics_movie {
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_driving_dynamics_movie.jpg );
+}
+
+#driving_dynamics_chassis {
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_driving_dynamics_chassis_2.jpg );
+}
+
+#driving_dynamics_features {
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_driving_dynamics_features_servotronic.jpg );
+}
+
+#driving_dynamics_engine {
+  background-attachment:scroll !important;
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_driving_dynamics_engine.jpg );
+}
+
+#driving_dynamics_summary {
+  background-image:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_driving_dynamics_summary.jpg );
+}
+
+#design {
+  position:absolute;
+  top:0px;
+  left:-1440px;
+  width:100%;
+  overflow:hidden;
+}
+
+#driving_dynamics {
+  position:absolute;
+  left:1440px;
+  width:100%;
+  overflow:hidden;
+}
+
+#highlightCloseButton {
+  left:-167px;
+}
+
+.tooltip {
+  display:none;
+  position:absolute;
+  top:-60px;
+  background-color:#fff;
+  color:#000;
+  width:216px;
+  height:149px;
+  border:1px solid #ccc;
+}
+
+.tooltip h4, .tooltip h4:hover  {
+  font-size:16px !important;
+  display:block;
+  color:#434343 !important;
+  padding:4px 8px 0 8px !important;
+}
+
+.tooltip p  {
+  color:#434343 !important;
+  padding:1px 7px 0 7px !important;
+  font-size:11px !important;
+}
+
+#button_left {
+  position:absolute;
+  top:472px;
+  left:-34px;
+  width:24px;
+  height:29px;
+  background:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/arrow_left.gif );
+  z-index:50;
+}
+
+#button_left:hover {
+  background:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/arrow_left-h.gif );
+}
+
+#button_left:hover div {
+  display:block;
+  left:37px;
+}
+
+#button_right {
+  position:absolute;
+  top:472px;
+  right:-34px;
+  width:24px;
+  height:29px;
+  background:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/arrow_right.gif );
+  z-index:50;
+}
+
+#button_right:hover div {
+  display:block;
+  right:37px;
+}
+
+#button_right:hover {
+  background:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/arrow_right-h.gif );
+}
+
+#x-ray {
+  position: absolute;
+  overflow: hidden;
+  width:100%;
+  height: 1000px;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-image: url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_driving_dynamics_chassis_1.jpg );
+}
+
+.loading {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin:auto;
+  width:87px;
+  height:65px;
+}
+
+.black {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:1000px;
+  background-color:#000;
+  opacity: 0;
+  z-index:40;
+}
+
+a.image_text_change, a.play, a.pause {
+  display:inline-block;
+  width:180px;
+  height:40px;
+  background:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/reload.gif ) no-repeat;
+  padding: 0 0 0 57px;
+  font-family: BMWType_Bold, Arial, sans-serif;
+  font-size:18px;
+  font-weight:bold;
+  line-height:1;
+  color:#fff;
+  text-decoration: none;
+  text-align:left;
+}
+
+a.image_text_change:hover, a.play:hover, a.pause:hover {
+  background:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/reload-h.gif ) no-repeat;
+  color:#0044cc;
+  font-weight:bold;
+}
+
+a.play {
+  background:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/play.gif ) no-repeat;
+}
+
+a.play:hover {
+  background:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/play-h.gif ) no-repeat;
+}
+
+a.pause {
+  background:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/pause.gif ) no-repeat;
+}
+
+a.pause:hover {
+  background:url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/pause-h.gif ) no-repeat;
+}
+
+#highlight p.accordeon_headline {
+  color:#fff;
+  display:block;
+  font-family: BMWType_Bold, Arial, sans-serif;
+  font-size:12px;
+  line-height:1;
+  padding-bottom:5px;
+  margin-left: -3px;
+}
+
+#page_loading {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  max-width:1440px;
+}
+
+#page_loading img {
+  position:absolute;
+  top:50%;
+  left:50%;
+}
+
+.image_text_headline {
+  position:absolute;
+  height:150px;
+  width:100%;
+  overflow:hidden;
+}
+
+.co2Disclaimer{
+  position:absolute;
+  top:145px;
+  left:422px;
+  width:276px;
+  height:116px;
+  z-index:810;
+  background-repeat: no-repeat;
+  background-image: url(../../../../../../../../rebrush/img/backgrounds/co2_layer_background.png );
+  display:none;
+}
+
+.co2Disclaimer a#closeCo2Disclaimer {
+  position:absolute;
+  top:7px;
+  left:252px;
+  width:15px;
+  height:15px;
+  cursor:pointer;
+  background-repeat: no-repeat;
+  background-position:0 -220px;
+  background-image: url(../../../../../../../../rebrush/img/_common/images_packed_v1.gif );
+}
+
+.co2Disclaimer a#closeCo2Disclaimer:hover{
+  background-position:0 -235px;
+}
+
+.co2Disclaimer h4{
+  width:240px;
+  margin:9px 0 0 12px;
+  padding:0;
+  font-size:11px;
+  line-height:12px;
+  font-weight:bold;
+  color:#363636;
+}
+
+.co2Disclaimer #co2DisclaimerContent{
+  position:relative;
+  height:80px;
+  width:255px;
+  margin:5px 0 0 12px;
+  overflow:auto;
+}
+
+#highlight .co2Disclaimer h4 {
+  font-family: Arial;
+  width: 240px;
+  margin: 9px 0 0 12px;
+  padding: 0;
+  font-size: 11px;
+  line-height: 12px;
+  font-weight: bold;
+  color: #363636;
+}
+
+.rebrushButton {
+  display:block;
+  height:12px;
+  width:173px;
+  font-size:11px;
+  line-height:12px;
+  overflow:hidden;
+  padding:5px 7px;
+  font-weight:bold;
+  background:url(../../../../../../../../rebrush/img/backgrounds/button_bg.gif );
+  border-top:1px solid #dddddd;
+  border-left:1px solid #dddddd;
+  border-right:1px solid #b0b0b0;
+  border-bottom:1px solid #b0b0b0;
+  color:#666666;
+}
+
+.rebrushButton:hover {
+  background:none;
+  background-color:#eeeeee;
+  border-top:1px solid #e5e5e5;
+  border-left:1px solid #e5e5e5;
+  border-right:1px solid #cfcfcf;
+  border-bottom:1px solid #cfcfcf;
+  color:#0044cc;
+}
+
+.intro_video {
+  position:absolute;
+  top:0;
+  left:0;
+  width:1440px;
+  height:810px;
+}
+
+.dot_nav {
+  margin: auto;
+  width: 100px;
+}
+
+.dot_nav li{
+  float: left;
+  list-style: none;
+  margin: 4px;
+}
+
+.dot_nav a{
+  display: block;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  background-image: url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/navdot.png );
+}
+
+.dot_nav a:hover, .dot_nav a.active{
+  background-image: url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/navdot_active.png );
+}
+
+.dot_nav img{
+  width: 100%;
+  height: 100%;
+}
+
+#scrolldown {
+  position: absolute;
+  top: 600px;
+  right: 10px;
+}
+
+#scrolldown img {
+  margin-bottom: 3px;
+  display: block;
+  visibility: hidden;
+}
+
+
+#driving_dynamics_engine .rotate_object {
+  position:absolute;
+  top:155px;
+  left:405px;
+  width:496px;
+  height:450px;
+  overflow:hidden;
+}
+
+#driving_dynamics_engine .icon360 {
+  position:absolute;
+  top:390px;
+  left:800px;
+  width:496px;
+  height:450px;
+  overflow:hidden;
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  #bottomNavigation div {
+    display:none;
+  }
+
+  #design_intro {
+    background-image: url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_design_intro_long.jpg );
+    -webkit-background-size: 1440px 2000px;
+  }
+
+  #driving_dynamics_intro {
+    background-image: url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_driving_dynamics_intro_long.png );
+    -webkit-background-size: 1440px 2000px;
+  }
+
+  #button_left:hover div, #button_right:hover div {
+    display:none;
+  }
+
+  #highlight h1 {
+    font-family: Arial, sans-serif;
+  }
+
+  #highlight h1.intro_head {
+    font-family: Arial, sans-serif;
+  }
+
+  #highlight h2 {
+    font-family: Arial, sans-serif;
+  }
+
+  #highlight h3 {
+    font-family: Arial, sans-serif;
+  }
+
+  #highlight h4 {
+    font-family: Arial, sans-serif;
+  }
+}
+
+
+@media screen and (max-device-width: 480px) {
+
+  #bottomNavigation div {
+    display:none;
+  }
+
+  #design_intro {
+    background-image: url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_design_intro_long.png );
+    -webkit-background-size: 1440px 2000px;
+  }
+
+  #driving_dynamics_intro {
+    background-image: url(/_common/shared/newvehicles/mseries/m5sedan/2011/showroom/highlights/img/bg_driving_dynamics_intro_long.png );
+    -webkit-background-size: 1440px 2000px;
+  }
+
+  #button_left:hover div, #button_right:hover div {
+    display:none;
+  }
+
+}

@@ -1,0 +1,20 @@
+  .mainImage {position:absolute; top:60px; left:0px; height:434px; width:1024px;}
+  #thumbcontainer {position:absolute; top:483px; left:266px; width:724px; height:74px; background-color:#ffffff;}
+  .thumbborder {position:absolute; width:62px; height:37px; visibility:hidden; cursor:pointer;}
+  img.thumb {margin-left:4px; margin-top:4px;}
+  div.close img {margin:1px;}
+  .close {position:absolute; top:0px; right:0px; width:15px; height:14px; overflow:hidden; background-color:#ffffff;}
+  #startLayer {position:absolute; top:124px; left:264px; width:345px; height:161px; background-color:#ffffff;}
+  #startLayerContent {position:absolute; top:17px; left:16px; width:306px; height:128px; overflow:auto;}
+  #startLayerContent h1{-letter-spacing: -0.05em;}
+  .price {position:absolute; top:211px; left:16px; width:215px; height:20px; overflow:hidden}
+  .linktext {position:absolute; top:235px; left:16px; width:215px; height:60px; overflow:hidden}
+  .imageLayer {position:absolute; top:1px; left:244px; width:479px; height:303px;visibility:inherit;}
+  .layerLarge {position:absolute; top:124px; left:266px; width:407px; height:305px; visibility:hidden; background-color:#ffffff;}
+  .layerLargeImage {position:absolute; top:124px; left:266px; width:724px; height:305px; visibility:hidden; background-color:#ffffff;}
+  .content {position:absolute; top:17px; left:16px; width:377px; overflow:hidden;}
+  .contentSmall {position:absolute; top:17px; left:16px; width:214px; overflow:hidden;}
+  .copyLarge {height:242px; width:377px; overflow:auto;}
+  .copyLargeShort {height:133px; width:377px; overflow:auto;}
+  .copySmall {height:242px; width:214px; overflow:auto;}
+  .copySmallShort {height:133px; width:214px; overflow:auto;}

@@ -1,0 +1,40 @@
+.button_silver {
+	margin-right:17px;
+    height: 21px;
+    margin-bottom: 5px;
+    padding: 0;
+	float: none;
+	background: #747474;
+    display: inline-block;
+}
+.button_silver {
+    height: 21px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+.button_silver a {
+    background:  #747474;
+    display: inline-block;
+	color:#fff !important;
+}
+.button_silver a span {
+    background:  #747474;
+    float: left;
+    height: 21px;
+    left: 15px;
+    line-height: 21px;
+    padding: 0 15px 0 0;
+    position: relative;
+}
+.button_silver a:hover span {
+    background-position: right bottom;
+    color: #fff !important;
+}
+.button_silver a:hover {
+    background-position: -1000px -379px;
+}
+.button_silver a.active span {
+    background-position: right bottom;
+    color: #fff !important;
+	font-weight:bold;
+}

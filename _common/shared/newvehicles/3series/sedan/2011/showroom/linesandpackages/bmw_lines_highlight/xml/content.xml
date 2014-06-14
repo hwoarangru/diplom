@@ -1,0 +1,427 @@
+<data>
+	<config>
+
+	</config>
+	<views>
+		<common>
+			<overviewTrackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview.html]]></overviewTrackingURL>
+			<closeCursorLabel><![CDATA[${[textList][commonCloseCursorLabel]}]]></closeCursorLabel>
+		</common>		
+		<overview>
+			<headline><![CDATA[${[textList][overviewHeadline]}]]></headline>
+
+		</overview>		
+		<lines>
+			<line id="overview">
+				<videos>
+					<video id="0" transitionStart="overview" transitionTarget="overview" url="${[videoList][linesLine1VideosVideo1][file]}" minBufferProgress="0.3" />
+					<video id="1" transitionStart="overview" transitionTarget="line_1" url="${[videoList][linesLine1VideosVideo2][file]}" minBufferProgress="0.3" />
+					<video id="2" transitionStart="overview" transitionTarget="line_2" url="${[videoList][linesLine1VideosVideo3][file]}" minBufferProgress="0.3" />
+					<video id="3" transitionStart="overview" transitionTarget="line_3" url="${[videoList][linesLine1VideosVideo4][file]}" minBufferProgress="0.3" />
+				</videos>
+
+			</line>
+			<line id="line_1">
+				<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/luxury.html]]></trackingURL>
+				<navigatorLabel><![CDATA[${[textList][linesLine2NavigatorLabel]}]]></navigatorLabel>
+				<videos>
+					<video id="0" transitionStart="line_1" transitionTarget="line_2" url="${[videoList][linesLine2VideosVideo1][file]}" minBufferProgress="0.3" />
+					<video id="1" transitionStart="line_1" transitionTarget="line_3" url="${[videoList][linesLine2VideosVideo2][file]}" minBufferProgress="0.3" />
+				</videos>
+				<overviewInfoLayer>
+					<headline><![CDATA[${[textList][linesLine2OverviewInfoLayerHeadline]}]]></headline>
+
+					<copy><![CDATA[${[textList][linesLine2OverviewInfoLayerCopy]}]]></copy>
+					<link><![CDATA[${[textList][linesLine2OverviewInfoLayerLink]}]]></link>
+				</overviewInfoLayer>
+				<hotspots>
+					<hotspot type="simple" xPos="330" yPos="423">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/luxury/hotspot_front.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine2HotspotsHotspot1DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine2HotspotsHotspot1TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="205" yPos="510">
+							<detailHeadline><![CDATA[${[textList][linesLine2HotspotsHotspot1TextContainerDetailHeadline]}]]></detailHeadline>
+
+							<detailCopy width="339"><![CDATA[${[textList][linesLine2HotspotsHotspot1TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+					<hotspot type="simple" xPos="355" yPos="350">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/luxury/hotspot_grilll.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine2HotspotsHotspot2DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine2HotspotsHotspot2TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="40" yPos="90">
+							<detailHeadline><![CDATA[${[textList][linesLine2HotspotsHotspot2TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="377"><![CDATA[${[textList][linesLine2HotspotsHotspot2TextContainerDetailCopy]}]]></detailCopy>
+
+						</textContainer>
+					</hotspot>
+					<hotspot type="simple" xPos="430" yPos="400">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/luxury/hotspot_air-intakes.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine2HotspotsHotspot3DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine2HotspotsHotspot3TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="615" yPos="305">
+							<detailHeadline><![CDATA[${[textList][linesLine2HotspotsHotspot3TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="350"><![CDATA[${[textList][linesLine2HotspotsHotspot3TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+
+					</hotspot>
+					<hotspot type="simple" xPos="552" yPos="393">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/luxury/hotspot_rims.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine2HotspotsHotspot4DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine2HotspotsHotspot4TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0xffffff" xPos="575" yPos="225">
+							<detailHeadline><![CDATA[${[textList][linesLine2HotspotsHotspot4TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="372"><![CDATA[${[textList][linesLine2HotspotsHotspot4TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+
+					<hotspot type="advanced" xPos="507" yPos="275">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/luxury/hotspot_interior.html]]></trackingURL>
+						<tooltipLabel><![CDATA[${[textList][linesLine2HotspotsHotspot5TooltipLabel]}]]></tooltipLabel>
+						<complexViews>
+							<complexView>
+								<detailImage url="${[attachmentList][linesLine2HotspotsHotspot5ComplexViewsComplexView1DetailImage]}" />
+								<thumbImage url="${[attachmentList][linesLine2HotspotsHotspot5ComplexViewsComplexView1ThumbImage]}" />
+								<hotspots>
+									<hotspot xPos="487" yPos="137">
+										<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/luxury/hotspot_interior/dekor.html]]></trackingURL>
+										<detailImage url="${[attachmentList][linesLine2HotspotsHotspotComplexViewsComplexView1HotspotsHotspot2DetailImage]}" />
+
+										<tooltipLabel><![CDATA[${[textList][linesLine2HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot2TooltipLabel]}]]></tooltipLabel>
+										<textContainer textColor="0xffffff" xPos="490" yPos="410">
+											<detailHeadline><![CDATA[${[textList][linesLine2HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot2TextContainerDetailHeadline]}]]></detailHeadline>
+											<detailCopy width="360"><![CDATA[${[textList][linesLine2HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot2TextContainerDetailCopy]}]]></detailCopy>
+										</textContainer>
+									</hotspot>
+								</hotspots>
+							</complexView>
+							<complexView>
+
+								<tooltipLabel><![CDATA[${[textList][linesLine2HotspotsHotspot5ComplexViewsComplexView2TooltipLabel]}]]></tooltipLabel>
+								<detailImage url="${[attachmentList][linesLine2HotspotsHotspot5ComplexViewsComplexView2DetailImage]}" />
+								<thumbImage url="${[attachmentList][linesLine2HotspotsHotspot5ComplexViewsComplexView2ThumbImage]}" />
+								<hotspots>
+									<hotspot xPos="670" yPos="318">
+										<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/luxury/hotspot_interior/seats.html]]></trackingURL>
+										<detailImage url="${[attachmentList][linesLine2HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspotDetailImage]}" />
+										<tooltipLabel><![CDATA[${[textList][linesLine2HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspottooltipLabel]}]]></tooltipLabel>
+										<textContainer textColor="0xffffff" xPos="590" yPos="437">
+											<detailHeadline><![CDATA[${[textList][linesLine2HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspotTextContainerDetailHeadline]}]]></detailHeadline>
+
+											<detailCopy width="340"><![CDATA[${[textList][linesLine2HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspotTextContainerDetailCopy]}]]></detailCopy>
+										</textContainer>
+									</hotspot>
+									<hotspot xPos="117" yPos="348">
+										<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/luxury/hotspot_interior/instruments.html]]></trackingURL>
+										<detailImage url="${[attachmentList][linesLine2HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1DetailImage]}" />
+										<tooltipLabel><![CDATA[${[textList][linesLine2HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1TooltipLabel]}]]></tooltipLabel>
+										<textContainer textColor="0xffffff" xPos="373" yPos="448">
+											<detailHeadline><![CDATA[${[textList][linesLine2HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1TextContainerDetailHeadline]}]]></detailHeadline>
+											<detailCopy width="367"><![CDATA[${[textList][linesLine2HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1TextContainerDetailCopy]}]]></detailCopy>
+
+										</textContainer>
+									</hotspot>
+								</hotspots>
+							</complexView>
+						</complexViews>
+					</hotspot>
+					<hotspot type="simple" xPos="635" yPos="300">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/luxury/hotspot_side-view.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine2HotspotsHotspot6DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine2HotspotsHotspot6TooltipLabel]}]]></tooltipLabel>
+
+						<textContainer textColor="0x262626" xPos="500" yPos="192">
+							<detailHeadline><![CDATA[${[textList][linesLine2HotspotsHotspot6TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="393"><![CDATA[${[textList][linesLine2HotspotsHotspot6TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+					<hotspot type="simple" xPos="740" yPos="340">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/luxury/hotspot_rear.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine2HotspotsHotspot7DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine2HotspotsHotspot7TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="540" yPos="480">
+
+							<detailHeadline><![CDATA[${[textList][linesLine2HotspotsHotspot7TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="422"><![CDATA[${[textList][linesLine2HotspotsHotspot7TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+				</hotspots>
+			</line>
+			<line id="line_2">
+				<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport.html]]></trackingURL>
+				<navigatorLabel><![CDATA[${[textList][linesLine3NavigatorLabel]}]]></navigatorLabel>
+				<videos>
+
+					<video id="0" transitionStart="line_2" transitionTarget="line_1" url="${[videoList][linesLine3VideosVideo1][file]}" minBufferProgress="0.3" />
+					<video id="1" transitionStart="line_2" transitionTarget="line_3" url="${[videoList][linesLine3VideosVideo2][file]}" minBufferProgress="0.3" />
+				</videos>
+				<overviewInfoLayer>
+					<headline><![CDATA[${[textList][linesLine3OverviewInfoLayerHeadline]}]]></headline>
+					<copy><![CDATA[${[textList][linesLine3OverviewInfoLayerCopy]}]]></copy>
+					<link><![CDATA[${[textList][linesLine3OverviewInfoLayerLink]}]]></link>
+				</overviewInfoLayer>
+				<hotspots>
+
+					<hotspot type="simple" xPos="330" yPos="423">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport/hotspot_front.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine3HotspotsHotspot1DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot1TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="205" yPos="510">
+							<detailHeadline><![CDATA[${[textList][linesLine3HotspotsHotspot1TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="514"><![CDATA[${[textList][linesLine3HotspotsHotspot1TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+					<hotspot type="simple" xPos="355" yPos="350">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport/hotspot_grilll.html]]></trackingURL>
+
+						<detailImage url="${[attachmentList][linesLine3HotspotsHotspot2DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot2TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="40" yPos="90">
+							<detailHeadline><![CDATA[${[textList][linesLine3HotspotsHotspot2TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="345"><![CDATA[${[textList][linesLine3HotspotsHotspot2TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+					<hotspot type="simple" xPos="430" yPos="400">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport/hotspot_air-intakes.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine3HotspotsHotspot3DetailImage]}" />
+
+						<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot3TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="635" yPos="305">
+							<detailHeadline><![CDATA[${[textList][linesLine3HotspotsHotspot3TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="332"><![CDATA[${[textList][linesLine3HotspotsHotspot3TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+					<hotspot type="simple" xPos="552" yPos="393">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport/hotspot_rims.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine3HotspotsHotspot4DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot4TooltipLabel]}]]></tooltipLabel>
+
+						<textContainer textColor="0xffffff" xPos="567" yPos="217">
+							<detailHeadline><![CDATA[${[textList][linesLine3HotspotsHotspot4TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="402"><![CDATA[${[textList][linesLine3HotspotsHotspot4TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+					<hotspot type="advanced" xPos="507" yPos="275">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport/hotspot_interior.html]]></trackingURL>
+						<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot5TooltipLabel]}]]></tooltipLabel>
+						<complexViews>
+							<complexView>
+
+								<detailImage url="${[attachmentList][linesLine3HotspotsHotspot5ComplexViewsComplexView1DetailImage]}" />
+								<thumbImage url="${[attachmentList][linesLine3HotspotsHotspot5ComplexViewsComplexView1ThumbImage]}" />
+								<hotspots>
+									<hotspot xPos="248" yPos="146">
+										<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport/hotspot_interior/instruments.html]]></trackingURL>
+										<detailImage url="${[attachmentList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot2DetailImage]}" />
+										<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot2TooltipLabel]}]]></tooltipLabel>
+										<textContainer textColor="0xffffff" xPos="637" yPos="433">
+											<detailHeadline><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot2TextContainerDetailHeadline]}]]></detailHeadline>
+											<detailCopy width="316"><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot2TextContainerDetailCopy]}]]></detailCopy>
+
+										</textContainer>
+									</hotspot>
+									<hotspot xPos="342" yPos="352">
+										<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport/hotspot_interior/steering-wheel.html]]></trackingURL>
+										<detailImage url="${[attachmentList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1DetailImage]}" />
+										<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1TooltipLabel]}]]></tooltipLabel>
+										<textContainer textColor="0xffffff" xPos="446" yPos="450">
+											<detailHeadline><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1TextContainerDetailHeadline]}]]></detailHeadline>
+											<detailCopy width="308"><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1TextContainerDetailCopy]}]]></detailCopy>
+										</textContainer>
+
+									</hotspot>
+									<hotspot xPos="705" yPos="190">
+										<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport/hotspot_interior/dekor.html]]></trackingURL>
+										<detailImage url="${[attachmentList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot3DetailImage]}" />
+										<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot3TooltipLabel]}]]></tooltipLabel>
+										<textContainer textColor="0xffffff" xPos="476" yPos="390">
+											<detailHeadline><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot3TextContainerDetailHeadline]}]]></detailHeadline>
+											<detailCopy width="445"><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot3TextContainerDetailCopy]}]]></detailCopy>
+										</textContainer>
+									</hotspot>
+
+								</hotspots>
+							</complexView>
+							<complexView>
+								
+								<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView2TooltipLabel]}]]></tooltipLabel>
+								<detailImage url="${[attachmentList][linesLine3HotspotsHotspot5ComplexViewsComplexView2DetailImage]}" />
+								<thumbImage url="${[attachmentList][linesLine3HotspotsHotspot5ComplexViewsComplexView2ThumbImage]}" />
+								<hotspots>
+									<hotspot xPos="615" yPos="276">
+										<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport/hotspot_interior/seats.html]]></trackingURL>
+										<detailImage url="${[attachmentList][linesLine3HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspot1DetailImage]}" />
+
+										<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspot1TooltipLabel]}]]></tooltipLabel>
+										<textContainer textColor="0xffffff" xPos="636" yPos="366">
+											<detailHeadline><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspot1TextContainerDetailHeadline]}]]></detailHeadline>
+											<detailCopy width="315"><![CDATA[${[textList][linesLine3HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspot1TextContainerDetailCopy]}]]></detailCopy>
+										</textContainer>
+									</hotspot>
+								</hotspots>
+							</complexView>
+						</complexViews>
+
+					</hotspot>
+					<hotspot type="simple" xPos="635" yPos="300">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport/hotspot_side-view.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine3HotspotsHotspot6DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot6TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="585" yPos="150">
+							<detailHeadline><![CDATA[${[textList][linesLine3HotspotsHotspot6TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="390"><![CDATA[${[textList][linesLine3HotspotsHotspot6TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+
+					<hotspot type="simple" xPos="740" yPos="340">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/sport/hotspot_rear.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine3HotspotsHotspot7DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine3HotspotsHotspot7TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="540" yPos="480">
+							<detailHeadline><![CDATA[${[textList][linesLine3HotspotsHotspot7TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="415"><![CDATA[${[textList][linesLine3HotspotsHotspot7TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+				</hotspots>
+
+			</line>
+			<line id="line_3">
+				<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern.html]]></trackingURL>
+				<navigatorLabel><![CDATA[${[textList][linesLine4NavigatorLabel]}]]></navigatorLabel>
+				<videos>
+					<video id="0" transitionStart="line_3" transitionTarget="line_1" url="${[videoList][linesLine4VideosVideo1][file]}" minBufferProgress="0.3" />
+					<video id="1" transitionStart="line_3" transitionTarget="line_2" url="${[videoList][linesLine4VideosVideo2][file]}" minBufferProgress="0.3" />
+				</videos>
+				<overviewInfoLayer>
+					<headline><![CDATA[${[textList][linesLine4overViewInfoLayerHeadline]}]]></headline>
+
+					<copy><![CDATA[${[textList][linesLine4overViewInfoLayerCopy]}]]></copy>
+					<link><![CDATA[${[textList][linesLine4overViewInfoLayerLink]}]]></link>
+				</overviewInfoLayer>
+				<hotspots>
+					<hotspot type="simple" xPos="330" yPos="423">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern/hotspot_front.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine4HotspotsHotspot1DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot1TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="205" yPos="510">
+							<detailHeadline><![CDATA[${[textList][linesLine4HotspotsHotspot1TextContainerDetailHeadline]}]]></detailHeadline>
+
+							<detailCopy width="454"><![CDATA[${[textList][linesLine4HotspotsHotspot1TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+					<hotspot type="simple" xPos="355" yPos="350">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern/hotspot_grilll.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine4HotspotsHotspot2DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot2TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="40" yPos="90">
+							<detailHeadline><![CDATA[${[textList][linesLine4HotspotsHotspot2TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="371"><![CDATA[${[textList][linesLine4HotspotsHotspot2TextContainerDetailCopy]}]]></detailCopy>
+
+						</textContainer>
+					</hotspot>
+					<hotspot type="simple" xPos="430" yPos="400">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern/hotspot_air-intakes.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine4HotspotsHotspot3DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot3TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="635" yPos="305">
+							<detailHeadline><![CDATA[${[textList][linesLine4HotspotsHotspot3TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="320"><![CDATA[${[textList][linesLine4HotspotsHotspot3TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+
+					</hotspot>
+					<hotspot type="simple" xPos="552" yPos="393">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern/hotspot_rims.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine4HotspotsHotspot4DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot4TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0xffffff" xPos="575" yPos="225">
+							<detailHeadline><![CDATA[${[textList][linesLine4HotspotsHotspot4TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="334"><![CDATA[${[textList][linesLine4HotspotsHotspot4TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+
+					<hotspot type="advanced" xPos="507" yPos="275">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern/hotspot_interior.html]]></trackingURL>
+						<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot5TooltipLabel]}]]></tooltipLabel>
+						<complexViews>
+							<complexView>
+								<detailImage url="${[attachmentList][linesLine4HotspotsHotspot5ComplexViewsComplexView1DetailImage]}" />
+								<thumbImage url="${[attachmentList][linesLine4HotspotsHotspot5ComplexViewsComplexView1ThumbImage]}" />
+								<hotspots>
+									<hotspot xPos="228" yPos="134">
+										<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern/hotspot_interior/instruments.html]]></trackingURL>
+										<detailImage url="${[attachmentList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot2DetailImage]}" />
+
+										<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot2TooltipLabel]}]]></tooltipLabel>
+										<textContainer textColor="0xffffff" xPos="239" yPos="501">
+											<detailHeadline><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot2TextContainerDetailHeadline]}]]></detailHeadline>
+											<detailCopy width="445"><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot2TextContainerDetailCopy]}]]></detailCopy>
+										</textContainer>
+									</hotspot>
+									<hotspot xPos="258" yPos="304">
+										<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern/hotspot_interior/steering-wheel.html]]></trackingURL>
+										<detailImage url="${[attachmentList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1DetailImage]}" />
+										<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1TooltipLabel]}]]></tooltipLabel>
+
+										<textContainer textColor="0xffffff" xPos="269" yPos="439">
+											<detailHeadline><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1TextContainerDetailHeadline]}]]></detailHeadline>
+											<detailCopy width="490"><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot1TextContainerDetailCopy]}]]></detailCopy>
+										</textContainer>
+									</hotspot>
+									<hotspot xPos="680" yPos="193">
+										<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern/hotspot_interior/dekor.html]]></trackingURL>
+										<detailImage url="${[attachmentList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot3DetailImage]}" />
+										<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot3TooltipLabel]}]]></tooltipLabel>
+										<textContainer textColor="0xffffff" xPos="386" yPos="422">
+
+											<detailHeadline><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot3TextContainerDetailHeadline]}]]></detailHeadline>
+											<detailCopy width="513"><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView1HotspotsHotspot3TextContainerDetailCopy]}]]></detailCopy>
+										</textContainer>
+									</hotspot>
+								</hotspots>
+							</complexView>
+							<complexView>
+								
+								<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView2TooltipLabel]}]]></tooltipLabel>
+								<detailImage url="${[attachmentList][linesLine4HotspotsHotspot5ComplexViewsComplexView2DetailImage]}" />
+
+								<thumbImage url="${[attachmentList][linesLine4HotspotsHotspot5ComplexViewsComplexView2ThumbImage]}" />
+								<hotspots>
+									<hotspot xPos="746" yPos="342">
+										<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern/hotspot_interior/seats.html]]></trackingURL>
+										<detailImage url="${[attachmentList][linesLine4HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspot1DetailImage]}" />
+										<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspot1TooltipLabel]}]]></tooltipLabel>
+										<textContainer textColor="0xffffff" xPos="613" yPos="434">
+											<detailHeadline><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspot1TextContainerDetailHeadline]}]]></detailHeadline>
+											<detailCopy width="316"><![CDATA[${[textList][linesLine4HotspotsHotspot5ComplexViewsComplexView2HotspotsHotspot1TextContainerDetailCopy]}]]></detailCopy>
+										</textContainer>
+
+									</hotspot>
+								</hotspots>
+							</complexView>
+						</complexViews>
+					</hotspot>
+					<hotspot type="simple" xPos="635" yPos="300">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern/hotspot_side-view.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine4HotspotsHotspot6DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot6TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="560" yPos="155">
+
+							<detailHeadline><![CDATA[${[textList][linesLine4HotspotsHotspot6TextContainerDetailHeadline]}]]></detailHeadline>
+							<detailCopy width="385"><![CDATA[${[textList][linesLine4HotspotsHotspot6TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+					<hotspot type="simple" xPos="740" yPos="340">
+						<trackingURL><![CDATA[linesandpackages/bmw_lines_highlight/lines_overview/modern/hotspot_rear.html]]></trackingURL>
+						<detailImage url="${[attachmentList][linesLine4HotspotsHotspot7DetailImage]}" />
+						<tooltipLabel><![CDATA[${[textList][linesLine4HotspotsHotspot7TooltipLabel]}]]></tooltipLabel>
+						<textContainer textColor="0x262626" xPos="435" yPos="500">
+							<detailHeadline><![CDATA[${[textList][linesLine4HotspotsHotspot7TextContainerDetailHeadline]}]]></detailHeadline>
+
+							<detailCopy width="493"><![CDATA[${[textList][linesLine4HotspotsHotspot7TextContainerDetailCopy]}]]></detailCopy>
+						</textContainer>
+					</hotspot>
+				</hotspots>
+			</line>
+		</lines>
+	</views>						
+</data>

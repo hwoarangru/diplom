@@ -1,0 +1,10 @@
+.b-count {
+	line-height: 34px;
+}
+
+.b-count span,
+.b-count {
+  font-size: 18px !important;
+  text-transform: uppercase !important;
+  	line-height: 34px;
+}

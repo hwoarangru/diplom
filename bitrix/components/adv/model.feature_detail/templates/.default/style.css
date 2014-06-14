@@ -1,0 +1,41 @@
+.hide {
+	display: none;
+}
+.MFDFeaturePopup {
+	background-image:url("images/co2_layer_background.png");
+	background-repeat:no-repeat;
+	display:none;
+	height:116px;
+	left:422px;
+	position:absolute;
+	top:145px;
+	width:276px;
+	z-index:810;
+}
+.MFDFeaturePopup a.close {
+	background-image:url("images/images_packed_v1.gif");
+	background-position:0 -220px;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	height:15px;
+	left:252px;
+	position:absolute;
+	top:7px;
+	width:15px;
+}
+.MFDFeaturePopup h4 {
+	color:#363636;
+	font-size:11px;
+	font-weight:bold;
+	line-height:13px;
+	margin:9px 0 0 12px;
+	padding:0;
+	width:240px;
+}
+.MFDFeaturePopup div.content {
+	height:80px;
+	margin:5px 0 0 12px;
+	overflow:auto;
+	position:relative;
+	width:255px;
+}

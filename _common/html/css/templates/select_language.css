@@ -1,0 +1,4 @@
+#specificPageContent              {position:relative; top: 98px; width:100%;}
+#innerPageContent                 {position:relative; left: 318px; width: 340px;}
+#topLineBox                       {position:relative; top: 0px; left: 0px; width:100%; overflow:hidden;}
+#topHeadline                      {position:relative; top: 6px; left: 318px; width:340px;}

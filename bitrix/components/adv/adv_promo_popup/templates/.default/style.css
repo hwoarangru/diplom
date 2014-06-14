@@ -1,0 +1,25 @@
+#hidden_angry_promo {
+	display:none;
+	position:absolute;
+	left:50%;
+	top:47%;
+	z-index:2120;
+	background:#fff;
+	/*height:370px;*/
+	padding: 16px 16px 16px 16px;
+
+}
+.close_promo_box {
+	margin-left:0px;
+	cursor:pointer;
+	right: -16px;
+	top: -16px;
+}
+
+#grey_bg {
+	background:#333;
+	position:fixed;
+	left:0px;top:0px;bottom:0px;
+	width:100%;display:none;
+	z-index: 2020;
+}

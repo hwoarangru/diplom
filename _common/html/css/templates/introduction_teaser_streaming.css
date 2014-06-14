@@ -1,0 +1,19 @@
+#mainImages          {position:absolute; top:60px; left:0px; width:1024px; height:312px; overflow:hidden; visibility:hidden;}
+#mainImage           {position:absolute; top:0px; left:0px; width:auto; height:303px;}
+.teaser {position:absolute; top:398px; width:90px; height:100px;}
+.teaserQuickLinks {position:absolute; top:376px; left: 30px; width:182px; height:190px;}
+.t0     {left:292px;}
+.t1     {left:406px;}
+.t2     {left:520px;}
+.t3     {left:634px;}
+.t4     {left:748px;}
+.t5     {left:862px;}
+.t6     {left:976px;}
+.teaser7 {position:absolute; top:398px; width:90px; height:100px;}
+.t70     {left:292px;}
+.t71     {left:393px;}
+.t72     {left:494px;}
+.t73     {left:595px;}
+.t74     {left:696px;}
+.t75     {left:797px;}
+.t76     {left:898px;}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content default="P0A35" id="metallic">
+<content id="P0A39">
+<text id="name">Barbera Red</text>
+</content>
+<content id="P0481">
+<text id="name">Kalahari Beige</text>
+</content>
+<content id="P0A38">
+<text id="name">Michigan Blue</text>
+</content>
+<content id="P0A35">
+<text id="name">Monaco Blue</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0472">
+<text id="name">Sterling Grey</text>
+</content>
+<content id="P0A43">
+<text id="name">Deep Green</text>
+</content>
+<content id="P0A36">
+<text id="name">Titanium Grey</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+<content id="P0482">
+<text id="name">Toledo Blue</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0300">
+<text id="name">Alpine White</text>
+</content>
+<content id="P0668">
+<text id="name">Jet Black</text>
+</content>
+</content>
+<content default="FU6NB" id="leather">
+<content id="FU6BA">
+<text id="name">Beige Nasca leather</text>
+</content>
+<content id="FU6GE">
+<text id="name">Cream Beige Nasca leather</text>
+</content>
+<content id="FU6FA">
+<text id="name">Flannel Grey Nasca leather</text>
+</content>
+<content id="FU6MC">
+<text id="name">Lava Blue Nasca leather</text>
+</content>
+<content id="FU6NB">
+<text id="name">Nature Brown/Black Nasca leather</text>
+</content>
+<content id="FU6SW">
+<text id="name">Black Nasca leather</text>
+</content>
+<content id="FU7GE">
+<text id="name">Volleder Club creambeige</text>
+</content>
+<content id="FU7FA">
+<text id="name">Volleder Club flanellgrau</text>
+</content>
+<content id="FU7NB">
+<text id="name">Volleder Club naturbraun</text>
+</content>
+<content id="FU7SW">
+<text id="name">Volleder Club schwarz</text>
+</content>
+</content>
+<content id="fabric">
+<content id="FH5AT">
+<text id="name">Anthracite Tatami cloth</text>
+</content>
+</content>
+<content default="S0438" id="trims">
+<content id="S0438">
+<text id="name">Dark Grain High Gloss Ash</text>
+</content>
+<content id="S0437">
+<text id="name">High Gloss Light Grain Ash</text>
+</content>
+</content>
+<content default="S02RD" id="rims">
+<content id="S02BL">
+<text id="name">Double-spoke style 174</text>
+</content>
+<content id="S02RD">
+<text id="name">Radial-spoke style 176</text>
+</content>
+<content id="S02C2">
+<text id="name">Star-spoke style 175</text>
+</content>
+<content id="S02R6">
+<text id="name">Star-spoke style 231</text>
+</content>
+<content id="S0268">
+<text id="name">Star-spoke style 95</text>
+</content>
+<content id="S02EA">
+<text id="name">Y-spoke style 149</text>
+</content>
+</content>
+</root>

@@ -1,0 +1,56 @@
+.step_1 {background:url(/bitrix/components/adv/adv_user_promo/templates/.default/images/w-end1.jpg) no-repeat;margin-top:-23px;}
+	.onestep_button {width:358px;height:68px;display:block;margin-left:48px;background:url(/bitrix/components/adv/adv_user_promo/templates/.default/images/onestep_btn.jpg) no-repeat;}
+	.onestep_text {padding-top:220px;width:600px;padding-left:27px;font-size:12px;color:#000;}
+.step_2 {display:none; background:url(/bitrix/components/adv/adv_user_promo/templates/.default/images/w-end.jpg) no-repeat;margin-top:-23px;}
+	.step_2 input {border:3px solid #004694;padding:6px 11px;margin-bottom:12px;width:100%;}
+	.step_2 .form_div {
+		width:221px;
+		float:left;
+		/*padding-left:67px;*/
+		margin-left:40px;
+	}
+	.step_2 .error_box {
+		color:red;
+		padding-bottom:12px;
+		/*padding-top: 300px;*/
+	}
+	.step_2 .newFont {		
+		margin-bottom: 10px;
+		width:300px;
+		white-space:nowrap;		
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;		
+	}
+	.step_2 .promo_checkbox {
+		margin-bottom:-5px;
+		margin-top:-4px;
+		margin-right:-5px;
+		cursor:pointer;
+	}
+		.promo_checkbox .unchecked {margin-top:0px;}
+.step_3 {display:none;background:url(/bitrix/components/adv/adv_user_promo/templates/.default/images/w-end.jpg) no-repeat;margin-top:-23px;}
+.step_3 {display:none;background:url(/bitrix/components/adv/adv_user_promo/templates/.default/images/w-end.jpg) no-repeat;margin-top:-23px;}
+	.step_3 .st3_title {font-size:35px;font-weight:bold;position: absolute; margin-top: 210px; margin-left: 10px;}
+		.step_3 .st3_title b {font-size:47px;}
+	.step_3 p {font-size:12px;padding:35px 0px;padding-top:17px;position: absolute; margin-top: 300px; margin-left: 10px;}
+	.step_3 .print_box {font-size:16px;font-weight:bold;margin-top: 420px;position: absolute; margin-left: 10px;}
+		.step_3 .print_box b {display:block;float:left;padding-top:12px;padding-left:15px;}
+		.step_3 .print_box img {cursor:pointer;}
+
+
+
+/*.ab_bottom_right_text {position:absolute;margin-top:310px;margin-left:430px;font-size:16px;font-weight:bold;}*/
+.ab_bottom_right_text {
+	/*position:absolute;*/
+	
+	padding-left:27px;
+	font-size:12px;
+	color:#000;
+	font-weight: bold;
+}
+
+#hidden_angry_promo {display:none;position:absolute;top:50%;left:50%;z-index:1021;background:#fff;width:960px;}
+	.close_promo_box {margin-top:-15px;margin-left:940px;cursor:pointer;}
+#grey_bg {background:#333;position:absolute;left:0px;top:0px;width:100%;display:none;z-index:1020;}
+.username {font-size: 35px;}

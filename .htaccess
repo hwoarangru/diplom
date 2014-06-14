@@ -1,0 +1,110 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+php_value register_globals On
+php_value upload_max_filesize 100M
+
+#php_flag session.use_trans_sid off
+php_value display_errors 1
+#php_flag allow_call_time_pass_reference 1
+
+<IfModule mod_rewrite.c>
+
+	Options +FollowSymlinks
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_URI} !-f
+	RewriteCond %{REQUEST_URI} !/$
+	RewriteCond %{REQUEST_URI} !.php$
+	RewriteRule (.+) $1/ [R=301,L]
+
+	
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^bmw-indep.ru [NC]
+	RewriteRule ^(.*)$ http://www.bmw-indep.ru/$1 [L,R=301]
+	
+	RewriteCond %{HTTP_HOST} ^bmw-autokraft\.ru$
+	RewriteRule ^(.*)$ http://www.bmw-indep.ru/$1 [L,R=301]
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^www\.bmw-autokraft\.ru$
+	RewriteRule ^(.*)$ http://www.bmw-indep.ru/$1 [L,R=301]
+	
+
+Redirect 301 /owners/special_offer/auto/33698525/ http://www.bmw-indep.ru/owners/special_offer/auto/34204492/
+	
+	Redirect 301 /cars/bmw1series/ http://www.bmw-indep.ru/cars/bmw_1series/
+	Redirect 301 /cars/bmw3series/ http://www.bmw-indep.ru/cars/bmw_3series/
+	Redirect 301 /cars/bmw5series/ http://www.bmw-indep.ru/cars/bmw_5series/
+	Redirect 301 /cars/bmw6series/ http://www.bmw-indep.ru/cars/bmw_6series/
+	Redirect 301 /cars/bmw7series/ http://www.bmw-indep.ru/cars/bmw_7series/
+	Redirect 301 /cars/bmwxseries/24761/ http://www.bmw-indep.ru/cars/bmw_xseries/bmw_x1/
+	Redirect 301 /model/bmwxseries/22664/ http://www.bmw-indep.ru/cars/bmw_xseries/bmw_x3/
+	Redirect 301 /model/bmwxseries/22687/ http://www.bmw-indep.ru/cars/bmw_xseries/bmw_x5/
+	Redirect 301 /cars/bmwxseries/22688/ http://www.bmw-indep.ru/cars/bmw_xseries/bmw_x6/
+	Redirect 301 /cars/bmwmseries/22712/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwm3_sedan/
+	Redirect 301 /cars/bmwmseries/22714/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwm5_sedan/
+	Redirect 301 /cars/bmwmseries/22716/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwm6_coupe/
+	Redirect 301 /cars/bmwz4/ http://www.bmw-indep.ru/cars/bmw_z4/
+	Redirect 301 /cars/bmw1series/22398/ http://www.bmw-indep.ru/cars/bmw_1series/bmw1_3door/
+	Redirect 301 /model/bmw1series2011/22445/ http://www.bmw-indep.ru/cars/bmw_1series/bmw1_5doors2011/
+	Redirect 301 /cars/bmw1series/22445/ http://www.bmw-indep.ru/cars/bmw_1series/bmw1_5door/
+	Redirect 301 /model/bmw1series/22454/ http://www.bmw-indep.ru/cars/bmw_1series/bmw1_coupe/
+	Redirect 301 /model/bmw1series/22455/ http://www.bmw-indep.ru/cars/bmw_1series/bmw1_cabriolet/
+	Redirect 301 /model/bmw1series/11190934/ http://www.bmw-indep.ru/cars/bmw_1series/bmw_active_e/
+	Redirect 301 /cars/bmw3series/22456/ http://www.bmw-indep.ru/cars/bmw_3series/bmw3_sedan/
+	Redirect 301 /cars/bmw3series/22489/ http://www.bmw-indep.ru/cars/bmw_3series/bmw3_turing/
+	Redirect 301 /model/bmw3series/22487/ http://www.bmw-indep.ru/cars/bmw_3series/bmw3_coupe/
+	Redirect 301 /model/bmw3series/22488/ http://www.bmw-indep.ru/cars/bmw_3series/bmw3_cabrio/
+	Redirect 301 /model/bmw5series/22535/ http://www.bmw-indep.ru/cars/bmw_5series/bmw5_sedan/
+	Redirect 301 /model/bmw5series/22562/ http://www.bmw-indep.ru/cars/bmw_5series/bmw5_touring/
+	Redirect 301 /cars/bmw5series/24493/ http://www.bmw-indep.ru/cars/bmw_5series/bmw5_gran_turismo/
+	Redirect 301 /cars/bmw6series/22584/ http://www.bmw-indep.ru/cars/bmw_6series/bmw6_coupe/
+	Redirect 301 /model/bmw6series/22616/ http://www.bmw-indep.ru/cars/bmw_6series/bmw6_cabrio/
+	Redirect 301 /model/bmw6series/17765236/ http://www.bmw-indep.ru/cars/bmw_6series/bmw6_cupe2011/
+	Redirect 301 /cars/bmw7series/22640/ http://www.bmw-indep.ru/cars/bmw_7series/bmw7_sedan/
+	Redirect 301 /cars/bmw7series/36111/ http://www.bmw-indep.ru/cars/bmw_7series/bmw7_highsecurity/
+	Redirect 301 /cars/bmw7series/24826/ http://www.bmw-indep.ru/cars/hybrid/hybrid7series/
+	Redirect 301 /cars/bmwz4/22710/ http://www.bmw-indep.ru/cars/bmw_z4/bmwz4_roadster/
+	Redirect 301 /model/bmwmseries/11191060/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwm1_coupe/
+	Redirect 301 /cars/bmwmseries/22709/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwm3_coupe/
+	Redirect 301 /cars/bmwmseries/22713/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwm3_cabrio/
+	Redirect 301 /model/bmwmseries/17765237/ http://www.bmw-indep.ru/cars/bmw_mseries/bmw5m_sedan2011/
+	Redirect 301 /cars/bmwmseries/22715/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwm5_turing/
+	Redirect 301 /cars/bmwmseries/22725/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwm6_cabrio/
+	Redirect 301 /cars/bmwmseries/24568/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwx5_m/
+	Redirect 301 /cars/bmwmseries/24613/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwx6_m/
+	Redirect 301 /cars/bmw_mseries/22714/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwm5_sedan/
+	Redirect 301 /cars/bmw_mseries/bmw5m_sedan2011/ http://www.bmw-indep.ru/cars/bmw_mseries/bmwm5_sedan/
+	
+	Options +FollowSymlinks
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_URI} !-f
+	RewriteCond %{REQUEST_URI} !/$
+	RewriteCond %{REQUEST_URI} !.php$
+	RewriteRule (.+) $1/ [R=301,L]
+	
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+	RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+</IfModule>
+
+<IfModule mod_mime.c>
+	AddType application/x-httpd-php .ico
+</IfModule>
+
+<IfModule mod_dir.c>
+	DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive on
+	ExpiresByType image/jpeg "access plus 3 day"
+	ExpiresByType image/gif "access plus 3 day"
+</IfModule>

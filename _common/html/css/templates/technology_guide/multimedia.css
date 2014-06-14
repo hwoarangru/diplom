@@ -1,0 +1,28 @@
+a.TLcontextlink {color:#cccccc;}
+a.TLcontextlinkHigh {color:#003399;}
+#completeText {position:absolute; top:372px; left:309px; width:432px; height:143px;-height:143px;visibility:hidden;background-color:#5F5F5F;filter:alpha(opacity=90);-moz-opacity:0.9;margin:0px;padding:0px;}
+#contentText {position:relative; top:31px; -top:0px; left:0px; width:402px; -width:432px; margin-bottom:3px; height:143px; -height:137px;z-index:4;overflow:hidden;color:#FFFFFF;}
+*>#contentText {height:156px; display: table-cell; padding-left:0px;filter:alpha(opacity=90);-moz-opacity:0.9;}
+#copyText {position:relative;overflow:hidden;color:#FFFFFF; top:6px; left:9px; width:367px;-width:397px;height:83px;-height:155px;padding-right:51px;}
+#mainStage {position:absolute; top:0px; left:0px; width:100%; overflow:hidden;}
+#teaserContainer{position:absolute; top:403px; left:741px; width:281px; height:110px;background-color:#ffffff;filter:alpha(opacity=90);-moz-opacity:0.9;border-left:1px solid #afafaf; padding: 0px 0px 2px 8px;}
+#headlines{position:relative;top:0px; left:0px;padding-left:9px;padding-top:10px; z-index:5;height:21px;-height:31px;width:423px;-width:100%;background-color:#2D2D2D;color:#ffffff;overflow:hidden;}
+h2 {color:#fff; }
+#setDivHeightButton{position:absolute; top:129px; right:-6px; width:30px; height:20px;z-index:65;padding:0px;margin:0px;}
+#close {position:absolute; top:10px; right:9px; height:20px;overflow:hidden; color:#ffffff; z-index:65;}
+a.white{color:#ffffff;padding-left:9px;padding-top:5px;}
+img.arrowWhite {display: inline; position: static; width: 7px; height: 11px; background-image:url(../../../img/standard_elements/arrow_white.gif ); background-repeat: no-repeat; background-position: top left;  height:11px; margin-top: -1px;}
+a img.arrowWhite {display: inline; position: static; width: 7px; height: 11px; background-image:url(../../../img/standard_elements/arrow_white.gif ); background-repeat: no-repeat; background-position: top left;  height:11px; margin-top: -1px;}
+a:hover img.arrowWhite {display: inline; position: static; width: 7px; height: 11px; background-image:url(../../../img/standard_elements/arrow_white.gif ); background-repeat: no-repeat; background-position: bottom left; border: 0;  height:11px; margin-top: -1px;}
+a.arrowWhite {color: #ffffff; text-decoration: none; height:11px; margin-top: -1px;}
+a:hover {color: #003399;}
+a.smallStandardTL {display: block; position: relative; top: 0; left: 0; width: 180px; height: 68px; color:#ffffff;}
+a.smallStandardTL img {display: block; position: absolute; top: 0; left: 0; width:  64px; height: 36px; margin-top: 3px;}
+a.smallStandardTL span.headline {display: block; position: relative; margin-left: 77px; margin-bottom: 3px; margin-top: -3px;color:#ffffff;}
+a.smallStandardTL span.copytext {display: block; position: relative; margin-left: 77px;color:#ffffff;}
+a.smallStandardTL span.headline img.arrowWhite {display: inline; position: static; width: 7px; height: 11px; background-image:url(../../../img/standard_elements/arrow_white.gif ); background-repeat: no-repeat; background-position: top left; margin-top:3px;}
+a.smallStandardTL:hover span.headline img.arrowWhite {display: inline; position: static; width: 7px; height: 11px; background-image:url(../../../img/standard_elements/arrow_white.gif ); background-repeat: no-repeat; background-position: bottom left; border: 0;}
+a.smallStandardTL:hover span.headline, a.smallStandardTL:hover span.copytext{color: #003399;}
+#animationCont {position:absolute;top:372px;left:309px; width:1px;height:1px; visibility:hidden;z-index:300;background-color:#ccc;}
+#campaignDialog {position:absolute; top:172px; left:263px; width:720px; height:410px; z-index: 14; visibility:hidden; overflow:hidden;}
+#tafLink {position:absolute; top:300px; left:700px;}

@@ -1,0 +1,4 @@
+  #completeText          {position:absolute; top:104px; left:178px; width:514px; height:auto;}
+  #contentText           {position:relative; top:  0px; left:140px; width:398px; height:132px; -height:144px; visibility:hidden;}
+  #teaserContainer       {position:absolute; top:99px; left:741px; visibility:hidden;}
+  #printIcon             {position:absolute; top:162px; -top:164px; left:270px; width:20px; z-index:5; visibility:hidden;}

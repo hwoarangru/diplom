@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content default="P0416" id="metallic">
+<content id="P0416">
+<text id="name">Carbon Black</text>
+</content>
+<content id="P0A68">
+<text id="name">Platinum Grey</text>
+</content>
+<content id="P0A52">
+<text id="name">Space Grey</text>
+</content>
+<content id="P0A76">
+<text id="name">Deep Sea Blue</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0300">
+<text id="name">Alpine White</text>
+</content>
+<content id="P0668">
+<text id="name">Jet Black</text>
+</content>
+</content>
+<content id="leather">
+<content id="FLCBA">
+<text id="name">Beige Dakota leather</text>
+</content>
+<content id="FLCGE">
+<text id="name">Cream Beige Dakota leather</text>
+</content>
+<content id="FLCCU">
+<text id="name">Dark Blue Dakota leather</text>
+</content>
+<content id="FLCAD">
+<text id="name">Grey Dakota leather</text>
+</content>
+<content id="FLCNG">
+<text id="name">Natural Brown Dakota leather</text>
+</content>
+<content id="FLCSW">
+<text id="name">Black Dakota leather</text>
+</content>
+<content id="FU6BA">
+<text id="name">Beige Nasca leather</text>
+</content>
+<content id="FU6SW">
+<text id="name">Black Nasca leather</text>
+</content>
+</content>
+<content default="FGGAT" id="fabric"/>
+<content default="S0439" id="trims">
+<content id="S04BY">
+<text id="name">Anthracite Bamboo</text>
+</content>
+<content id="S0438">
+<text id="name">Dark Poplar high-gloss</text>
+</content>
+<content id="S0437">
+<text id="name">Light Poplar high-gloss</text>
+</content>
+<content id="S0439">
+<text id="name">Brushed Aluminium</text>
+</content>
+<content id="S04AT">
+<text id="name">Black high-gloss</text>
+</content>
+</content>
+<content default="S02NN" id="rims">
+<content id="S02NP">
+<text id="name">Double-spoke style 135 M</text>
+</content>
+<content id="S02NN">
+<text id="name">Double-spoke style 172 M</text>
+</content>
+</content>
+</root>

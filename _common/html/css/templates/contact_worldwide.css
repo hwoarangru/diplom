@@ -1,0 +1,5 @@
+#innerContent        {width:180px; height:241px; background-color:#ffffff; overflow:auto;}
+#selectboxContent    {position:absolute; top: 18px; left:  2px; display:block; visibility:hidden;}
+#content             {position:absolute; top:104px; left:316px; width:326px;}
+#textlist            {position:relative; padding-top:36px; width:326px; z-index:0; padding-left:2px}
+#teaserContainer     {position:absolute; top: 99px; left: 741px;}

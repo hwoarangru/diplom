@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content default="P0A08" id="metallic">
+<content id="P0A11">
+<text id="name">Highland Green</text>
+</content>
+<content id="P0A35">
+<text id="name">Monaco Blue</text>
+</content>
+<content id="P0S37">
+<text id="name">Moonstone</text>
+</content>
+<content id="P0A51">
+<text id="name">Montego Blue</text>
+</content>
+<content id="P0A53">
+<text id="name">Platin Bronze</text>
+</content>
+<content id="P0S23">
+<text id="name">Ruby Black</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0A08">
+<text id="name">Silver Grey</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0300">
+<text id="name">Alpine White</text>
+</content>
+<content id="P0A61">
+<text id="name">Crimson Red</text>
+</content>
+<content id="P0668">
+<text id="name">Jet Black</text>
+</content>
+</content>
+<content default="FLUSN" id="leather">
+<content id="FLUAD">
+<text id="name">Grey Nevada leather</text>
+</content>
+<content id="FLUSN">
+<text id="name">Sand Beige/Sand Beige Nevada leather</text>
+</content>
+<content id="FLUF4">
+<text id="name">Sand Beige/Black Nevada leather</text>
+</content>
+<content id="FLUSW">
+<text id="name">Black Nevada leather</text>
+</content>
+<content id="FLUF1">
+<text id="name">Tobacco Nevada leather</text>
+</content>
+<content id="FLUAZ">
+<text id="name">Terracotta Nevada leather</text>
+</content>
+</content>
+<content id="fabric">
+<content id="FAVAT">
+<text id="name">Anthracite Twill cloth</text>
+</content>
+<content id="FAVAD">
+<text id="name">Grey Twill cloth</text>
+</content>
+<content id="FGDAT">
+<text id="name">Anthracite Pearlpoint cloth/leather</text>
+</content>
+<content id="FGDSN">
+<text id="name">Sand Beige Pearlpoint cloth/leather</text>
+</content>
+</content>
+<content default="S04BP" id="trims">
+<content id="S04BN">
+<text id="name">Ash Grain</text>
+</content>
+<content id="S04AS">
+<text id="name">Poplar Grain Grey</text>
+</content>
+<content id="S04BP">
+<text id="name">Poplar Grain light</text>
+</content>
+<content id="S04AD">
+<text id="name">Brushed Aluminium</text>
+</content>
+<content id="S04BZ">
+<text id="name">Titanium light</text>
+</content>
+</content>
+<content default="S02BP" id="rims">
+<content id="S02BD">
+<text id="name">Double-spoke style 112</text>
+</content>
+<content id="S02BE">
+<text id="name">Double-spoke style 148</text>
+</content>
+<content id="S02BP">
+<text id="name">Double-spoke style 205</text>
+</content>
+<content id="S02AC">
+<text id="name">Ellipsoid-spoke style 109</text>
+</content>
+<content id="S02CK">
+<text id="name">Star-spoke style 143</text>
+</content>
+<content id="S02R5">
+<text id="name">Star-spoke style 204</text>
+</content>
+<content id="S02KK">
+<text id="name">V-spoke style 206</text>
+</content>
+<content id="S02MM">
+<text id="name">Y-spoke style 191 M</text>
+</content>
+</content>
+</root>

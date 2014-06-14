@@ -1,0 +1,144 @@
+.shadowbox {
+  z-index:860;
+}
+#highlightCloseButton {
+font-weight: bold;
+padding-top: 10px;
+position: absolute;
+top: 595px;
+left: 0px;
+width: 116px;
+height: 21px;
+padding-left: 51px;
+background: url(img/button2_close.gif);
+overflow: hidden;
+z-index: 800;
+background: url(img/button2_close.gif);
+}
+#highlightCloseButton:hover {
+  background:url(img/button2_close-h.gif );
+  color:#04C;
+}
+
+#mlogo {
+position: absolute;
+left: 20px;
+top: 117px;
+}
+
+div#mediaGalleryCategoriesLayer div.category span.headline {
+color: 
+white !important;
+}
+
+.dialogbox .content, .shadowbox .content {
+  position:relative;
+  padding:9px 12px;
+}
+.dialogbox .topBorder, .shadowbox .topBorder {
+  position:absolute;
+  left:2px;
+  top:0px;
+  background-image:url( img/dialogbox/dialogbox_top.png );
+  height:2px;
+  overflow:hidden;
+}
+
+
+
+.dialogbox .rightBorder, .shadowbox .rightBorder {
+  position:absolute;
+  right:0px;
+  top:0px;
+  width:4px;
+  background-image:url( img/dialogbox/dialogbox_right.png );
+  height:100%;
+  overflow:hidden;
+}
+
+.dialogbox .bottomBorder, .shadowbox .bottomBorder {
+  float:left;
+  height:8px;
+  background-image:url( img/dialogbox/dialogbox_bottom.png );
+  overflow:hidden;
+}
+
+.dialogbox .bottomBorder .bottomArrowImage, .shadowbox .bottomBorder .bottomArrowImage {
+  margin-left:3px;
+  width: 19px;
+  height: 8px;
+  background-image:url( img/dialogbox/dialogbox_bottom_arrow.png );
+  overflow:hidden;
+}
+
+
+.dialogbox .bottomBorder .bottomArrowImageRight, .shadowbox .bottomBorder .bottomArrowImageRight {
+  position:absolute;
+  right:0px;
+  width: 19px;
+  height: 8px;
+  background-image:url( img/dialogbox/dialogbox_bottom_arrow.png );
+  overflow:hidden;
+}
+
+.dialogbox .corner, .shadowbox .corner  {
+  float:left;
+  height:4px;
+  width:4px;
+  background-image:url( img/dialogbox/dialogbox_corner.png );
+  overflow:hidden;
+}
+
+.dialogbox .leftBorder, .shadowbox .leftBorder {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:2px;
+  height:100%;
+  background-image:url( img/dialogbox/dialogbox_left.png );
+  overflow:hidden;
+}
+
+.dialogbox img.background, .shadowbox img.background {
+  position:absolute;
+  top:2px;
+  left:2px;
+  display:none;
+}
+
+
+
+
+
+
+div#mediaGalleryLightboxLayer img.leftWhiteArrow {
+	background-image: url( img/gallery/media_gallery_arrow_left_white.png );
+	background-repeat: no-repeat;
+	*background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/gallery/media_gallery_arrow_left_white.png", sizingMethod="image");
+	display: none;
+}
+
+div#mediaGalleryLightboxLayer img.leftBlueArrow {
+	background-image: url( img/gallery/media_gallery_arrow_left_blue.png );
+	background-repeat: no-repeat;
+	*background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/gallery/media_gallery_arrow_left_blue.png", sizingMethod="image");
+	display: none;
+}
+
+div#mediaGalleryLightboxLayer img.rightWhiteArrow {
+	background-image: url( img/gallery/media_gallery_arrow_right_white.png );
+	background-repeat: no-repeat;
+	*background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/gallery/media_gallery_arrow_right_white.png", sizingMethod="image");
+	display: none;
+	}
+	div#mediaGalleryLightboxLayer img.rightBlueArrow {
+	background-image: url( img/gallery/media_gallery_arrow_right_blue.png );
+	background-repeat: no-repeat;
+	*background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/gallery/media_gallery_arrow_right_blue.png", sizingMethod="image");
+	display: none;
+}
+

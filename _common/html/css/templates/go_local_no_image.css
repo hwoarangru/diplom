@@ -1,0 +1,4 @@
+#innerContent     {width:180px; height:241px; background-color:#ffffff; overflow:auto;}
+#selectboxContent {position:absolute; top: 18px; left:  0px; display:block; visibility:hidden;}
+#content          {position:absolute; top:104px; left:318px; width:326px;}
+#teaserContainer  {position:absolute; top: 99px; left:741px;}

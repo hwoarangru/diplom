@@ -1,0 +1,6 @@
+   #content               {position:absolute; top:104px; left: 318px; width: 423px; z-index:  100; }
+   #requestDownloadIframe {position:absolute; top:104px; left: 307px; width: 517px; height:441px; z-index:  105; visibility:hidden; border:1px solid #afafaf; }
+  .dialog                 {position:absolute; top: 40px; left: -9px;  width: 195px; height:auto; border:1px solid #afafaf; visibility:hidden; background-color:#ffffff;}
+  .close                  {position:absolute; top:  1px; right: 1px;  width:  13px; height:12px;}
+  .dialogBox              {padding-left:8px; padding-right:8px; padding-top:5px;padding-bottom:5px;}
+  #teaserContainer        {position:absolute; top: 99px; left: 741px;}

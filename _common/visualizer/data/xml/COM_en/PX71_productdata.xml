@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content default="P0A76" id="metallic">
+<content id="P0A39">
+<text id="name">Barbera Red</text>
+</content>
+<content id="P0A35">
+<text id="name">Monaco Blue</text>
+</content>
+<content id="P0A85">
+<text id="name">Neptun Blue</text>
+</content>
+<content id="P0A68">
+<text id="name">Platinum Grey</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0A52">
+<text id="name">Space Grey</text>
+</content>
+<content id="P0A43">
+<text id="name">Deep Green</text>
+</content>
+<content id="P0A76">
+<text id="name">Deep Sea Blue</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0300">
+<text id="name">Alpine White</text>
+</content>
+<content id="P0668">
+<text id="name">Jet Black</text>
+</content>
+</content>
+<content default="FLCBA" id="leather">
+<content id="FLCBA">
+<text id="name">Beige Dakota leather</text>
+</content>
+<content id="FLCGE">
+<text id="name">Cream Beige Dakota leather</text>
+</content>
+<content id="FLCCU">
+<text id="name">Dark Blue Dakota leather</text>
+</content>
+<content id="FLCAD">
+<text id="name">Grey Dakota leather</text>
+</content>
+<content id="FLCNG">
+<text id="name">Natural Brown Dakota leather</text>
+</content>
+<content id="FLCSW">
+<text id="name">Black Dakota leather</text>
+</content>
+<content id="FU6BA">
+<text id="name">Beige Nasca leather</text>
+</content>
+<content id="FU6SW">
+<text id="name">Black Nasca leather</text>
+</content>
+</content>
+<content id="fabric">
+<content id="FALAT">
+<text id="name">Anthracite Linea cloth</text>
+</content>
+<content id="FALBA">
+<text id="name">Beige Linea cloth</text>
+</content>
+<content id="FALAD">
+<text id="name">Grey Linea cloth</text>
+</content>
+</content>
+<content default="S0437" id="trims">
+<content id="S04BY">
+<text id="name">Anthracite Bamboo</text>
+</content>
+<content id="S0438">
+<text id="name">Dark Poplar high-gloss</text>
+</content>
+<content id="S0437">
+<text id="name">Light Poplar high-gloss</text>
+</content>
+<content id="S0439">
+<text id="name">Brushed Aluminium</text>
+</content>
+<content id="S04BX">
+<text id="name">Grey high-gloss</text>
+</content>
+<content id="S04AT">
+<text id="name">Black high-gloss</text>
+</content>
+</content>
+<content default="S02SE" id="rims">
+<content id="S02BS">
+<text id="name">Double-spoke style 247</text>
+</content>
+<content id="S02HH">
+<text id="name">Radial-spoke style 244</text>
+</content>
+<content id="S0589">
+<text id="name">Star-spoke style 122</text>
+</content>
+<content id="S02C0">
+<text id="name">Star-spoke style 124</text>
+</content>
+<content id="S02SD">
+<text id="name">Star-spoke style 243</text>
+</content>
+<content id="S02SE">
+<text id="name">Star-spoke style 246</text>
+</content>
+<content id="S02KM">
+<text id="name">V-spoke style 245</text>
+</content>
+</content>
+</root>

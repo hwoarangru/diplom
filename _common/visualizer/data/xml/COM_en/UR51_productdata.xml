@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content default="P0A79" id="metallic">
+<content id="P0A51">
+<text id="name">Montego Blue</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0A79">
+<text id="name">Sedona Red</text>
+</content>
+<content id="P0A22">
+<text id="name">Sparkling Graphite</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0668">
+<text id="name">Jet Black</text>
+</content>
+</content>
+<content default="FLWSW" id="leather">
+<content id="FLWAL">
+<text id="name">Alaska Grey Boston leather</text>
+</content>
+<content id="FLWA5">
+<text id="name">Beige Boston leather</text>
+</content>
+<content id="FLWD1">
+<text id="name">Coral Red Boston leather</text>
+</content>
+<content id="FLWB7">
+<text id="name">Lemon Boston leather</text>
+</content>
+<content id="FLWSW">
+<text id="name">Black Boston leather</text>
+</content>
+<content id="FLWB8">
+<text id="name">Terra Boston leather</text>
+</content>
+</content>
+<content id="fabric">
+<content id="FAUAT">
+<text id="name">Anthracite Network cloth</text>
+</content>
+<content id="FAUD9">
+<text id="name">Monaco Blue Network cloth</text>
+</content>
+<content id="FFHF6">
+<text id="name">Beige Pearlpoint cloth/leather</text>
+</content>
+<content id="FFHF5">
+<text id="name">Orange Pearlpoint cloth/leather</text>
+</content>
+</content>
+<content default="S04B3" id="trims">
+<content id="S04A3">
+<text id="name">Walnut light</text>
+</content>
+<content id="S04AS">
+<text id="name">Grain Grey Poplar</text>
+</content>
+<content id="S04B3">
+<text id="name">Aluminium accentuated patterning</text>
+</content>
+<content id="S04B1">
+<text id="name">Cashmere Silver</text>
+</content>
+<content id="S04AT">
+<text id="name">Black high-gloss</text>
+</content>
+<content id="S04BZ">
+<text id="name">Titanium light</text>
+</content>
+</content>
+<content default="S02SM" id="rims">
+<content id="S02CH">
+<text id="name">Star-spoke style 142</text>
+</content>
+<content id="S02R2">
+<text id="name">Star-spoke style 256</text>
+</content>
+<content id="S02SL">
+<text id="name">Star-spoke style 262</text>
+</content>
+<content id="S02SM">
+<text id="name">Star-spoke style 264</text>
+</content>
+<content id="S02KC">
+<text id="name">V-spoke style 141</text>
+</content>
+<content id="S02WA">
+<text id="name">W-spoke style 263</text>
+</content>
+</content>
+</root>

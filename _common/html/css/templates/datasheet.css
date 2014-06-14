@@ -1,0 +1,16 @@
+td.data              {padding-top:1px; padding-bottom:2px;}
+#lense               {position:absolute; top:  0px; left:  0px; width: 19px; height: 18px;}
+#modelNavigation     {position:absolute; top:112px; left:318px; width:662px; height: 23px; z-index:1; overflow:hidden;}
+#disclaimer          {position:absolute; top:106px; left:317px; width:672px; height:470px; z-index:3; visibility:hidden; background-color:#ffffff;}
+#disclaimerInline    {position:absolute; top:  0px; left:  0px; width:326px; height:470px;}
+#lenseZoom           {position:absolute; top:  0px; left:  8px; width: 19px; height: 18px;}
+div.loaderZoom       {position:absolute; top:352px; left:637px; width: 87px; height: 65px; z-index:3; visibility:hidden;}
+div.loaderData       {position:absolute; top:152px; left:437px; width: 87px; height: 65px; z-index:3; visibility:hidden;}
+div.leftColumnMulti  {position:absolute; top:137px; left:318px; width:326px;               z-index:1; overflow;hidden; }
+div.rightColumnMulti {position:absolute; top:137px; left:654px; width:326px;               z-index:1; overflow;hidden; }
+div.zoomMulti        {position:absolute; top:137px; left:310px; width:679px; height:auto;  z-index:2; visibility:hidden; background-color:#ffffff;}
+div.zoomSingle       {position:absolute; top:106px; left:310px; width:679px; height:auto;  z-index:2; visibility:hidden; background-color:#ffffff;}
+div.leftColumnSingle {position:absolute; top:106px; left:318px; width:326px;               z-index:1; overflow;hidden; }
+div.rightColumnSingle{position:absolute; top:106px; left:654px; width:326px;               z-index:1; overflow;hidden;}
+div.loaderDataSingle {position:absolute; top:121px; left:437px; width: 87px; height: 65px; z-index:3; visibility:hidden;}
+#printIcon           {position:absolute; top:137px; left:272px; width:20px;                z-index:5; }

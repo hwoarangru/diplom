@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content id="metallic">
+<content id="P0416">
+<text id="name">Carbonschwarz metallic</text>
+</content>
+<content id="P0A35">
+<text id="name">Monaco Blue</text>
+</content>
+<content id="P0A51">
+<text id="name">Montego Blue</text>
+</content>
+<content id="P0453">
+<text id="name">Nachtblau metallic</text>
+</content>
+<content id="P0S23">
+<text id="name">Rubinschwarz metallic</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0A08">
+<text id="name">Silbergrau metallic</text>
+</content>
+<content id="P0A52">
+<text id="name">Space Grey</text>
+</content>
+<content id="P0440">
+<text id="name">Stratus Grey</text>
+</content>
+<content id="P0A43">
+<text id="name">Deep Green</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0300">
+<text id="name">Alpine White</text>
+</content>
+<content id="P0314">
+<text id="name">Bright Red</text>
+</content>
+<content id="P0668">
+<text id="name">Jet Black</text>
+</content>
+</content>
+<content id="leather">
+<content id="FLAAB">
+<text id="name">Beige Oregon leather</text>
+</content>
+<content id="FLAPF">
+<text id="name">Pearl Grey Oregon leather</text>
+</content>
+<content id="FLASW">
+<text id="name">Black Oregon leather</text>
+</content>
+<content id="FLAT5">
+<text id="name">Dream Red Oregon leather</text>
+</content>
+<content id="FLBAB">
+<text id="name">Beige New England leather</text>
+</content>
+<content id="FLBD3">
+<text id="name">Saddle Brown New England leather</text>
+</content>
+<content id="FLBSW">
+<text id="name">Black New England leather</text>
+</content>
+<content id="FLBT5">
+<text id="name">Dream Red New England leather</text>
+</content>
+</content>
+<content id="fabric">
+<content id="FFAE9">
+<text id="name">Montego Blue Active Sports leather/sport</text>
+</content>
+<content id="FFASW">
+<text id="name">Black Active Sports leather/sport</text>
+</content>
+<content id="FAAAT">
+<text id="name">Anthracite Free Spirit cloth/Sensatec</text>
+</content>
+</content>
+<content id="trims">
+<content id="S0438">
+<text id="name">Dark Poplar</text>
+</content>
+<content id="S0437">
+<text id="name">Light Poplar</text>
+</content>
+<content id="S04A4">
+<text id="name">Cirrus Aluminium</text>
+</content>
+<content id="S04AD">
+<text id="name">Brushed Aluminium</text>
+</content>
+<content id="S04BM">
+<text id="name">Silk Graphite</text>
+</content>
+</content>
+<content id="rims">
+<content id="S02AD">
+<text id="name">Ellipsoid-spoke style 202</text>
+</content>
+<content id="S0331">
+<text id="name">Star-spoke style 102</text>
+</content>
+<content id="S0333">
+<text id="name">Star-spoke style 105</text>
+</content>
+<content id="S02C8">
+<text id="name">Star-spoke style 200</text>
+</content>
+<content id="S02R3">
+<text id="name">Star-spoke style 203</text>
+</content>
+<content id="S02R8">
+<text id="name">Star-spoke style 241</text>
+</content>
+<content id="S02RT">
+<text id="name">Turbine-spoke style 201</text>
+</content>
+<content id="S0350">
+<text id="name">Star-spoke style 108</text>
+</content>
+</content>
+<content id="roof">
+<content id="S0394">
+<text id="name">Dark Beige</text>
+</content>
+<content id="S0389">
+<text id="name">Dark Grey</text>
+</content>
+<content id="S0388">
+<text id="name">Black</text>
+</content>
+</content>
+</root>

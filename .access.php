@@ -1,0 +1,15 @@
+<?
+$PERM["upload"]["35"]="W";
+$PERM["upload"]["36"]="W";
+$PERM["desktop_app"]["*"]="R";
+$PERM["bitrix"]["32"]="R";
+$PERM["bitrix"]["29"]="R";
+$PERM["us_list.php"]["*"]="D";
+$PERM["model"]["24"]="X";
+$PERM["model"]["16"]="X";
+$PERM["cabinet"]["2"]="D";
+$PERM["cabinet"]["*"]="R";
+$PERM["/"]["29"]="W";
+$PERM["/"]["*"]="R";
+$PERM["import"]["*"]="D";
+?>

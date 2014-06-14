@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content id="metallic">
+<content id="P0354">
+<text id="name">Titansilber metallic</text>
+</content>
+<content id="P0475">
+<text id="name">Saphirschwarz metallic</text>
+</content>
+<content id="P0A14">
+<text id="name">Mineralsilber metallic</text>
+</content>
+<content id="P0A35">
+<text id="name">Monacoblau metallic</text>
+</content>
+<content id="P0A52">
+<text id="name">Spacegrau metallic</text>
+</content>
+<content id="P0A76">
+<text id="name">Tiefseeblau metallic</text>
+</content>
+<content id="P0A81">
+<text id="name">Tasman metallic</text>
+</content>
+<content id="P0A82">
+<text id="name">Vermilionrot metallic</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0300">
+<text id="name">Alpinweiß uni</text>
+</content>
+<content id="P0668">
+<text id="name">Schwarz uni</text>
+</content>
+</content>
+<content id="leather">
+<content id="FLUB4">
+<text id="name">Leder Nevada beige</text>
+</content>
+<content id="FLUCX">
+<text id="name">Leder Nevada oyster/schwarz</text>
+</content>
+<content id="FLUD3">
+<text id="name">Leder Nevada sattelbraun/schwarz</text>
+</content>
+<content id="FLUSW">
+<text id="name">Leder Nevada schwarz</text>
+</content>
+<content id="FLVB4">
+<text id="name">Leder Nevada perforiert beige</text>
+</content>
+<content id="FLVSW">
+<text id="name">Leder Nevada perforiert schwarz</text>
+</content>
+<content id="FNAB4">
+<text id="name">Leder Exclusiv Nappa beige</text>
+</content>
+<content id="FNASW">
+<text id="name">Leder Exclusiv Nappa schwarz</text>
+</content>
+</content>
+<content id="fabric">
+<content id="FAVAT">
+<text id="name">Stoff Twill anthrazit</text>
+</content>
+<content id="FGHSW">
+<text id="name">Alcantara/Leder schwarz</text>
+</content>
+</content>
+<content id="trims">
+<content id="S04A1">
+<text id="name">Graphitan matt</text>
+</content>
+<content id="S04AD">
+<text id="name">Aluminium Längsschliff fein</text>
+</content>
+<content id="S04AZ">
+<text id="name">Bambus Maser dunkel</text>
+</content>
+<content id="S04B6">
+<text id="name">Aluminium Flywheel schwarz</text>
+</content>
+<content id="S04BN">
+<text id="name">Esche Maser</text>
+</content>
+</content>
+<content id="rims">
+<content id="S02KR">
+<text id="name">V-Speiche 257</text>
+</content>
+<content id="S02LE">
+<text id="name">Y-Speiche 214</text>
+</content>
+<content id="S02SG">
+<text id="name">Sternspeiche 232</text>
+</content>
+<content id="S02SK">
+<text id="name">Sternspeiche 259</text>
+</content>
+</content>
+</root>

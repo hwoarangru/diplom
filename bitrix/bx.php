@@ -1,0 +1,1 @@
+../../shared/bitrix/bx.php

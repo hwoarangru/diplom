@@ -1,0 +1,40 @@
+.news-item-block {
+	margin: 0;
+	padding: 0;
+}
+
+.news-item-block .news-item {
+	padding: 0 0 0 65px;
+}
+
+.news-item-block h1 {
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 21px;
+	padding-bottom: 3px;
+	color: #000000;
+	font-family: Arial;
+	margin: 0px;
+}
+
+.news-item-block .description {
+	padding: 20px 0 0 0;
+}
+
+.news-item-block a.print-icon {
+	position: absolute;
+	width: 19px;
+	height: 18px;
+	overflow: hidden;
+	text-indent: -999px;
+	background-image: url('images/print-icon.gif');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding: 0;
+	margin: 21px 0 0 27px;
+	outline: none;
+}
+
+.news-item-block a.print-icon:hover {
+	background-position: 0 -18px;
+}

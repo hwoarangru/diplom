@@ -1,0 +1,15 @@
+  .mainImage {position:absolute; top:0px; left:0px; height:363px; width:1024px;}
+  #quicklinks {position:absolute; top:390px; left: 30px; width:182px; height:190px;}
+  #introContent {visibility: hidden;}
+  #teaserContent {visibility:hidden;}
+  #mainText {visibility:hidden;}
+
+  .teaser {position:absolute; top:391px; height:120px; width:95px; overflow:hidden;}
+  .slot1 {left:115px;}
+  .slot2 {left:227px;}
+  .slot3 {left:339px;}
+  .slot4 {left:451px;}
+  .slot5 {left:563px;}
+  .slot6 {left:675px;}
+  .slot7 {left:787px;}
+  .slot8 {left:899px;}

@@ -1,0 +1,10 @@
+  #bigImageLayer      {position:absolute; top:  0px; left:  0px; width:100%; height:auto;  visibility:hidden; z-index:301; overflow:hidden;}
+  #bigImageLoader     {position:absolute; top:350px; left:470px; width:  87px; height: 65px; visibility:hidden;}
+  .bigImageNaviTop    {position:absolute; top:331px; left: 14px; width: 208px; height:auto;  visibility:hidden; z-index:302; border:1px solid #afafaf; background-color:#ffffff;}
+  .bigImageNaviBottom {position:absolute; top:564px; left: 14px; width: 208px; height:auto;  visibility:hidden; z-index:302; border:1px solid #afafaf; background-color:#ffffff;}
+   #content           {position:absolute; top:104px; left:318px; width: 423px;}
+  .lense              {position:absolute; top: 47px; left:  0px; width:  19px; height: 18px;}
+  .dialog             {position:absolute; top: 40px; left: -9px; width: 195px; height:auto; border:1px solid #afafaf; visibility:hidden; background-color:#ffffff;}
+  .close              {position:absolute; top:  1px; right: 1px; width:  13px; height:12px;}
+  .dialogBox          {padding-left:8px; padding-right:8px; padding-top:5px;padding-bottom:5px;}
+  #teaserContainer    {position:absolute; top: 99px; left: 741px;}

@@ -1,0 +1,7 @@
+#specificPageContent                     {position:relative; top: 98px; width:100%;}
+#topHeadline                             {position:relative; top: 6px; left: 318px; width:335px;}
+#topLineBox                              {position:relative; top: 0px; left: 0px; width:100%; overflow:hidden;}
+#innerPageCopy                           {position:relative; left:318px; width:335px;}
+#innerPageExampleBox                     {position:relative; left:318px; width:575px; color: #4c4c4c; margin-bottom:5px; border-bottom-width: 1px; border-bottom-color:#afafaf; border-bottom-style:solid; border-top-width: 1px; border-top-color:#afafaf; border-top-style:solid; }
+#innerPageExampleHeadline                {position:relative; width=431px;margin-top:6px}
+#innerPageExampleText                    {position:relative; width=431px;margin-top:2px; margin-bottom:9px}

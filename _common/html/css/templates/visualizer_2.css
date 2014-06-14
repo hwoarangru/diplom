@@ -1,0 +1,9 @@
+#completeText  {position:absolute; top:53px; left:318px; width:514px; height:auto;}
+#contentText   {position:relative; top:  0px; left:  0px; width:398px; height:371px;}
+*>#contentText {height:371px; display: table-cell;} /* SAFARI */
+#flashmovie    {position:absolute; top:60px;   left:0px; width:1020px; height:600px; overflow:hidden; z-index:50; visibility:hidden}
+#teaser        {position:absolute; top:376px; left: 30px; width:182px; height:190px;}
+#iButton       {position:absolute; top:356px; left:280px; width:19px; height:18px;background-color:#ffffff; z-index:60; visibility:hidden}
+#info          {position:absolute; top:357px; -top:356px; left:310px; -left:309px; width:390px; -width:392px; height:200px; border:1px solid #afafaf; background-color:#ffffff; visibility:hidden; z-index:60;}
+#close         {position:absolute; top:1px; right:1px; width:13px; height:12px; overflow:hidden; z-index:65;}
+.infoText      {padding-top:20px; padding-left:9px; width:376px; -width:378px; margin-bottom:13px; z-index:60;}

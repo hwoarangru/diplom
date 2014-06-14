@@ -1,0 +1,14 @@
+.modelNavigation {position:relative; top:0; left:322px; width:662px; height: 34px; overflow:hidden;}
+#indexRubricBox {position:absolute; top:111px; left:0; margin-bottom: 5px;z-index:800;}
+#indexRubricBoxHeadline h2 {position:relative; top:0; left:320px; width:550px; padding:0 0 4px 0; -padding:0 0 2px 0; margin:0; overflow:hidden;}
+#indexRubricRow {position:relative; top:0; left:320px; padding:0; margin:0 0 4px 0; overflow:hidden;z-index:801;}
+#indexRubricRow h2 {padding:2px 0 4px 0; -padding:1px 0 1px 0; margin:0;}
+#indexRubricColumnEntry {position:relative; top:4; left:1px; width:214px; margin:0 10px 1px 0; -margin:0 10px 2px 0; float:left;}
+ul.indexRubric li {margin:0 0 7px 0; -margin:0 0 5px 0; line-height:12px; -line-height:10px;}
+ul.indexRubric li.synonymTextLi {margin-bottom:0; padding-bottom:0;-margin-bottom:-2px;-padding-bottom:-2px;}
+ul.indexRubricSynonym li {padding:0; margin:0px 0px 7px 0px; -margin:0px 0px 5px 0px; line-height:12px; -line-height:10px;}
+ul.indexRubric li.synonym {display:inline; margin:0 0 6px 0; -margin:0 0 4px 0;margin-top:-1px;}
+#imgLine {position:relative; top:0; left:318px; width:662px; overflow:hidden; clear:both;}
+.displayNone {display:none;}
+.footNote {position:relative; top:9px; left:318px; width:450px; padding-bottom:50px;}
+#mood {position:absolute; top:14px; left:0px; width:100%; height:571px; overflow:hidden;}

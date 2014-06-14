@@ -1,0 +1,2783 @@
+
+/*-- Body
+--------------------------------------------------------*/
+
+html, body{
+        height:100%;
+        padding:0px;
+        margin:0px;
+}
+
+body {
+        background-image:url('/i/body_bg.gif');
+        background-position:center top;
+        background-repeat:repeat-y;
+        background-color:#cccccc;
+        min-width:990px;
+}
+
+body, td {
+        font-family:verdana;
+        font-size:11px;
+        color:#333333;
+}
+
+td {
+        vertical-align:top;
+}
+
+h1, h2, h3, h4, h5, h6, p, cite {
+        padding:0px;
+        margin:0px;
+        padding-bottom:15px;
+}
+
+cite {
+font-style: normal;
+display:block;
+}
+
+.css_h1_title {
+        background-image:url('/i/li_5.gif');
+        background-position:left top;
+        background-repeat:no-repeat;
+        padding-left:19px;
+        padding-top:18px;
+        font-weight:normal;
+        font-size:14px;
+        color:#ce0e3f;
+}
+
+.css_h1_title a{
+        text-decoration:underline;
+        color:#ce0e3f;
+}
+
+.css_h1_title a:hover {
+        text-decoration:none;
+        color:#ce0e3f;
+}
+
+h1 {
+        font-size: 18px;
+        font-weight:bold;
+        color:#666666;
+        font-family:verdana;
+}
+
+
+h2, p.p_h2 {
+        font-size:11px;
+        font-weight:bold;
+        text-transform:uppercase;
+        color:#666666;
+}
+
+h3 {
+        font-size: 18px;
+        font-weight:normal;
+}
+
+h4 {
+        font-size: 12px;
+        font-weight:bold;
+        padding-bottom:0px;
+}
+
+a{
+        color:#110261;
+        text-decoration:underline;
+}
+
+a:hover, a.css_red {
+        color:#c71444;
+        text-decoration:underline;
+}
+
+a.css_red:hover {
+        color:#c71444;
+        text-decoration:none;
+}
+
+form, fieldset {
+        display:block;
+        padding:0px;
+        margin:0px;
+        border-width:0px;
+}
+
+a, input {
+        outline:0px;
+}
+
+.css_image_left {
+        float:left;
+        border-width:0px;
+        margin-top:5px;
+        margin-right:5px;
+        margin-bottom:3px;
+}
+
+.css_image_right {
+        float:right;
+        border-width:0px;
+        margin-top:5px;
+        margin-left:5px;
+        margin-bottom:3px;
+}
+
+/*-- Block
+--------------------------------------------------------*/
+
+.css_main_block {
+        background-image:url('/i/footer_line.gif');
+        background-position:232px bottom;
+        background-repeat:no-repeat;
+        position:relative;
+        height:auto !important;
+        height:100%;
+        min-height:100%;
+        z-index:1;
+        width:990px;
+        margin-left:auto;
+        margin-right:auto;
+}
+
+.css_main_block .css_logo {
+        position:absolute;
+        z-index:3;
+        left:758px;
+        top:47px;
+        padding:0px;
+        width:196px;
+        height:57px;
+}
+
+.css_main_block .css_logo_2 {
+        position:absolute;
+        z-index:3;
+        left:48px;
+        top:31px;
+        padding:0px;
+        width:91px;
+        height:77px;
+}
+
+.css_main_block .css_logo img, .css_main_block .css_logo_2 img {
+        border:0px;
+}
+
+/*-- Block / Main menu
+--------------------------------------------------------*/
+
+.css_main_menu {
+        background-image:url('/i/main_menu_bottom_shadow.gif');
+        background-repeat:no-repeat;
+        background-position:left bottom;
+        position:absolute;
+        z-index:4;
+        left:189px;
+        top:62px;
+        width:575px;
+        height:89px;
+}
+
+.css_main_menu ul {
+        position:relative;
+        padding:0px;
+        margin:0px;
+        display:block;
+        width:575px;
+        z-index:4;
+}
+
+.css_main_menu ul li {
+        position:relative;
+        padding:0px;
+        margin:0px;
+        display:block;
+        float:left;
+        list-style-type:none;
+        font-size:11px;
+        height:30px;
+        white-space:nowrap;
+        margin-right:17px;
+}
+
+.css_main_menu ul li a{
+        background-image:url('/i/main_menu_bg.gif');
+        background-repeat:repeat-x;
+        background-position:center bottom;
+        display:block;
+        color:#000000;
+        text-decoration:none;
+        height:33px;
+        padding-left:1px;
+        padding-right:1px;
+        float:left;
+}
+
+.css_main_menu ul li a:hover {
+        background-image:none;
+        color:#999999;
+        text-decoration:none;
+}
+
+.css_main_menu ul li.css_active a, .css_main_menu ul li.css_active a:hover {
+        background-image:url('/i/main_menu_active_bg.gif');
+        color:#000000;
+}
+
+.css_main_menu .css_main_sub_menu {
+        background-image:url('/i/main_sub_menu_bg.gif');
+        color:#000000;
+        width:520px;
+        height:25px;
+        position:relative;
+        overflow:hidden;
+        background-repeat:no-repeat;
+        z-index:3;
+        position:absolute;
+        top:32px;
+        left:0px;
+        padding-left:20px;
+        padding-right:10px;
+        padding-top:12px;
+        line-height:12px;
+        padding-bottom:0px;
+        display:none;
+}
+
+.css_main_menu .css_main_sub_menu.css_active {
+        display:block;
+}
+
+.css_main_menu .css_main_sub_menu a{
+        color:#000000;
+        margin-right:7px;
+        text-decoration:none;
+        display:block;
+        float:left;
+        white-space:nowrap;
+        border-bottom:1px solid #818283;
+}
+
+.css_main_menu .css_main_sub_menu span {
+        color:#999999;
+        margin-right:7px;
+        display:block;
+        float:left;
+        white-space:nowrap;
+}
+
+.css_main_menu .css_main_sub_menu a:hover {
+        color:#000000;
+        border-bottom:1px solid #f8f8f8;
+}
+
+.css_main_menu.css_main_menu_text {
+        left:231px;
+        top:60px;
+        font-size:11px;
+        width:498px;
+        line-height:12px;
+}
+
+.css_main_menu.css_main_menu_text h1 {
+        font-size:14px;
+        padding:0px;
+        color:#ce0e3f;
+        font-weight:normal;
+        line-height:15px;
+        padding-bottom:1px;
+}
+
+.css_main_menu.css_main_menu_text a {
+        color:#ce0e3f;
+}
+
+.css_main_menu.css_main_menu_text a:hover {
+        color:#ce0e3f;
+        text-decoration:none;
+}
+
+/*-- Block / Content container
+--------------------------------------------------------*/
+
+.css_content_container {
+        position:relative;
+        width:100%;
+}
+
+.css_content_container .css_left_column {
+        padding-top:159px;
+        padding-left:8px;
+        padding-right:5px;
+        padding-bottom:170px;
+        width:209px;
+}
+
+.css_content_container .css_center_column {
+        padding-top:150px;
+        padding-right:13px;
+        padding-bottom:170px;
+}
+
+.css_spt_left {
+        width:100%;
+}
+
+.css_spt_right {
+        width:100%;
+        padding-top:62px;
+}
+
+.css_sub_page_template {
+width:100%;
+}
+
+/*-- Block / Content container / Index Central Image module [745x280]
+--------------------------------------------------------*/
+
+.css_index_central_image_module {
+        background-image:url('/i/li_5.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        position:relative;
+        z-index:1 !important;
+        padding-top:2px;
+        width:745px;
+        overflow:hidden;
+        padding-left:20px;
+}
+
+/*-- Block / Content container / Index Central Image module [height 30]
+--------------------------------------------------------*/
+
+.css_index_horizontal_module {
+        position:relative;
+        width:745px;
+        height:30px;
+        margin-left:20px;
+        margin-bottom:1px;
+}
+
+.css_index_horizontal_module_2 {
+        background-color:#999999;
+        position:relative;
+        width:745px;
+        height:3px;
+        overflow:hidden;
+        margin-left:20px;
+        margin-bottom:11px;
+}
+
+/*-- Block / Content container / Index page news block
+--------------------------------------------------------*/
+
+.css_index_page_news_block td{
+        background-image:url('/i/li_5.gif');
+        background-repeat:no-repeat;
+        background-position:left 13px;
+        width:220px;
+        padding-left:20px;
+        padding-right:13px;
+        color:#636363;
+        padding-top:10px;
+}
+
+.css_index_page_news_block td h4, .css_index_page_news_block td cite {
+        font-size:14px;
+        padding-bottom:2px;
+        width:220px;
+        font-weight:bold;
+
+}
+
+.css_index_page_news_block td p {
+        width:220px;
+}
+
+.css_index_page_news_block td h4 a, .css_index_page_news_block td cite a{
+        color:#0c53a8;
+}
+
+.css_index_page_news_block td h4 a:hover, .css_index_page_news_block td cite a:hover {
+        color:#c71444;
+}
+
+/*-- Block / Content container / Index page news block 2
+--------------------------------------------------------*/
+
+.css_index_page_news_block_2 {
+        margin-left:20px;
+        width:745px;
+        padding-bottom:15px;
+}
+
+.css_index_page_news_block_2 h2, .css_index_page_news_block_2 p.p_h2 {
+        background-image:url('/i/h2_news_title_bg.gif');
+        background-repeat:repeat-x;
+        background-position:left top;
+}
+
+.css_index_page_news_block_2 .css_inb2_single {
+        position:relative;
+        z-index:1;
+        padding-left:116px;
+        width:629px;
+        min-height:53px;
+        margin-bottom:15px;
+        color:#999999;
+}
+
+.css_index_page_news_block_2 .css_inb2_single p {
+        padding-bottom:0px;
+}
+
+.css_index_page_news_block_2 .css_inb2_single .css_inb2_date {
+        font-size:9px;
+        color:#666666;
+        font-family:verdana;
+        display:block;
+        padding-bottom:1px;
+}
+
+.css_index_page_news_block_2 .css_inb2_single h4, .css_index_page_news_block_2 .css_inb2_single cite {
+        font-size:11px;
+        font-weight:bold;
+        padding-bottom:2px;
+}
+
+.css_index_page_news_block_2 .css_inb2_single h4 a, .css_index_page_news_block_2 .css_inb2_single cite a{
+        color:#666666;
+}
+
+.css_index_page_news_block_2 .css_inb2_single h4 a:hover, .css_index_page_news_block_2 .css_inb2_single cite a:hover {
+        color:#c71444;
+
+}
+
+.css_index_page_news_block_2 .css_inb2_single .css_inb2_image {
+        position:absolute;
+        z-index:1;
+        left:0px;
+        top:2px;
+        width:98px;
+        height:48px;
+        overflow:hidden;
+        border:1px solid #cccccc;
+}
+
+.css_index_page_news_block_2 .css_inb2_single .css_inb2_image img {
+        border:0px;
+}
+
+.css_index_page_news_block_2 .css_inb2_all {
+        display:block;
+        padding-left:116px;
+        font-size:9px;
+        position:relative;
+        z-index:3;
+        margin-top:-5px;
+}
+
+.css_index_page_news_block_2 .css_inb2_all a{
+        color:#cc0033;
+}
+
+.css_index_page_news_block_2 .css_inb2_all a:hover{
+        text-decoration:none;
+        color:#cc0033;
+}
+
+/*-- Block / Content container / Index news block
+--------------------------------------------------------*/
+
+.css_index_news_block {
+        background-image:url('/i/li_5.gif');
+        background-repeat:no-repeat;
+        background-position:left 3px;
+        width:190px;
+        padding-left:20px;
+        padding-right:13px;
+        color:#636363;
+        padding-bottom:8px;
+}
+
+.css_index_news_block h4, .css_index_news_block cite {
+        font-size:14px;
+        padding-bottom:3px;
+        font-weight:normal;
+}
+
+.css_index_news_block h4 a, .css_index_news_block cite a{
+        color:#0c53a8;
+}
+
+.css_index_news_block h4 a:hover, .css_index_news_block cite a:hover {
+        color:#c71444;
+}
+
+/*-- Block / Content container / Index news block 2
+--------------------------------------------------------*/
+
+.css_index_news_block_2 {
+        margin-left:20px;
+        width:496px;
+        padding-bottom:25px;
+        padding-top:4px;
+}
+
+.css_index_news_block_2 h2, .css_index_news_block_2 p.p_h2 {
+        background-image:url('/i/h2_news_title_bg.gif');
+        background-repeat:repeat-x;
+        background-position:left top;
+}
+
+.css_index_news_block_2 .css_inb2_single {
+        position:relative;
+        z-index:1;
+        padding-left:116px;
+        width:380px;
+        min-height:53px;
+        margin-bottom:15px;
+        color:#999999;
+}
+
+.css_index_news_block_2 .css_inb2_single p {
+        padding-bottom:0px;
+}
+
+.css_index_news_block_2 .css_inb2_single .css_inb2_date {
+        font-size:9px;
+        color:#666666;
+        font-family:verdana;
+        display:block;
+        padding-bottom:1px;
+}
+
+.css_index_news_block_2 .css_inb2_single h4, .css_index_news_block_2 .css_inb2_single cite {
+        font-size:11px;
+        font-weight:bold;
+        padding-bottom:2px;
+}
+
+.css_index_news_block_2 .css_inb2_single h4 a, .css_index_news_block_2 .css_inb2_single cite a{
+        color:#666666;
+}
+
+.css_index_news_block_2 .css_inb2_single h4 a:hover, .css_index_news_block_2 .css_inb2_single cite a:hover {
+        color:#c71444;
+}
+
+.css_index_news_block_2 .css_inb2_single .css_inb2_image {
+        position:absolute;
+        z-index:1;
+        left:0px;
+        top:2px;
+        width:98px;
+        height:48px;
+        overflow:hidden;
+        border:1px solid #cccccc;
+}
+
+.css_index_news_block_2 .css_inb2_single .css_inb2_image img {
+        border:0px;
+}
+
+.css_index_news_block_2 .css_inb2_all {
+        display:block;
+        padding-left:116px;
+        font-size:9px;
+        position:relative;
+        z-index:3;
+        margin-top:-5px;
+}
+
+.css_index_news_block_2 .css_inb2_all a{
+        color:#cc0033;
+}
+
+.css_index_news_block_2 .css_inb2_all a:hover{
+        text-decoration:none;
+        color:#cc0033;
+}
+
+
+/*-- Block / Content container / Index news block 2 / Single news
+--------------------------------------------------------*/
+
+.css_index_news_block_2.css_single_news {
+        margin-left:20px;
+        width:496px;
+        padding-bottom:25px;
+        padding-top:4px;
+}
+
+.css_index_news_block_2.css_single_news .css_inb2_single {
+        position:relative;
+        z-index:1;
+        padding-left:0px;
+        width:496px;
+        margin-bottom:15px;
+        color:#666666;
+}
+
+.css_index_news_block_2.css_single_news .css_inb2_single h4, .css_index_news_block_2.css_single_news .css_inb2_single p, .css_index_news_block_2.css_single_news .css_inb2_single cite {
+        padding-bottom:15px;
+}
+
+.css_index_news_block_2.css_single_news .css_inb2_images {
+        text-align:center;
+        width:400px;
+        clear:both;
+        margin-left:auto;
+        margin-right:auto;
+        padding-bottom:18px;
+        padding-top:10px;
+}
+
+.css_index_news_block_2.css_single_news .css_inb2_images img {
+        border:1px solid #9f9f9f;
+        margin-left:3px;
+        margin-right:3px;
+        margin-bottom:8px;
+}
+
+/*-- Block / Content container / News calendar
+--------------------------------------------------------*/
+
+.css_news_calendar {
+        width:210px;
+        padding-right:13px;
+        position:relative;
+        top:-6px;
+}
+
+.css_news_calendar h4, .css_news_calendar cite {
+        color:#ce0e3f;
+        font-size:14px;
+        font-weight:normal;
+        background-image:url('/i/li_5.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        padding-left:19px;
+        padding-bottom:1px;
+}
+
+.css_news_calendar ul {
+        display:block;
+        clear:both;
+        position:relative;
+        width:190px;
+        padding:0px;
+        margin:0px;
+        padding-left:20px;
+}
+
+.css_news_calendar ul li{
+        display:block;
+        padding:0px;
+        margin:0px;
+        list-style-type:none;
+        font-size:11px;
+        font-weight:bold;
+        clear:both;
+        width:190px;
+}
+
+.css_news_calendar ul ul{
+        padding-left:13px;
+        padding-bottom:18px;
+        padding-top:3px;
+}
+
+.css_news_calendar ul ul li{
+        padding-bottom:1px;
+        font-weight:normal;
+        color:#666666;
+        width:177px;
+}
+
+.css_news_calendar a{
+        color:#ce0e3f;
+        text-decoration:underline;
+}
+
+.css_news_calendar a:hover{
+        color:#666666;
+        text-decoration:none;
+}
+
+.css_news_calendar ul li span {
+        background-image:url('/i/arrow_down.gif');
+        background-repeat:no-repeat;
+        background-position:right 3px;
+        padding-right:13px;
+        border-width:0px;
+        position:relative;
+        display:block;
+        float:left;
+        padding-bottom:3px;
+}
+
+.css_news_calendar ul li span.css_active {
+        background-image:url('/i/arrow_up.gif');
+}
+
+.css_news_calendar span a{
+        text-decoration:none;
+        border-bottom:1px dashed #ce0e3f;
+        position:relative;
+}
+
+.css_news_calendar span a:hover{
+        text-decoration:none;
+        border-bottom:1px dashed #666666;
+        position:relative;
+}
+
+.css_news_calendar span.css_active a{
+        color:#666666;
+        border-bottom:1px dashed #666666;
+}
+
+.css_news_calendar span.css_active a:hover {
+        color:#ce0e3f;
+        border-bottom:1px dashed #ce0e3f;
+}
+
+/*-- Block / Content container / Index page modules block [220x70]
+--------------------------------------------------------*/
+
+.css_index_page_modules_block {
+        margin-left:0px;
+}
+
+.css_index_page_modules_block td{
+        background-image:url('/i/li_5.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        width:220px;
+        padding-left:20px;
+        padding-right:13px;
+        padding-top:9px;
+        padding-bottom:35px;
+}
+
+.css_index_page_modules_block td img {
+        border:0px;
+}
+
+/*-- Block / Content container / Index modules block [220x70]
+--------------------------------------------------------*/
+
+.css_index_modules_block {
+        margin-left:20px;
+}
+
+.css_index_modules_block td{
+        background-image:url('/i/li_5.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        width:220px;
+        padding-left:20px;
+        padding-right:13px;
+        padding-top:9px;
+        padding-bottom:35px;
+}
+
+.css_index_modules_block td img {
+        border:0px;
+}
+
+/*-- Block / Content container / Left menu
+--------------------------------------------------------*/
+
+.css_left_menu {
+        position:relative;
+        overflow:hidden;
+        padding-bottom:12px;
+        color:#999999;
+}
+
+.css_left_menu h5, .css_left_menu cite {
+        background-image:url('/i/li_2.gif');
+        background-repeat:no-repeat;
+        background-position:0px 3px;
+        font-size:11px;
+        font-weight:bold;
+        padding-bottom:8px;
+        padding-left:12px;
+}
+
+.css_left_menu ul {
+        padding:0px;
+        margin:0px;
+        display:block;
+        margin-left:24px;
+        padding-bottom:9px;
+        padding-top:9px;
+}
+
+.css_left_menu ul li {
+        background-image:url('/i/li_3.gif');
+        background-repeat:no-repeat;
+        background-position:0px 5px;
+        padding:0px;
+        margin:0px;
+        list-style-type:none;
+        padding-left:8px;
+        padding-bottom:1px;
+        margin-bottom:1px;
+}
+
+.css_left_menu.css_lm_gap_1 {
+        padding-bottom:20px;
+}
+
+.css_left_menu a{
+        color:#000000;
+        text-decoration:underline;
+}
+
+.css_left_menu a:hover {
+        color:#000000;
+        text-decoration:none;
+}
+
+.css_left_menu_blue {
+        background-color:#f9f8f8;
+        position:relative;
+        margin-top:7px;
+        margin-bottom:23px;
+}
+
+.css_left_menu_blue .css_lmb_top {
+        background-image:url('/i/lt_1.gif');
+        background-repeat:no-repeat;
+        position:relative;
+        height:7px;
+        overflow:hidden;
+}
+
+.css_left_menu_blue .css_lmb_top .css_lmb_top_in {
+        background-image:url('/i/rt_1.gif');
+        background-repeat:no-repeat;
+        background-position:right top;
+        height:7px;
+}
+
+.css_left_menu_blue .css_lmb_bottom {
+        background-image:url('/i/lb_1.gif');
+        background-repeat:no-repeat;
+        position:relative;
+        height:7px;
+        overflow:hidden;
+        position:relative;
+        margin-top:-7px;
+}
+
+.css_left_menu_blue .css_lmb_bottom .css_lmb_bottom_in {
+        background-image:url('/i/rb_1.gif');
+        background-repeat:no-repeat;
+        background-position:right top;
+        height:7px;
+}
+
+.css_left_menu_blue ul {
+        padding:0px;
+        margin:0px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:17px;
+        position:relative;
+        padding-top:2px;
+}
+
+.css_left_menu_blue ul li{
+        padding:0px;
+        margin:0px;
+        list-style-type:none;
+        color:#999999;
+}
+
+.css_left_menu_blue ul li h6, .css_left_menu_blue ul li cite {
+        font-weight:normal;
+        font-size:11px;
+        padding-bottom:5px;
+}
+
+.css_left_menu_blue ul li h6 a, .css_left_menu_blue ul li cite a{
+        color:#0c53a8;
+        text-decoration:underline;
+}
+
+.css_left_menu_blue ul li h6 a:hover, .css_left_menu_blue ul li cite a:hover{
+        color:#0c53a8;
+        text-decoration:none;
+}
+
+.css_left_menu_blue.css_left_menu_blue_faq {
+        padding-bottom:0px;
+        margin-bottom:17px;
+        width:186px;
+}
+
+.css_left_menu_blue.css_left_menu_blue_faq ul{
+        padding-bottom:10px;
+}
+
+.css_left_menu_blue.css_left_menu_blue_faq h6,
+.css_left_menu_blue.css_left_menu_blue_faq cite {
+        padding-bottom:9px;
+        color:#000000;
+}
+
+.css_left_menu_blue.css_left_menu_blue_faq h6 a, .css_left_menu_blue.css_left_menu_blue_faq cite a{
+        color:#0c53a8;
+}
+
+.css_left_menu_blue.css_left_menu_blue_faq h6 a:hover, .css_left_menu_blue.css_left_menu_blue_faq cite a:hover {
+        color:#0c53a8;
+        text-decoration:none;
+}
+
+.css_left_menu_title_1 {
+        font-size:11px;
+        color:#666666;
+        padding-bottom:9px;
+        font-weight:bold;
+        position:relative;
+        left:9px;
+        padding-top:13px;
+}
+
+/*-- Block / Content container / FAQ block [strict 186x406]
+--------------------------------------------------------*/
+
+.css_faq_text_block {
+        position:relative;
+        width:186px;
+        height:406px;
+        overflow:hidden;
+        margin:0px;
+        padding:0px;
+}
+
+/*-- Block / Conact phone
+--------------------------------------------------------*/
+
+.css_contact_phone {
+        padding-left:39px;
+        padding-top:0px;
+        padding-bottom:15px;
+}
+
+.css_contact_phone span {
+        background-image:url('/i/li_4.gif');
+        background-repeat:no-repeat;
+        background-position:0px 7px;
+        display:block;
+        padding-left:16px;
+        font-size:10px;
+}
+
+.css_contact_phone a {
+        color:#133f7a;
+}
+
+.css_contact_phone a:hover {
+        color:#c71444;
+}
+
+/*-- Block / Link on Nissan
+--------------------------------------------------------*/
+
+.css_link_on_nissan a img{
+        border:0px;
+        margin-left:74px;
+}
+
+/*-- Block / Service links
+--------------------------------------------------------*/
+
+.css_service_links {
+        position:absolute;
+        text-align:right;
+        width:802px;
+        overflow:hidden;
+        top:0px;
+        right:13px;
+        border-bottom:3px solid #c71444;
+        padding-top:4px;
+        padding-bottom:8px;
+        font-size:10px;
+}
+
+.css_service_links a{
+        background-image:url('/i/li.gif');
+        background-repeat:no-repeat;
+        background-position:0px 7px;
+        margin-right:10px;
+        padding-left:16px;
+}
+
+.css_service_links a.css_sl_no_bullit{
+        background-image:none;
+        padding-left:0px;
+}
+
+/*-- Block / Text page
+--------------------------------------------------------*/
+
+.css_text_page {
+        padding-left:19px;
+        font-size:12px;
+        padding-bottom:20px;
+}
+
+/*-- Block / Single employee page
+--------------------------------------------------------*/
+
+.css_employee_page {
+        padding-left:19px;
+        font-size:11px;
+        font-family:tahoma;
+        line-height:150%;
+        padding-bottom:20px;
+        color:#000000;
+}
+
+.css_employees_page {
+        padding-left:19px;
+        font-size:11px;
+        font-family:tahoma;
+        line-height:150%;
+        padding-bottom:100px;
+        color:#000000;
+}
+
+.css_employee_page h2, .css_employee_page p.p_h2 {
+        font-family:verdana;
+}
+
+.css_employee_page .css_image_left, .css_employee_page .css_image_right, .css_employees_page .css_image_left, .css_employees_page .css_image_right  {
+        margin-right:15px;
+        margin-top:4px;
+}
+
+.css_diplomas {
+        clear:both;
+        width:470px;
+        position:relative;
+        padding-bottom:11px;
+}
+
+.css_diplomas span {
+        display:block;
+        padding-bottom:3px;
+}
+
+.css_diplomas img {
+        border:1px solid #cccccc;
+        margin-right:6px;
+}
+
+.css_return a {
+        text-decoration:underline;
+        color:#ce0e3f;
+}
+
+.css_return a:hover {
+        text-decoration:none;
+        color:#ce0e3f;
+}
+
+.css_employee_short_info {
+        font-size:11px;
+        line-height:150%;
+        display:block;
+        padding-bottom:2px;
+        font-family:verdana;
+        position:relative;
+        left:-4px;
+        padding-to:
+}
+
+.css_employee_short_info strong {
+        display:block;
+        font-size:11px;
+}
+
+.css_employee_short_info strong a{
+        text-decoration:underline;
+        color:#ce0e3f;
+}
+
+.css_employee_short_info strong a:hover {
+        text-decoration:none;
+        color:#ce0e3f;
+}
+
+.css_employee_short_info .css_esi_position {
+        font-size:11px;
+        color:#666666;
+        display:block;
+        position:relative;
+        margin-top:-3px;
+}
+
+.css_employee_short_info .css_esi_contacts {
+        font-size:10px;
+        color:#666666;
+        display:block;
+        line-height:13px;
+        padding-top:0px;
+}
+
+.css_employee_short_info .css_esi_contacts .css_red {
+        color:#ce0e3f;
+}
+
+.css_employee_short_info .css_esi_mail {
+        display:block;
+        padding-top:8px;
+        padding-bottom:4px;
+}
+
+
+.css_employee_short_info .css_esi_mail img {
+        border-width:0px;
+}
+
+.css_ep_title {
+        background-image:url('/i/department_bg.gif');
+        background-repeat:repeat-y;
+        background-position:left top;
+        position:relative;
+        width:100%;
+        overflow:hidden;
+        margin-bottom:10px;
+}
+
+.css_ep_title h5, .css_ep_title p {
+        background-image:url('/i/department_1.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        background-color:#edeeef;
+        position:relative;
+        width:100%;
+        overflow:hidden;
+        padding-top:6px;
+        padding-bottom:0px;
+}
+
+.css_ep_title h5 strong, .css_ep_title p strong {
+        background-image:url('/i/department_2.gif');
+        background-repeat:no-repeat;
+        background-position:left bottom;
+        position:relative;
+        width:100%;
+        overflow:hidden;
+        padding-bottom:7px;
+        padding-left:10px;
+        padding-right:10px;
+        display:block;
+        text-transform:uppercase;
+        font-size:11px;
+}
+
+.css_ep_title h5 strong span, .css_ep_title p strong span {
+        background-image:url('/i/department_arrow.gif');
+        background-repeat:no-repeat;
+        background-position:right -138px;
+        display:block;
+        float:left;
+        padding-right:13px;
+}
+
+.css_ep_title.css_active  h5 strong span, .css_ep_title.css_active p strong span {
+        background-position:right 4px;
+}
+
+.css_ep_title h5 strong span a, .css_ep_title p strong span a {
+        color:#666666;
+        text-decoration:none;
+        display:block;
+        float:left;
+        border-bottom:1px dashed #666666;
+        line-height:15px;
+}
+
+.css_ep_title h5 strong span a:hover, .css_ep_title p strong span a:hover {
+        color:#ce0e3f;
+        text-decoration:none;
+        display:block;
+        float:left;
+        border-bottom:1px dashed #ce0e3f;
+        line-height:15px;
+}
+
+.css_ep_block {
+        padding-top:10px;
+        padding-bottom:40px;
+        width:100%;
+        clear:both;
+        overlow:hidden;
+        position:relative;
+        display:none;
+}
+
+.css_ep_block.css_active {
+        display:block;
+}
+
+.css_ep_block .css_employee_short_info {
+        padding-top:3px;
+}
+
+.css_ep_block .css_ep_big {
+        width:496px;
+        clear:both;
+        overlow:hidden;
+        position:relative;
+        display:block;
+}
+
+.css_ep_block table {
+        border-top:5px solid white;
+        width:100%;
+        clear:both;
+}
+
+.css_ep_block table td{
+        padding:5px;
+}
+
+.css_ep_block .css_ep_small .css_employee_short_info strong {
+        font-size:10px;
+        color:#666666;
+        line-height:10px;
+        padding-top:3px;
+        padding-bottom:2px;
+        font-family:verdana;
+}
+
+.css_ep_block .css_ep_small .css_employee_short_info span.css_esi_position {
+        font-size:10px;
+        font-family:tahoma;
+}
+
+.css_ep_block .css_ep_small .css_employee_short_info span.css_esi_contacts {
+        font-size:9px;
+        font-family:tahoma;
+}
+
+
+/*-- Block / New cars
+--------------------------------------------------------*/
+
+.css_new_cars {
+        padding-left:19px;
+        padding-bottom:20px;
+}
+
+.css_h4_bar {
+        background-image:url('/i/h4_bar.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        background-color:#eeebeb;
+        position:relative;
+        width:100%;
+        overflow:hidden;
+        font-family:verdana;
+        font-size:11px;
+        color:#cc0033;
+        margin-bottom:16px;
+        padding-bottom:0px;
+}
+
+.css_h4_bar span {
+        background-image:url('/i/h4_bar_2.gif');
+        background-repeat:no-repeat;
+        background-position:left bottom;
+        position:relative;
+        display:block;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:7px;
+        padding-bottom:8px;
+}
+
+.css_h4_bar a{
+        color:#cc0033;
+}
+
+.css_h4_bar a:hover {
+        color:#cc0033;
+        text-decoration:none;
+}
+
+.css_cars_table {
+        position:relative;
+        width:100%;
+}
+
+.css_cars_table td {
+        padding-bottom:43px;
+        padding-left:8px;
+        padding-right:10px;
+}
+
+.css_cars_table td a{
+        display:block;
+        padding:0px;
+        text-decoration:none;
+        color:#ce0e3f;
+}
+
+.css_cars_table td a img {
+        border:0px;
+        display:block;
+        margin-top:2px;
+}
+
+.css_cars_table td a span{
+        margin-left:16px;
+        text-decoration:underline;
+        color:#ce0e3f;
+}
+
+.css_cars_table td a:hover span{
+        text-decoration:none;
+}
+
+.css_single_car_info_1 {
+        width:100%;
+        margin-bottom:17px;
+}
+
+.css_single_car_info_1 .css_sci_left_part {
+        padding-left:11px;
+        padding-top:18px;
+        padding-right:10px;
+        width:100%;
+        font-size:11px;
+}
+
+.css_single_car_info_1 .css_sci_left_part p {
+        padding-bottom:12px;
+}
+
+.css_single_car_info_1 .css_sci_left_part {
+        padding-left:11px;
+        padding-top:18px;
+}
+
+.css_single_car_info_1 a {
+        color:#cc0033;
+}
+
+.css_single_car_info_1 a:hover {
+        color:#cc0033;
+        text-decoration:none;
+}
+
+.css_single_car_info_1 img {
+        border:0px;
+}
+
+.css_single_car_info_1 .css_sci_right_part a{
+        background-image:url('/i/li_5.gif');
+        background-repeat:no-repeat;
+        background-position:5px 6px;
+        font-size:9px;
+        padding-left:27px;
+        font-family:tahoma;
+}
+
+.css_single_car_info_1 .css_sci_right_part div {
+        padding-bottom:2px;
+}
+
+.css_single_car_info_1 .css_sci_right_part div a{
+        background-image:none;
+        padding-left:0px;
+}
+
+/*-- Block / Used cars
+--------------------------------------------------------*/
+
+.css_used_cars {
+        padding-left:19px;
+        padding-bottom:33px;
+}
+
+.css_table_of_used_cars {
+        width:100%;
+}
+
+.css_used_cars .css_touc_header td{
+        background-color:#eeebeb;
+        text-align:center;
+        font-family:verdana;
+        font-size:10px;
+        padding-left:0px;
+        padding-right:0px;
+}
+
+.css_used_cars .css_touc_header .css_touc_header_left {
+        background-image:url('/i/used_cars_table.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+}
+
+.css_used_cars .css_touc_header .css_touc_header_right {
+        background-image:url('/i/used_cars_table_2.gif');
+        background-repeat:no-repeat;
+        background-position:right top;
+}
+
+.css_used_cars .css_touc_header div{
+        background-image:url('/i/used_cars_table_4.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        height:22px;
+        padding-top:8px;
+        line-height:10px;
+        position:relative;
+        overflow:hidden;
+        text-align:center;
+        padding-left:0px;
+        padding-right:0px;
+}
+
+.css_used_cars .css_touc_header div a{
+        background-image:url('/i/sort_down.gif');
+        background-repeat:no-repeat;
+        background-position:0px 5px;
+        padding-left:6px;
+        text-decoration:none;
+        font-weight:bold;
+        color:#ce0e3f;
+}
+
+.css_used_cars .css_touc_header div a.css_sort_up{
+        background-image:url('/i/sort_up.gif');
+}
+
+.css_used_cars .css_touc_header div a:hover {
+        text-decoration:none;
+        color:#ff1f58;
+}
+
+.css_used_cars .css_touc_header div span {
+        display:block;
+        text-align:center;
+        color:#666666;
+        position:relative;
+        top:-2px;
+        left:2px;
+}
+
+.css_used_cars .css_touc_line td {
+        background-image:url('/i/used_cars_table_3.gif');
+        background-repeat:no-repeat;
+        background-position:-4px 100%;
+        font-size:10px;
+        font-family:verdana;
+        color:#333333;
+        text-align:center;
+        padding-top:5px;
+        padding-left:4px;
+        padding-right:4px;
+        padding-bottom:4px;
+}
+
+.css_used_cars .css_touc_line.css_touc_line_color td {
+        background-color:#f6f5f5;
+}
+
+.css_used_cars .css_touc_line .css_touc_line_left {
+        border-left:7px solid white;
+}
+
+.css_used_cars .css_touc_line .css_touc_line_right {
+        white-space:nowrap;
+        border-right:7px solid white;
+}
+
+.css_used_cars .css_touc_line a {
+        color:#333333;
+        display:block;
+        text-align:right;
+}
+
+.css_used_cars .css_touc_line a:hover {
+        text-align:right;
+}
+
+.css_used_cars .css_touc_line .css_touc_color {
+        margin-left:auto;
+        margin-right:auto;
+        position:relative;
+        width:16px;
+        height:16px;
+        margin-top:-4px;
+        bottom:-1px;
+        cursor:default;
+}
+
+/*-- Block / Select gadgets
+--------------------------------------------------------*/
+
+.css_select_gadgets  {
+        background-image:url('/i/h4_bar.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        background-color:#eeebeb;
+        position:relative;
+        width:471px;
+        overflow:hidden;
+        padding-bottom:0px;
+        margin-bottom:15px;
+}
+
+.css_select_gadgets  .css_sg_bottom {
+        background-image:url('/i/h4_bar_2.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        position:relative;
+        height:9px;
+        overflow:hidden;
+        width:471px;
+}
+
+.css_select_gadgets  .css_sg_1 {
+        padding-left:23px;
+        padding-top:5px;
+}
+
+.css_select_gadgets  .css_sg_1 select {
+        width:168px;
+}
+
+.css_select_gadgets  .css_sg_2 {
+        padding-left:31px;
+        padding-top:5px;
+}
+
+.css_select_gadgets  .css_sg_2select {
+        width:228px;
+}
+
+.css_select_gadgets  label {
+        display:block;
+        font-size:10px;
+        font-weight:bold;
+        padding-bottom:2px;
+        padding-left:2px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search  {
+        margin-bottom:20px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search  label {
+        color:#575757;
+        font-size:11px;
+        padding-left:0px;
+        padding-bottom:3px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search  label span {
+        font-weight:normal;
+        font-size:10px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search   .css_sg_1 {
+        padding-left:16px;
+        padding-top:5px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search  .css_sg_2 {
+        padding-left:22px;
+        padding-top:5px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search  .css_sg_3 {
+        text-align:right;
+        padding-top:9px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search .css_sgfs_1 {
+        width:167px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search .css_sgfs_2 {
+        width:242px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search textarea {
+        overflow:auto;
+        height:109px;
+        width:236px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search .css_sgfs_3 {
+        padding-top:25px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search .css_sgfs_3 input {
+        position:relative;
+        top:1px;
+}
+
+.css_select_gadgets.css_select_gadgets_faq_search .css_sgfs_3 label {
+        display:inline;
+        padding-right:2px;
+}
+
+.css_sg_h4 {
+        padding-left:25px;
+        color:#636363;
+        font-size:11px;
+        padding-bottom:5px;
+}
+
+.css_sg_h4 a{
+        color:#cc0033;
+}
+
+.css_sg_h4 a:hover{
+        text-decoration:none;
+        color:#cc0033;
+}
+
+.css_list_of_gadgets{
+        width:423px;
+        margin-left:25px;
+        border-top:1px solid #eeebeb;
+        padding-bottom:16px;
+}
+
+.css_list_of_gadgets a{
+        background-image:url('/i/li_7.gif');
+        background-repeat:no-repeat;
+        background-position:100% center;
+        display:block;
+        border-bottom:1px solid #eeebeb;
+        color:#0c53a8;
+        padding-right:20px;
+        padding-left:6px;
+        padding-top:2px;
+        padding-bottom:4px;
+}
+
+.css_list_of_gadgets a:hover {
+        text-decoration:none;
+        color:#0c53a8;
+}
+
+.css_list_of_gadgets .css_log_color {
+        background-color:#f6f5f5;
+}
+
+/*-- Block / Page navigator
+--------------------------------------------------------*/
+
+.css_page_navigator {
+        display:block;
+        clear:both;
+        width:100%;
+        text-align:center;
+        padding-top:3px;
+        padding-bottom:47px;
+}
+
+.css_page_navigator a {
+        font-weight:bold;
+        text-decoration:underline;
+        color:#ce0e3f;
+}
+
+.css_page_navigator a:hover {
+        text-decoration:none;
+        color:#666666;
+}
+
+.css_page_navigator span {
+        padding-left:2px;
+        padding-right:2px;
+        font-weight:normal;
+        color:#666666;
+}
+
+.css_page_navigator .css_pn_text {
+        color:#ce0e3f;
+        font-weight:normal;
+}
+
+.css_page_navigator .css_pn_text a{
+        font-weight:normal;
+}
+
+/*-- Block / Center block with folders
+--------------------------------------------------------*/
+
+.css_center_block_with_folders {
+        background-image:url('/i/center_folder_bg.gif');
+        background-repeat:repeat-y;
+        background-position:left top;
+        position:relative;
+        z-index:3;
+        width:100%;
+        overflow:hidden;
+        margin-left:6px;
+        margin-bottom:14px;
+}
+
+.css_center_block_with_folders .css_cbwf_menu {
+        background-image:url('/i/center_folder_top.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        position:relative;
+        width:100%px;
+        height:29px;
+        overflow:hidden;
+}
+
+.css_center_block_with_folders .css_cbwf_menu img {
+        width:105px;
+        height:22px;
+        border:0px;
+        float:left;
+}
+
+.css_center_block_with_folders .css_cbwf_menu a{
+        display:block;
+        width:105px;
+        height:22px;
+        float:left;
+        margin-right:1px;
+        position:relative;
+        overflow:hidden;
+}
+
+.css_center_block_with_folders .css_cbwf_menu .css_cbwf_1 {
+        background-image:url('/i/b_1.gif');
+        background-repeat:no-repeat;
+}
+
+.css_center_block_with_folders .css_cbwf_menu .css_cbwf_2 {
+        background-image:url('/i/b_2.gif');
+        background-repeat:no-repeat;
+}
+
+.css_center_block_with_folders .css_cbwf_menu .css_cbwf_3 {
+        background-image:url('/i/b_3.gif');
+        background-repeat:no-repeat;
+}
+
+.css_center_block_with_folders .css_cbwf_menu .css_cbwf_4 {
+        background-image:url('/i/b_4.gif');
+        background-repeat:no-repeat;
+}
+
+.css_center_block_with_folders .css_cbwf_menu .css_cbwf_5 {
+        background-image:url('/i/b_5.gif');
+        background-repeat:no-repeat;
+}
+
+.css_center_block_with_folders .css_cbwf_menu .css_cbwf_6 {
+        background-image:url('/i/b_6.gif');
+        background-repeat:no-repeat;
+}
+
+.css_center_block_with_folders .css_cbwf_menu a.css_pressed{
+        background-position:0px -22px;
+}
+
+.css_center_block_with_folders .css_cbwf_bottom {
+        background-image:url('/i/center_folder_bottom.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        position:relative;
+        width:100%;
+        height:9px;
+        overflow:hidden;
+        clear:both;
+}
+
+.css_center_block_with_folders .css_cbwf_block_1, .css_center_block_with_folders .css_cbwf_block_2, .css_center_block_with_folders .css_cbwf_block_3, .css_center_block_with_folders .css_cbwf_block_4, .css_center_block_with_folders .css_cbwf_block_5, .css_center_block_with_folders .css_cbwf_block_6 {
+        padding-left:11px;
+        padding-right:20px;
+        padding-bottom:18px;
+        padding-top:18px;
+        clear:both;
+        position:relative;
+        overflow:hidden;
+        display:none;
+
+}
+
+.css_center_block_with_folders .css_cbwf_block_1.css_active, .css_center_block_with_folders .css_cbwf_block_2.css_active, .css_center_block_with_folders .css_cbwf_block_3.css_active, .css_center_block_with_folders .css_cbwf_block_4.css_active, .css_center_block_with_folders .css_cbwf_block_5.css_active, .css_center_block_with_folders .css_cbwf_block_6.css_active {
+        display:block;
+}
+
+.css_center_block_with_folders .css_cbwf_block_1 h4, .css_center_block_with_folders .css_cbwf_block_2 h4, .css_center_block_with_folders .css_cbwf_block_3 h4, .css_center_block_with_folders .css_cbwf_block_4 h4, .css_center_block_with_folders .css_cbwf_block_5 h4, .css_center_block_with_folders .css_cbwf_block_6 h4, .css_center_block_with_folders .css_cbwf_block_1 cite, .css_center_block_with_folders .css_cbwf_block_2 cite, .css_center_block_with_folders .css_cbwf_block_3 cite, .css_center_block_with_folders .css_cbwf_block_4 cite, .css_center_block_with_folders .css_cbwf_block_5 cite, .css_center_block_with_folders .css_cbwf_block_6 cite {
+
+        color:#636363;
+        font-family:verdana;
+        font-size:11px;
+        padding-bottom:9px;
+        font-weight:bold;
+}
+
+.css_center_block_with_folders .css_cbwf_block_2 h4.css_blue, .css_center_block_with_folders .css_cbwf_block_2 cite.css_blue {
+        color:#0c53a8;
+        padding-top:9px;
+        padding-bottom:17px;
+        font-size: 12px;
+        font-weight:bold;
+}
+
+.css_model_list {
+        width:100%;
+}
+
+.css_model_list .css_ml_model {
+        background-image:url('/i/center_folder_line.gif');
+        background-repeat:repeat-x;
+        background-position:left bottom;
+        width:720px;
+        color:#636363;
+}
+
+.css_model_list .css_ml_price {
+        white-space:nowrap;
+        color:#333333;
+        padding-left:4px;
+}
+
+.css_model_list td{
+        vertical-align:bottom;
+        padding-top:4px;
+        font-size:11px;
+        hightlight-color:white;
+}
+
+.css_model_list span{
+        background-color:#ffffff;
+        padding-right:2px;
+}
+
+.css_model_list td a{
+        color:#0c53a8;
+}
+
+.css_model_list td a:hover {
+        color:#cc0033;
+}
+
+/*-- Block / Color table
+--------------------------------------------------------*/
+
+.css_color_table {
+        width:423px;
+        margin-bottom:20px;
+}
+
+.css_color_table .css_ct_left {
+        width:210px;
+}
+
+.css_color_table .css_ct_left div{
+        background-image:url('/i/color_bg.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        width:20px;
+        height:20px;
+        position:relative;
+        overflow:hidden;
+        float:left;
+        margin-right:20px;
+        margin-bottom:20px;
+}
+
+.css_color_table .css_ct_left div img{
+        border:1px solid #ffffff;
+}
+
+.css_color_table .css_ct_left div a{
+        border:1px solid #e4e4e4;
+        display:block;
+}
+
+.css_color_table .css_ct_right {
+        text-align:right;
+        padding-top:30px;
+}
+
+/*-- Block / Small model image block
+--------------------------------------------------------*/
+
+.css_model_image_block {
+        width: 100%;
+        display: block;
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 30px;
+}
+
+.css_small_model_image_block {
+        width: 380px;
+        display: block;
+        margin: 0px auto;
+}
+
+.css_small_model_image_block img{
+        border:1px solid #000000;
+        margin-left:1px;
+        margin-bottom:1px;
+        float:left;
+}
+
+/*-- Block / Single big image [strictly 600x450]
+--------------------------------------------------------*/
+
+.css_single_big_image {
+        z-index:10;
+        position:absolute;
+        left:50%;
+        margin-left:-352px;
+        top:155px;
+        width:640px;
+        height:490px;
+        overflow:hidden;
+        display:none;
+}
+
+.css_single_big_image div{
+        background-image:url('/i/big_image_bg.png');
+        background-repeat:no-repeat;
+        background-position:left top;
+        z-index:1;
+        position:absolute;
+        left:0px;
+        top:0px;
+        width:640px;
+        height:490px;
+}
+
+.css_single_big_image img{
+        position:absolute;
+        z-index:1;
+        left:20px;
+        top:20px;
+}
+
+.css_single_big_image a{
+        position:absolute;
+        z-index:2;
+        right:20px;
+        top:10px;
+        background-color:#ffffff;
+        display:block;
+        padding:10px;
+        padding-right:0px;
+        width:auto;
+        height:auto;
+}
+
+/*-- Block / Full model info
+--------------------------------------------------------*/
+
+.css_full_model_info_title {
+        position:relative;
+        width:100%;
+        margin-left:21px;
+        padding-bottom:26px;
+}
+
+.css_full_model_info_title h4, .css_full_model_info_title cite {
+        color:#636363;
+        font-size:11px;
+        width:269px;
+        font-weight:bold;
+        padding-bottom:0px;
+}
+
+.css_full_model_info_title h4 strong, .css_full_model_info_title cite strong{
+        color:#cc0033;
+}
+
+.css_full_model_info_title a {
+        background-image:url('/i/icon_detales.gif');
+        background-repeat:no-repeat;
+        background-position:right 3px;
+        position:absolute;
+        right:0px;
+        top:13px;
+        font-family:tahoma;
+        font-size:10px;
+        padding-right:13px;
+        color:#0c53a8;
+}
+
+.css_full_model_info_title a:hover {
+        text-decoration:none;
+        color:#0c53a8;
+}
+
+.css_full_model_table {
+        width:100%;
+        padding-left:20px;
+}
+
+.css_full_model_table td {
+        background-image:url('/i/table_border.gif');
+        background-repeat:repeat-y;
+        background-position:left top;
+        background-color:#fafafa;
+        vertical-align:middle;
+        text-align:center;
+        border-bottom:1px solid #cbcbcb;
+}
+
+.css_full_model_table .css_fmt_left {
+        background-image:none;
+        background-color:#ffffff;
+        width:45%;
+        color:#333333;
+        font-size:10px;
+        font-family:tahoma;
+        text-align:left;
+        padding:3px;
+        padding-left:0px;
+        vertical-align:top;
+}
+
+.css_full_model_table .css_fmt_style_1 {
+        background-color:#f6f6f6;
+}
+
+.css_full_model_table .css_fmt_header td {
+        text-align:center;
+        font-family:tahoma;
+        font-size:10px;
+        color:#636363;
+        width:11%;
+        padding-bottom:4px;
+        vertical-align:top;
+        text-align:center;
+}
+
+.css_full_model_table .css_fmt_header .css_fmt_left {
+        width:40%;
+        vertical-align:top;
+        text-align:left;
+}
+
+.css_full_model_table .css_fmt_header td strong {
+        background-image:url('/i/rt_2.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        display:block;
+        color:#0c53a8;
+        padding-top:4px;
+}
+
+.css_full_model_table .css_fmt_header td div {
+        background-image:url('/i/lt_2.gif');
+        background-repeat:no-repeat;
+        background-position:right top;
+}
+
+.css_full_model_table .css_fmt_footer_1 td, .css_full_model_table .css_fmt_footer_1 .css_fmt_left {
+        text-align:center;
+        padding-top:4px;
+        padding-bottom:4px;
+        color:#cc0033;
+        font-size:10px;
+        font-family:tahoma;
+        white-space:nowrap;
+        height:19px;
+        border-bottom-width:0px;
+}
+
+.css_full_model_table .css_fmt_footer_1 .css_fmt_left {
+        color:#333333;
+        vertical-align:middle;
+}
+
+.css_full_model_table .css_fmt_footer_2 td, .css_full_model_table .css_fmt_footer_2 .css_fmt_left {
+        background-color:#ffffff;
+        background-image:none;
+        padding-top:15px;
+        border-bottom-width:0px;
+}
+
+.css_full_model_table img {
+        border:0px;
+}
+
+/*-- Block / Content container / Search used car
+--------------------------------------------------------*/
+
+.css_search_used_car {
+        width:210px;
+        padding-right:13px;
+        position:relative;
+        top:-6px;
+}
+
+.css_search_used_car h4, .css_search_used_car cite {
+        color:#ce0e3f;
+        font-size:14px;
+        font-weight:normal;
+        background-image:url('/i/li_5.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        padding-left:19px;
+        padding-bottom:13px;
+}
+
+.css_search_used_car form {
+        background-image:url('/i/search_1.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        background-color:#f0f0f0;
+        position:relative;
+        width:204px;
+        overflow:hidden;
+        padding-top:10px;
+        margin-left:19px;
+        margin-bottom:33px;
+}
+
+form .css_suc_form_bottom {
+        background-image:url('/i/search_2.gif');
+        background-repeat:no-repeat;
+        background-position:left bottom;
+        position:relative;
+        height:14px;
+        overflow:hidden;
+}
+
+.css_search_used_car div {
+        padding-left:20px;
+}
+
+.css_search_used_car table {
+        margin-left:20px;
+}
+
+.css_search_used_car select {
+        margin-bottom:12px;
+        width:77px;
+}
+
+.css_search_used_car td {
+        padding-right:13px;
+}
+
+.css_search_used_car div select {
+        width:167px;
+}
+
+.css_search_used_car label {
+        font-weight:bold;
+        font-size:10px;
+        font-family:verdana;
+        display:block;
+        padding-bottom:3px;
+        color:#333333;
+}
+
+.css_search_used_car label span {
+        font-weight:normal;
+}
+
+.css_used_car_complex_info {
+        font-weight:normal;
+}
+
+/*-- Block / Used car
+--------------------------------------------------------*/
+
+.css_used_cars .css_h4_bar {
+        margin-bottom:13px;
+}
+
+.css_used_car_complex_info {
+        width:470px;
+}
+
+.css_used_car_complex_info .css_ucci_part_1 td {
+        padding-bottom:18px;
+        font-size:11px;
+        line-height:150%;
+        font-family:verdana;
+        color:#333333;
+        padding-left:10px;
+}
+
+.css_used_car_complex_info .css_ucci_part_1 .css_ucci_right {
+        padding-top:3px;
+        text-align:right;
+}
+
+.css_used_car_complex_info .css_ucci_part_1 .css_ucci_left {
+        width:100%;
+}
+
+.css_used_car_complex_info .css_ucci_part_1 .css_ucci_right img {
+        position:relative;
+        left:-1px;
+}
+
+.css_used_car_complex_info .css_ucci_part_2 td {
+        padding-bottom:29px;
+        font-size:10px;
+        line-height:140%;
+        font-family:verdana;
+        color:#333333;
+        padding-left:10px;
+}
+
+.css_used_car_complex_info .css_ucci_part_2 strong {
+        font-size:11px;
+        display:block;
+        width:252px;
+}
+
+.css_used_car_complex_info .css_ucci_part_2 .css_ucci_right {
+        text-align:right;
+}
+
+.css_used_car_complex_info .css_ucci_part_2 .css_ucci_right img {
+        border:0px;
+        margin-bottom:6px;
+        position:relative;
+        left:-1px;
+}
+
+.css_used_cars .css_return {
+        text-align:center;
+}
+
+/*-- Block / Officer
+--------------------------------------------------------*/
+
+.css_left_menu_blue.css_faq_oficer {
+        text-align:center;
+        margin-bottom:27px;
+        position:relative;
+        z-index:2;
+        margin-top:-12px;
+        margin-left:7px;
+        color:#000000;
+        font-size:11px;
+}
+
+.css_left_menu_blue.css_faq_oficer p{
+        padding-bottom:10px;
+}
+
+.css_left_menu_blue.css_faq_oficer p.css_red{
+        color:#ce0e3f;
+}
+
+.css_left_menu_blue.css_faq_oficer a{
+        font-weight:bold;
+        color:#ce0e3f;
+}
+
+.css_left_menu_blue.css_faq_oficer a:hover {
+        text-decoration:none;
+        color:#ce0e3f;
+}
+
+/*-- Block / Test drive register form
+--------------------------------------------------------*/
+
+.css_test_drive_register_form {
+        background-color:#eeebeb;
+}
+
+.css_test_drive_register_form table{
+        width:100%;
+}
+
+.css_test_drive_register_form td{
+        border-bottom:10px solid white;
+        padding-right:7px;
+        padding-top:10px;
+        padding-bottom:8px;
+}
+
+.css_test_drive_register_form label{
+        display:block;
+        color:#ce0e3f;
+        font-size:10px;
+        font-weight:bold;
+        padding-bottom:4px;
+}
+
+.css_test_drive_register_form .css_tdrf_num label{
+        padding-left:18px;
+}
+
+.css_test_drive_register_form .css_tdrf_data {
+        width:100%;
+}
+
+.css_test_drive_register_form .css_tdrf_2 {
+        width:202px;
+        color:#666666;
+        font-size:10px;
+}
+
+.css_test_drive_register_form textarea {
+        width:404px;
+        height:89px;
+        overflow:auto;
+        color:#666666;
+        font-size:10px;
+}
+
+.css_test_drive_register_form select {
+        width:160px;
+        color:#666666;
+        font-size:10px;
+}
+
+.css_test_drive_register_form .css_tdrf_button td {
+        background-color:#ffffff;
+        padding-right:5px;
+        padding-top:0px;
+}
+
+.css_test_drive_register_form .css_tdrf_button input {
+        float:left;
+}
+
+.css_test_drive_register_form .css_tdrf_button td p{
+        float:right;
+        color:#666666;
+        font-size:10px;
+        position:relative;
+        top:7px;
+}
+
+.css_test_drive_register_form .css_tdrf_button td p span {
+        color:#ce0e3f;
+}
+
+/*-- Block / record for service form
+--------------------------------------------------------*/
+
+.css_record4service_form {
+        background-color:#eeebeb;
+}
+
+.css_record4service_form table{
+        width:100%;
+}
+
+.css_record4service_form td{
+        border-bottom:10px solid white;
+        padding-right:7px;
+        padding-top:10px;
+        padding-bottom:8px;
+}
+
+.css_record4service_form label{
+        display:block;
+        color:#ce0e3f;
+        font-size:10px;
+        font-weight:bold;
+        padding-bottom:4px;
+}
+
+.css_record4service_form .css_rsf_num label{
+        padding-left:18px;
+}
+
+.css_record4service_form .css_rsf_data {
+        width:100%;
+}
+
+.css_record4service_form .css_rsf_2 {
+        width:202px;
+        color:#666666;
+        font-size:10px;
+}
+
+.css_record4service_form textarea {
+        width:404px;
+        height:89px;
+        overflow:auto;
+        color:#666666;
+        font-size:10px;
+}
+
+.css_record4service_form select {
+        width:160px;
+        color:#666666;
+        font-size:10px;
+}
+
+.css_record4service_form .css_rsf_short{
+        width:50px;
+        color:#666666;
+        font-size:10px;
+}
+
+.css_record4service_form .css_rsf_medium{
+        width:80px;
+        color:#666666;
+        font-size:10px;
+}
+
+.css_record4service_form .css_rsf_button td {
+        background-color:#ffffff;
+        padding-right:5px;
+        padding-top:0px;
+}
+
+.css_record4service_form .css_rsf_button input {
+        float:left;
+}
+
+.css_record4service_form .css_rsf_button td p{
+        float:right;
+        color:#666666;
+        font-size:10px;
+        position:relative;
+        top:7px;
+}
+
+.css_record4service_form .css_rsf_button td p span {
+        color:#ce0e3f;
+}
+
+
+/*-- Block / FAQ blocks
+--------------------------------------------------------*/
+
+.css_faq_blocks {
+        background-image:url('/i/faq_block_3.gif');
+        background-repeat:repeat-y;
+        background-position:left top;
+        width:473px;
+        overflow:hidden;
+        position:relative;
+        left:-1px;
+        margin-bottom:10px;
+}
+
+.css_faq_blocks .css_faq_blocks_top {
+        background-image:url('/i/faq_block_1.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        width:473px;
+        height:6px;
+        overflow:hidden;
+}
+
+.css_faq_blocks .css_faq_blocks_bottom {
+        background-image:url('/i/faq_block_2.gif');
+        background-repeat:no-repeat;
+        background-position:left top;
+        width:473px;
+        height:6px;
+        overflow:hidden;
+}
+
+.css_faq_blocks .css_faq_blocks_content {
+        padding-left:17px;
+        padding-right:3px;
+        font-size:11px;
+        color:#000000;
+        font-family:verdana;
+}
+
+.css_faq_blocks .css_faq_blocks_content p {
+        padding-bottom:3px;
+}
+
+.css_faq_blocks .css_faq_blocks_content .css_fbc_title {
+        padding-bottom:3px;
+}
+
+.css_faq_blocks .css_faq_blocks_content .css_fbc_title strong  {
+        color:#ce0e3f;
+}
+
+.css_faq_blocks .css_faq_blocks_content .css_fbc_title strong  span {
+        font-size:10px;
+}
+
+.css_faq_blocks .css_faq_blocks_content .css_fbc_text_1 {
+        color:#666666;
+}
+
+.css_faq_blocks .css_faq_blocks_content .css_fbc_text_2 {
+        color:#000000;
+}
+
+.css_faq_blocks .css_faq_blocks_content  a{
+        color:#ce0e3f;
+}
+
+.css_faq_blocks .css_faq_blocks_content  a:hover{
+        text-decoration:none;
+        color:#ce0e3f;
+}
+
+/*-- Block / Footer
+--------------------------------------------------------*/
+
+.css_footer {
+        background-image:url('/i/footer_bg.gif');
+        background-repeat:no-repeat;
+        background-position:232px 0px;
+        position:relative;
+        z-index:2;
+        width:990px;
+        margin-left:auto;
+        margin-right:auto;
+        height:155px;
+        margin-top:-155px;
+}
+
+.css_footer table {
+        width:985px;
+}
+
+.css_footer .css_footer_1 {
+        width:253px;
+        vertical-align:middle;
+        padding:0px;
+}
+
+.css_footer .css_footer_1 .css_link_on_nissan {
+        width:253px;
+        position:relative;
+        overflow:hidden;
+        padding-top:20px;
+}
+
+.css_footer .css_footer_2, .css_footer .css_footer_3, .css_footer .css_footer_4 {
+        padding-top:19px;
+        padding-left:9px;
+        padding-bottom:5px;
+        padding-right:5px;
+}
+
+.css_footer .css_footer_menu {
+        padding:0px;
+        margin:0px;
+        overflow:hidden;
+}
+
+.css_footer .css_footer_menu .css_footer_2 {
+        width:225px;
+}
+
+.css_footer .css_footer_menu .css_footer_3 {
+        width:225px;
+}
+
+.css_footer .css_footer_menu .css_footer_4 {
+        width:225px;
+}
+
+.css_footer .css_footer_menu li{
+        list-style-type:none;
+        padding:0px;
+        margin:0px;
+        font-size:9px;
+        line-height:130%;
+}
+
+.css_footer .css_footer_menu li a{
+        color:#999999;
+}
+
+.css_footer .css_footer_menu li a:hover {
+        color:#c71444;
+}
+
+a.tesst {
+        color:black;
+}
+
+a:hover.tesst {
+        color:red;
+}
+
+a:visited.tesst {
+        color:green;
+}
+
+/*-- Sitemap
+--------------------------------------------------------*/
+
+.css_site_map {
+        position:relative;
+        overflow:hidden;
+        padding-bottom:12px;
+        color:#999999;
+}
+
+.css_site_map h5, .css_site_map cite {
+        background-repeat:no-repeat;
+        font-size: 1.1em;
+        font-weight:none;
+        padding-bottom:5px;
+        padding-left:35px;
+}
+
+.css_site_map ul {
+        padding:0px;
+        margin:0px;
+        display:block;
+        margin-left:45px;
+        padding-bottom:9px;
+}
+
+.css_site_map ul li {
+        padding:0px;
+        margin:0px;
+        list-style-type:none;
+        padding-left:8px;
+        padding-bottom:1px;
+        margin-bottom:1px;
+}
+
+
+
+
+#skidka {margin-top:5px;margin-bottom:5px;width:510px;text-align:center;border:1px solid #edeeef;padding:0px;border-collapse:collapse;}
+#skidka td.skidka {background-color:#C71444;padding:3px;color:#ffffff;font-weight:bold;width:40%;border:1px solid #C71444;}
+#skidka td.rub {background-color:#ffffff;padding:3px;color:#000000;font-weight:bold;text-align:center;border:1px solid #C71444;}
+#skidka td.txt {text-align:left;padding:3px;}
+
+.podpis {padding-left: 20px; font-size: 80%;}
+
+
+/*-- RSS
+--------------------------------------------------------*/
+
+.rss_pix {
+border:0px;
+vertical-align:bottom;
+margin: 0px 0px -4px 0px;
+}
+
+
+a.rss_box  {
+background:url(/i/rss_nissan.gif) left top no-repeat;
+padding-left:18px;
+vertical-align:bottom;
+}
+
+/*-- &#208;&#224;&#231;&#237;&#238;&#229;
+--------------------------------------------------------*/
+
+ul.credit {
+padding:10px;
+padding-left:0px;
+padding-top:0px;
+}
+
+ul.credit li {
+display:block;
+width:100%;
+padding:5px;
+font-weight:bold;
+background:url("/i/li_3.gif") no-repeat left center;
+padding-left:10px;
+}
+
+ul.credit li.mark {
+background:url("/i/li_3.gif") no-repeat left center #f5f5f5;
+}
+
+table.prizi_stoa {
+
+}
+
+table.prizi_stoa a {
+border:0px;
+}
+
+table.prizi_stoa img {
+border:0px;
+}
+
+#magnitola_news {border:1px solid #cdcdcd; border-collapse: collapse;}
+#magnitola_news td {border:1px solid #cdcdcd;padding:3px;}
+#magnitola_news td.zagolovok_td {background:#e2e2e2;}
+
+#ListFrame {
+border: 0px;
+width: 699px;
+height: 420px;
+}
+
+p.bold_mark {
+font-weight:bold;
+color:#C71444;
+}
+
+table#zim_shina {
+border-collapse:collapse;
+margin-bottom:5px;
+margin-top:5px;
+width:100%;
+font-size:8px;
+}
+
+table#zim_shina th {
+font-weight:bold;
+text-align:center;
+font-size:8px;
+text-align:center;
+padding:3px;
+border:1px solid #cdcdcd;
+background:#dadada;
+color:#5f5a56;
+}
+
+table#zim_shina td {
+padding:3px;
+border:1px solid #cdcdcd;
+text-align:center;
+vertical-align:middle;
+font-size:8px;
+}
+
+div.css_faq_oficer {
+width:240px;
+}
+
+.file_ico {
+background: url("/pix/for_news/korp_clientam_sm.png") no-repeat scroll left center transparent;
+    display: block;
+    float: left;
+    height: 20px;
+    padding-left: 20px;
+    width: 100%;
+line-height:20px;
+margin:10px 0;
+}
+
+.baner_by {
+margin:30px 0;
+}

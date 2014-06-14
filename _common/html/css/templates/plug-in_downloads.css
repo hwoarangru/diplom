@@ -1,0 +1,17 @@
+#specificPageContent {position:relative; top:101px; width:100%;}
+#topHeadline {position:relative; top: 4px; left: 318px; width:527px;}
+#topLineBox {position:relative; top: 0px; left: 0px; width:100%; overflow:hidden;}
+#textBox {position:relative; left:318px; width:527px; height:auto;display:block; margin-bottom: 21px;clear:both;}
+#leftText {width: 239px; height:auto;float:left; margin-bottom: 21px; *margin: 0px; margin-right: 49px;}
+#rightText {width: 239px; height:auto;float:left; margin-bottom: 21px; *margin: 0px;}
+#downloadBox {position:relative; left:282px; width:562px; height:auto;display:block;margin-bottom: 13px;clear:both;}
+#leftDownload {width: 274px; height:auto;float:left; margin-bottom: 13px; *margin: 0px;  margin-right: 14px;}
+#rightDownload {width: 274px; height:auto;float:left; margin-bottom: 13px; *margin: 0px;}
+
+a.pluginDownload {display: block;}
+a.pluginDownload img {display: inline; position: relative; float:left;}
+a.pluginDownload span.text {display: inline; position: relative;}
+a.pluginDownload span.headline {display: block; position: relative; margin-left: 36px; margin-bottom: 3px; padding-top:7px;}
+a.pluginDownload span.copytext {display: block; position: relative; margin-left: 36px;}
+a.pluginDownload span.headline img {display: inline; position: static; width: 7px; height: 11px; background-image:url("../../img/standard_elements/arrow_standard.gif"); background-repeat: no-repeat; background-position: top left; }
+a.pluginDownload:hover span.headline img {display: inline; position: static; width: 7px; height: 11px; background-image:url("../../img/standard_elements/arrow_standard.gif"); background-repeat: no-repeat; background-position: bottom left; border: 0;}

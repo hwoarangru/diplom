@@ -1,0 +1,75 @@
+.popup_outlet_box {
+	display:none;
+}
+.through{
+	color:#222269;
+	text-decoration:line-through;
+}
+.audi_navigation_sub, #audi_content_wrapper h1.flashReplaced {display:none !important;}
+#audi_content_wrapper {width:auto !important;float:none !important;}
+#audi_content {width:100% !important;font-family:Verdana, Helvetica, sans-serif;}
+
+/* OUTLET EXPERIMENT */
+.outlet_ex_title {
+	font-size:25px;
+	text-align:center;
+	line-height:25px;
+	color:#2F2F2F;
+}
+.outlet_ex_subtitle {
+	font-size:18px;
+	line-height:18px;
+	padding-top:15px;
+	text-align:center;
+	color:#2F2F2F;
+}
+
+.outlet_ex_slider_item_textBox_btn, .outlet_ex_carItem_btn, .outlet_ex_infoLine {
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+	
+	-moz-box-shadow: 0px 0px 5px #777;
+	-webkit-box-shadow: 3px 3px 3px #000;
+	box-shadow: 0px 0px 5px #777;
+    behavior: url(/bitrix/templates/.default/js/PIE.htc);
+}
+
+.outlet_ex_slider {height:260px;padding-top:20px;}
+	.outlet_ex_left_arrow, .outlet_ex_right_arrow {margin-top:70px;position:absolute;z-index:10;width:49px;height:79px;}
+	.outlet_ex_left_arrow {margin-left:-30px;background:url('images/left_arrow.png') no-repeat left top;cursor:pointer;}
+	.outlet_ex_right_arrow {margin-left:960px;background:url('images/right_arrow.png') no-repeat left top;cursor:pointer;}
+	.outlet_ex_sliderBox {width:969px !important;height:290px !important;overflow:hidden;}
+		.outlet_ex_slider_item {width:969px !important;}
+			.outlet_ex_slider_item_image {margin-left:40px;float:left;}
+			.outlet_ex_slider_item_textBox {margin-left:482px;width:487px;padding-top:20px;}
+				.outlet_ex_slider_item_textBox_title {text-align:center;font-size:55px;color:#777;padding-top:3px;}
+					.outlet_ex_slider_item_textBox_title span {color:#000;font-size:55px !important;}
+				.outlet_ex_slider_item_textBox_priceline {text-align:center;font-size:37px;color:#000;padding-top:47px;}
+				.outlet_ex_slider_item_textBox_btn {width:443px;background:#24568D;height:59px;margin:0px auto;margin-top:47px;cursor:pointer;}
+					.outlet_ex_slider_item_textBox_btn span {color:#fff;font-size:22px;padding-top:21px;text-align:center;display:block;}
+
+.outlet_ex_infoLine {background:#fff;height:36px;}
+.outlet_ex_infoLine_phoneBox {float:left;padding-left:80px;padding-top:6px;font-size:20px;color:#333;}
+	.outlet_ex_infoLine_phoneBox span {color:#333;font-size:20px !important;}
+.outlet_ex_infoLine_callBack {float:right;width:390px;font-size:20px;padding-top:6px;}
+	.outlet_ex_infoLine_callBack a {color:#333 !important;text-decoration:underline !important;}
+	.outlet_ex_infoLine_callBack a:hover {text-decoration:none !important;}
+
+.outlet_ex_carItem {width:333px;float:left;margin-left:95px;margin-right:45px;padding-top:25px;padding-bottom:50px;}
+	.outlet_ex_carItem_title {font-size:25px;color:#777;}
+		.outlet_ex_carItem_title span {color:#000;font-size:25px !important;}
+	.outlet_ex_carItem_priceline {font-size:24px;color:#777;padding-top:15px;padding-bottom:12px;}
+		.outlet_ex_carItem_priceline span {color:#000;font-size:24px !important;}
+	.outlet_ex_carItem_preview {margin-left:-20px;}
+	.outlet_ex_carItem_btn {width:258px;height:64px;background:#24568D;margin-top:12px;cursor:pointer;}
+		.outlet_ex_carItem_btn span {color:#fff;font-size:20px;padding-top:12px;text-align:center;display:block;line-height:19px;}
+		
+.whiteBgThief {width:100%;position:fixed;z-index: 9900;left:0px;top:0px;background:#333;}
+.offer_hidden_box, .callback_hidden_box {display:none;position:absolute;width:520px;background:#fafafa;padding:15px;left:50%;margin-left:-270px;z-index:9910;}
+.outlet_ex_popForm_title {text-align:center;padding:10px;padding-bottom:15px;font-size:32px;color:#000;}
+
+#contentText {left:30px !important;width:969px !important;}
+.outlet_ex_sliderTable {border-collapse:collapse;}
+.outlet_ex_sliderTable td {padding:0px !important;}

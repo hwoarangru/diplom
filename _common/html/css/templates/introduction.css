@@ -1,0 +1,14 @@
+#largeteaser {position:absolute; top:0px; left:0px; width:1024px; height:363px; cursor:pointer; overflow:hidden;}
+#box1 {position:absolute; top:331px; left:269px; width:173px; border:1px solid white;}
+#box2 {position:absolute; top:331px; left:509px; width:173px; border:1px solid white;}
+#box3 {position:absolute; top:331px; left:749px; width:173px; border:1px solid white;}
+.boxlink {position:absolute; width:173px; left:0px; height:20px; display:block; padding-left:13px; padding-top:4px; background-image:url(../../img/backgrounds/bg_boxlink.gif ); color:#ffffff; clip:rect(0px, 173px, 20px, 0px);}
+.boxlink:hover {color:#ffffff; background-image:url(../../img/backgrounds/bg_boxlink-h.gif );}
+.boxlinkHover {position:absolute; width:173px; left:0px; height:20px; display:block; padding-left:13px; padding-top:4px; background-image:url(../../img/backgrounds/bg_boxlink-h.gif ); color:#ffffff; clip:rect(0px, 173px, 20px, 0px);}
+.boxlink.link1 {top:51px;}
+.boxlink.link2 {top:137px;}
+.boxlinkHover.link1 {top:51px;}
+.boxlinkHover.link2 {top:137px;}
+.boxcopy1 {position:absolute; top:79px; left:5px; width:162px; height:47px; overflow:hidden; cursor:pointer;}
+.boxcopy2 {position:absolute; top:165px; left:5px; width:162px; height:47px; overflow:hidden; cursor:pointer;}
+#quicklinks {position:absolute; top:377px; left:30px; width:182px; height:190px;}

@@ -1,0 +1,176 @@
+div#TGModuleNaviClipper {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	width: 222px;
+	height: 335px;
+	background-color: transparent;
+	z-index: 805;
+  clip: rect(96px 222px 335px 0);
+}
+div#TGModuleNavi,
+div#TGModuleNavi * {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+div#TGModuleNavi {
+	position: absolute;
+	overflow: hidden;
+	top: 96px;
+	left: 0;
+	width: 221px;
+	height: 238px;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 12px;
+	color: #4c4c4c;
+	background-color: #fff;
+	-moz-opacity: 0.9;
+	opacity: 0.9;/*
+	z-index: 805;\*/ /* has switched over to "div#TGModuleNaviClipper" \*/
+  visibility: hidden; /* will be set to "visible" by the [[TGModuleNavi]] JavaScript object itself \*/
+}
+* html div#TGModuleNavi {/*
+	overflow: inherit;\*/
+	width: 222px;/*
+	height: 239px;\*/
+	filter: alpha(opacity=90);
+}
+
+
+div#TGModuleNavi img#moduleNaviDropper {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;/*221px;\*/
+	height: 8px;
+}
+
+
+div#TGModuleNavi ul {
+	list-style: none;
+}
+div#TGModuleNavi ul li {
+	border-top: 1px solid #999;
+	padding: 5px 15px 5px 30px;
+}
+div#TGModuleNavi ul li#gotoOverview {
+	border: none;
+	padding-top: 7px;
+}
+div#TGModuleNavi ul li a {
+	text-decoration: none;
+	color: #4c4c4c;
+}
+div#TGModuleNavi ul li a:link,
+div#TGModuleNavi ul li a:visited {
+	color: #4c4c4c;
+}
+div#TGModuleNavi ul li a:hover,
+div#TGModuleNavi ul li a:focus,
+div#TGModuleNavi ul li a:active {
+	color: #039;
+}
+div#TGModuleNavi ul li.expanded ul {
+	display: block;
+	height: 121px;
+	margin: 10px 0 0 0; /*10px 0 0 8px;\*/
+}
+* html div#TGModuleNavi ul li.expanded ul {/*
+	height: 118px;\*/
+}
+div#TGModuleNavi ul li.collapsed ul {
+	display: none;
+}
+div#TGModuleNavi ul li.expanded ul li,
+div#TGModuleNavi ul li.collapsed ul li {
+	border: none;
+	padding: 2px 0 2px 0;
+}
+div#TGModuleNavi ul li#searchByIndex ul li,
+div#TGModuleNavi ul li#searchBySeries ul li {
+	float: left;
+}
+div#TGModuleNavi ul li.expanded,
+div#TGModuleNavi ul li.collapsed {
+	clear: left;
+}
+div#TGModuleNavi ul li ul li.expanded,
+div#TGModuleNavi ul li ul li.collapsed {
+	clear: none;
+}
+div#TGModuleNavi ul li.expanded a:link,
+div#TGModuleNavi ul li.expanded a:visited,
+div#TGModuleNavi ul li.expanded a:hover,
+div#TGModuleNavi ul li.expanded a:focus,
+div#TGModuleNavi ul li.expanded a:active {
+	color: #039;
+}
+div#TGModuleNavi ul li.expanded ul li a:link,
+div#TGModuleNavi ul li.expanded ul li a:visited {
+	color: #4c4c4c;
+}
+div#TGModuleNavi ul li.expanded ul li a:hover,
+div#TGModuleNavi ul li.expanded ul li a:focus,
+div#TGModuleNavi ul li.expanded ul li a:active {
+	color: #039;
+}
+div#TGModuleNavi ul li#searchByIndex.expanded ul,
+div#TGModuleNavi ul li#searchBySeries.expanded ul {
+	margin-left: -6px;
+}
+div#TGModuleNavi ul li#searchByIndex ul li a,
+div#TGModuleNavi ul li#searchBySeries ul li a {
+	margin: 0 0 0 3px;
+	padding: 0 3px;
+}
+div#TGModuleNavi ul li#searchByIndex.expanded ul li a:hover,
+div#TGModuleNavi ul li#searchByIndex.expanded ul li a:focus,
+div#TGModuleNavi ul li#searchByIndex.expanded ul li a:active,
+div#TGModuleNavi ul li#searchBySeries.expanded ul li a:hover,
+div#TGModuleNavi ul li#searchBySeries.expanded ul li a:focus,
+div#TGModuleNavi ul li#searchBySeries.expanded ul li a:active {
+	color: #fff;
+	background-color: #039;
+}
+div#TGModuleNavi ul li#searchByIndex ul li span.disabled,
+div#TGModuleNavi ul li#searchBySeries ul li span.disabled {/*
+	float: left;
+	display: inline;\*/
+	margin: 0 0 0 3px;
+	padding: 0 3px;
+	color: #ccc;
+}
+
+/* highlight rules according to selected (sub)categories do overwrite the generic behavioral(pseudo-class) rules made above \*/
+div#TGModuleNavi ul li.selected a:link,
+div#TGModuleNavi ul li.selected a:visited,
+div#TGModuleNavi ul li.selected a:hover,
+div#TGModuleNavi ul li.selected a:focus,
+div#TGModuleNavi ul li.selected a:active,
+div#TGModuleNavi ul li.expanded ul li.selected a:link,
+div#TGModuleNavi ul li.expanded ul li.selected a:visited,
+div#TGModuleNavi ul li.expanded ul li.selected a:hover,
+div#TGModuleNavi ul li.expanded ul li.selected a:focus,
+div#TGModuleNavi ul li.expanded ul li.selected a:active {
+  color: #039;
+}
+div#TGModuleNavi ul li#searchByIndex.expanded ul li.selected a:link,
+div#TGModuleNavi ul li#searchByIndex.expanded ul li.selected a:visited,
+div#TGModuleNavi ul li#searchByIndex.expanded ul li.selected a:hover,
+div#TGModuleNavi ul li#searchByIndex.expanded ul li.selected a:focus,
+div#TGModuleNavi ul li#searchByIndex.expanded ul li.selected a:active,
+div#TGModuleNavi ul li#searchBySeries.expanded ul li.selected a:link,
+div#TGModuleNavi ul li#searchBySeries.expanded ul li.selected a:visited,
+div#TGModuleNavi ul li#searchBySeries.expanded ul li.selected a:hover,
+div#TGModuleNavi ul li#searchBySeries.expanded ul li.selected a:focus,
+div#TGModuleNavi ul li#searchBySeries.expanded ul li.selected a:active {
+	color: #fff;
+	background-color: #039;
+}
+
+.teaserHeadlineMultimedia{color:#ffffff;}

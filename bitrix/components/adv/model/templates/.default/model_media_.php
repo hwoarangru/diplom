@@ -1,0 +1,18 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?><?
+
+$APPLICATION->IncludeComponent("adv:model.media", "", array(
+	  "MODEL_ID" => $arResult['VARIABLES']['MODEL_ID']
+	, "RANGE_CODE" => $arResult['VARIABLES']["RANGE_CODE"]
+	, "PRESENTATION_CODE" => $arResult['VARIABLES']["PRESENTATION_CODE"]
+	, "FEATURE_IBLOCK" => $arResult["FEATURE_IBLOCK"]
+	, "CACHE_TIME" => $arParams['CACHE_TIME']
+	, "RANGE_SECTION" => $arResult['RANGE_SECTION']
+	, "FEATURE_SECTION" => $arResult['FEATURE_SECTION']
+	, "IBLOCK_FEATURE_TYPE" => $arParams["IBLOCK_FEATURE_TYPE"]
+	, "IBLOCK_PRESENTATION_CODE" => $arParams["IBLOCK_PRESENTATION_CODE"]
+	, "IBLOCK_MODEL_CODE" => $arParams["IBLOCK_MODEL_CODE"]
+	, "IBLOCK_PHOTO_CODE" => $arParams["IBLOCK_PHOTO_CODE"]
+	, "IBLOCK_VIDEO_CODE" => $arParams["IBLOCK_VIDEO_CODE"]
+	, "URL_TEMPLATES" => $arResult['URL_TEMPLATES']
+));
+?>

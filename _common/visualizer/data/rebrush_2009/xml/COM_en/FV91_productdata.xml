@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <content default="P0B05" id="metallic">
+    <content id="P0475">
+      <text id="name">Black Sapphire</text>
+    </content>
+    <content id="P0A17">
+      <text id="name">Havanna</text>
+    </content>
+    <content id="P0A29">
+      <text id="name">Silverstone II metallic</text>
+    </content>
+    <content id="P0A52">
+      <text id="name">Space Grey</text>
+    </content>
+    <content id="P0A89">
+      <text id="name">Imperial Blue Brilliant Effect</text>
+    </content>
+    <content id="P0B05">
+      <text id="name">Monte Carlo Blau metallic</text>
+    </content>
+    <content id="P0B41">
+      <text id="name">Singapur Grau</text>
+    </content>
+  </content>
+  <content id="uni">
+    <content id="P0300">
+      <text id="name">Alpine White</text>
+    </content>
+  </content>
+  <content default="FX3A9" id="leather">
+    <content id="FLKA9">
+      <text id="name">Silverstone/Black Merino leather</text>
+    </content>
+    <content id="FLKDA">
+      <text id="name">Sakhir Orange/Black Merino leather</text>
+    </content>
+    <content id="FLKSW">
+      <text id="name">Black Merino leather</text>
+    </content>
+    <content id="FX3A9">
+      <text id="name">Silverstone/Black Merino full leather</text>
+    </content>
+    <content id="FX3DA">
+      <text id="name">Sakhir Orange/Black Merino full leather</text>
+    </content>
+    <content id="FX3SW">
+      <text id="name">Merino Black full leather</text>
+    </content>
+  </content>
+  <content default="FX3A9" id="fabric"/>
+  <content id="mirrorcaps"/>
+  <content default="S04L9" id="trims">
+    <content id="S04BN">
+      <text id="name">Fine-wood trim ash grain Brown</text>
+    </content>
+    <content id="S04CE">
+      <text id="name">Fine-wood trim 'Fineline' anthracite</text>
+    </content>
+    <content id="S04L9">
+      <text id="name">Aluminium 'Trace'</text>
+    </content>
+  </content>
+  <content default="S02NZ" id="rims">
+    <content id="S02N7">
+      <text id="name">Double-spoke style 345 M</text>
+    </content>
+    <content id="S02NZ">
+      <text id="name">Double-spoke style 343 M</text>
+    </content>
+  </content>
+</root>

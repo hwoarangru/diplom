@@ -1,0 +1,247 @@
+body{
+ font-family:Arial;
+}
+.invariable{
+color:red;position:relative;top:30px;
+}
+.bmw-checkbox INPUT { width: 20px; }
+.selectionContent{
+padding: 0px;
+width: 643px;
+}
+.selectionContentHeader{
+height: 13px;
+padding-top: 8px;
+width: 643px;
+}
+.f11l13b { 
+font-size: 11px;
+font-weight: 700;
+line-height: 13px;
+}
+.spacer3px { 
+height: 3px;
+overflow-x: hidden;
+overflow-y: hidden;
+width: 1px;
+}
+.dot { 
+border-bottom-color: #999999;
+border-bottom-style: dotted;
+border-bottom-width: 1px;
+clear: both;
+height: 1px;
+overflow-x: hidden;
+overflow-y: hidden;
+width: 98%;
+}
+.section { 
+padding-bottom: 2px;
+padding-left: 10px;
+padding-top: 12px;
+width: 750px;
+}
+.segmentMiddleL { 
+float: left;
+padding-bottom: 11px;
+width: 750px;
+}
+.segmentMiddle { 
+float: left;
+padding-bottom: 11px;
+width: 243px;
+}
+.noFloat { 
+clear: both;
+}
+.standardButton { 
+background-attachment: scroll;
+background-color: transparent;
+background-image: url("http://www.crm.bmw.ru/drive_req/css/button_bg.gif");
+background-position: 0px 0px;
+background-repeat: repeat;
+border-bottom-color: #b0b0b0;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-left-color: #dddddd;
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: #b0b0b0;
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: #dddddd;
+border-top-style: solid;
+border-top-width: 1px;
+color: #666666;
+cursor: pointer;
+font-size: 11px;
+font-weight: 700;
+height: 24px;
+left: 10px;
+line-height: 12px;
+overflow-x: hidden;
+overflow-y: hidden;
+padding-bottom: 4px;
+padding-left: 7px;
+padding-right: 7px;
+padding-top: 4px;
+top: 130px;
+width: 173px;
+}
+.validationSummary { 
+color: #ff0000;
+display: inline;
+font-size: 11px;
+}
+.inputselect { 
+float: left;
+width: 216px;
+}
+select { 
+float: left;
+width: 216px;
+}
+.f11l13 { 
+font-size: 11px;
+line-height: 13px;
+}
+select.input { 
+width: 216px;
+}
+select, textarea { 
+border-bottom-color: #dedede;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-left-color: #dedede;
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: #dedede;
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: #dedede;
+border-top-style: solid;
+border-top-width: 1px;
+margin-top: 4px;
+}
+select, option, optgroup, textarea, input { 
+font-size: 11px;
+line-height: 13px;
+padding-bottom: 0px;
+padding-left: 4px;
+padding-right: 0px;
+padding-top: 0px;
+}
+.inputMiddle { 
+float: left;
+width: 220px;
+}
+.inputMiddleL { 
+float: left;
+width: 750px; 
+vertical-align: middle;
+}
+div, img, a, area, table { 
+border-bottom-color: currentColor;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-left-color: currentColor;
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: currentColor;
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: currentColor;
+border-top-style: none;
+border-top-width: 0px;
+}
+span, td { 
+font-family: "arial", "helvetica", sans-serif;
+font-size: 11px;
+line-height: 12px;
+}
+table { 
+border-spacing: 2px;
+text-indent: 0px;
+}
+.inputMiddleRadio input { 
+width: 20px;
+}
+.inputtext { 
+background-image: url("http://www.bmw.ru/_common/html/img/backgrounds/bg_forms.gif");
+border-bottom-color: #dedede;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-left-color: #dedede;
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: #dedede;
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: #dedede;
+border-top-style: solid;
+border-top-width: 1px;
+font-size: 11px;
+line-height: 13px;
+width: 214px;
+}
+textarea, input { 
+padding-top: 2px;
+}
+input { 
+height: 23px;
+margin-top: 4px;
+}
+input.standardButton:hover { 
+background-attachment: scroll;
+background-color: #eeeeee;
+background-image: none;
+background-position: 0px 0px;
+background-repeat: repeat;
+border-bottom-color: #cfcfcf;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-left-color: #e5e5e5;
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: #cfcfcf;
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: #e5e5e5;
+border-top-style: solid;
+border-top-width: 1px;
+color: #0044cc;
+}
+input.standardButton { 
+background-attachment: scroll;
+background-color: transparent;
+background-image: url("http://www.crm.bmw.ru/drive_req/css/button_bg.gif");
+background-position: 0px 0px;
+background-repeat: repeat;
+border-bottom-color: #b0b0b0;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-left-color: #dddddd;
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: #b0b0b0;
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: #dddddd;
+border-top-style: solid;
+border-top-width: 1px;
+color: #666666;
+cursor: pointer;
+font-size: 11px;
+font-weight: 700;
+height: 24px;
+left: 10px;
+line-height: 12px;
+overflow-x: hidden;
+overflow-y: hidden;
+padding-bottom: 4px;
+padding-left: 7px;
+padding-right: 7px;
+padding-top: 4px;
+top: 130px;
+width: 173px;
+}

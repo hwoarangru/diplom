@@ -1,0 +1,11 @@
+    #background {position:absolute; top:0px; left:0px; width:100%; height:363px; overflow:hidden;}
+    #flashmovie1{position:absolute; top:87px; left:222px; width:770px; height:276px; overflow:hidden; z-index:50;}
+    #flashmovie2{position:absolute; top:356px; left:741px; width:249px; height:168px; z-index:55;}
+    #mainText   {position:absolute; top:372px; left:318px; width:374px; height:190px;}
+    #teaser     {position:absolute; top:376px; left: 30px; width:182px; height:190px;}
+    #iButton    {position:absolute; top:356px; left:280px; width:19px; height:18px;background-color:#ffffff; z-index:60;}
+    #info       {position:absolute; top:357px; -top:356px; left:310px; -left:309px; width:390px; -width:392px; border:1px solid #afafaf; background-color:#ffffff; visibility:hidden; z-index:60;}
+    #close      {position:absolute; top:1px; right:1px; width:13px; height:12px;overflow:hidden; z-index:65;}
+    .infoText   {padding-top:20px; padding-left:9px; width:376px; -width:378px; margin-bottom:13px; z-index:60;}
+    #teaserSmallStandard1 {position:absolute; top:464px; left:29px; width:239px; height:68px;}
+    .outerDiv{width: 1px;}

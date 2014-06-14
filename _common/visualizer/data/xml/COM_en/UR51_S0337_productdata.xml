@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content default="P0381" id="metallic">
+<content id="P0381">
+<text id="name">Le Mans Blue</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0A79">
+<text id="name">Sedona Red</text>
+</content>
+<content id="P0A22">
+<text id="name">Sparkling Graphite</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+</content>
+<content default="P0381" id="uni"/>
+<content id="leather">
+<content id="FLWAL">
+<text id="name">Alaska Grey Boston leather</text>
+</content>
+<content id="FLWA5">
+<text id="name">Beige Boston leather</text>
+</content>
+<content id="FLWD1">
+<text id="name">Coral Red Boston leather</text>
+</content>
+<content id="FLWB7">
+<text id="name">Lemon Boston leather</text>
+</content>
+<content id="FLWSW">
+<text id="name">Black Boston leather</text>
+</content>
+<content id="FLWB8">
+<text id="name">Terra Boston leather</text>
+</content>
+</content>
+<content default="FGCSW" id="fabric">
+<content id="FGCSW">
+<text id="name">Black Flashpoint cloth/Sensatec</text>
+</content>
+</content>
+<content default="S04MG" id="trims">
+<content id="S04A3">
+<text id="name">Walnut light</text>
+</content>
+<content id="S04AS">
+<text id="name">Grain Grey Poplar</text>
+</content>
+<content id="S04B3">
+<text id="name">Aluminium accentuated patterning</text>
+</content>
+<content id="S04MG">
+<text id="name">Aluminium Glacier Silver</text>
+</content>
+</content>
+<content default="S02MG" id="rims">
+<content id="S02MR">
+<text id="name">Double-spoke style 261 M</text>
+</content>
+<content id="S02MG">
+<text id="name">Double-spoke style 207 M</text>
+</content>
+</content>
+</root>

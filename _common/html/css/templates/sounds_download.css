@@ -1,0 +1,13 @@
+#contentRelative {position:relative; margin-top:15px;left:318px; width: 423px; z-index:109;}
+#contentAbsolute {position:absolute; top:104px; left:318px; width:423px; z-index:109;}
+.dialog {position:absolute; top:22px; left:-9px; width:195px; height:auto; z-index:107; border:1px solid #afafaf; visibility:hidden; background-color:#ffffff;}
+.close {position:absolute; top:1px; right:1px; width:13px; height:12px;}
+#ringtoneThumbnail {position:absolute; top:0px; left:0px; width:85px; height:31px; z-index:104;}
+#teaserText {position:absolute; top:2px; left:4px; width:80px; z-index:105;}
+.lense {position:absolute; top:47px; left:0px; width:13px; height:12px; z-index:106;}
+.dialogBox {padding-left:8px; padding-right:8px; padding-top:5px;padding-bottom:5px;}
+#teaserContainer {position:absolute; top:99px; left:741px;}
+#soundPlayerContainer {position:absolute; top:400px; left:230px; width:20px; height:20px;}
+#mainImages {position:absolute; top: 60px; left:0px; width:100%; overflow:hidden;}
+#mainImage01 {position:relative; top:0px;left:0px; width:100%; z-index:109;}
+#mainImage02 {position:absolute; top:0px;left:0px; width:100%; z-index:109;}

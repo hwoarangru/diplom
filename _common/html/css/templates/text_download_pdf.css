@@ -1,0 +1,6 @@
+#completeText         {position:absolute; top:104px; left:316px; width:514px; height:auto;}
+#contentText          {position:relative; top:  0px; left:  0px; width:398px;             }
+html:first-child>*+body #contentText {position: static;} /* opera css filter */
+#downloadMainTeaser   {                                          width:253px; height:146px;}
+.downloadMainTeaser   {                                          width:253px; height:146px; overflow:hidden; }
+#teaserContainer      {position:absolute; top: 99px; left:741px;}

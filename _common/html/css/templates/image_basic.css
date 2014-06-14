@@ -1,0 +1,24 @@
+#completeText {position:absolute; top:374px; left:176px; width:514px; height:auto;}
+#contentText {position:relative; top:  0px; left:140px; width:398px; height:132px; -height:144px;}
+*>#contentText {height:132px; display: table-cell; padding-left:140px; }
+.divWidth514 {width:514px;}
+#noOfPages {position:relative; top:  0px;}
+.noOfPages {width:122px; height: 16px; float:left; text-align:right; margin-right:18px; color: #4c4c4c;}
+.nextOrPreviousPage {width:374px; height: 16px; float:left;}
+#mainImages {position:absolute; top:60px; left:0px; width:1024; height:312px; overflow:hidden; visibility:hidden;}
+#mainImage {position:absolute; top:0px; left:0px; width:auto; height:303px;}
+#teaserContainer {position:absolute; top:363px; left:741px;}
+#selectBox {position:relative; width:239px;}
+#iButton {position:absolute; top:356px; left:280px; width: 19px; height: 18px; background-color:#ffffff;}
+#info {position:absolute; top:107px; left:309px; width:392px; height:416px; visibility:hidden; overflow:hidden;}
+#legalDisclaimerButton {position:relative; width:374px; height: 15px; margin-top:3px; margin-bottom:3px;}
+#legalDisclaimer {position:absolute; top:107px; left:309px; width:392px; height:416px; visibility:hidden; overflow:hidden;}
+#close {position:absolute; top:  1px; right:1px; width:13px; height:12px; visibility:inherit;}
+#infoText {*width:370px; *height:140px; padding-top:15px; padding-left:7px; padding-bottom:17px; padding-right:14px; visibility:inherit;}
+#linktextcopy {position:relative; width:374px; height: 15px; margin-top:16px; margin-bottom:3px;}
+#showroomLayer {position:absolute; top:226px; left:316px; width:410px; -width:410px; height:305px; padding:15px 0 9px 7px; border:1px solid #afafaf; background-color:#fff; display:none; z-index:65;}
+a.TLcontextlink {color:#666666;}
+a.TLcontextlinkHigh {color:#003399;}
+#flexiDiv {position:absolute; bottom:0px; left:0px; width:390px; min-height:165px; height:auto; border:1px solid #999999; background-color:#ffffff; visibility:inherit;}
+* html #flexiDiv {height:167px; width:392px;}
+*+html #flexiDiv {height:167px; width:392px;}

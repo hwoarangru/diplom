@@ -1,0 +1,17 @@
+#specificPageContent                     {position:relative; top: 98px; width:100%;}
+#topHeadline                             {position:relative; top: 6px; left: 318px; width:335px;}
+#topLineBox                              {position:relative; top: 0px; left: 0px; width:100%; overflow:hidden;}
+#innerPageCopy                           {position:relative; left:318px; width:335px;}
+#innerPageTable                          {position:relative; left:318px; width:575px;}
+table.textTable                          {table-layout:fixed; width=575px; font-size: 11px; line-height: 12px; color: #000000;}
+table.textTable tr.header                {background-color:#CCCCCC;}
+table.textTable tr.header6High           {background-color:#CCCCCC;height:6px;}
+table.textTable tr.header5High           {background-color:#CCCCCC;height:5px;}
+table.textTable tr.content               {background-color:#F0F0F0;}
+table.textTable tr.content10High         {background-color:#F0F0F0;height:10px;}
+table.textTable tr.content12High         {background-color:#F0F0F0;height:12px;}
+table.textTable tr.content14High         {background-color:#F0F0F0;height:14px;}
+table.textTable td.leftColumn            {width:134px; vertical-align:top;}
+table.textTable td.rightColumn           {width:374px; vertical-align:top;}
+table.textTable td.spaceCenter           {width:49px;}
+table.textTable td.spaceEdge             {width:9px;}

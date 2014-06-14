@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content id="modeDefinition">
+<content frameCount="1" id="oneangle"/>
+<content frameCount="36" id="in"/>
+<content frameCount="72" id="in_panorama"/>
+</content>
+<content id="metallic">
+<content id="P0A35">
+<text id="name">Monaco Blue</text>
+</content>
+<content id="P0S37">
+<text id="name">Moonstone</text>
+</content>
+<content id="P0A51">
+<text id="name">Montego Blue</text>
+</content>
+<content id="P0S23">
+<text id="name">Ruby Black</text>
+</content>
+<content id="P0475">
+<text id="name">Black Sapphire</text>
+</content>
+<content id="P0A08">
+<text id="name">Silver Grey</text>
+</content>
+<content id="P0354">
+<text id="name">Titanium Silver</text>
+</content>
+</content>
+<content id="uni">
+<content id="P0300">
+<text id="name">Alpine White</text>
+</content>
+<content id="P0668">
+<text id="name">Jet Black</text>
+</content>
+</content>
+<content id="leather"/>
+<content id="fabric"/>
+<content id="trims"/>
+<content id="rims">
+<content id="S02MM">
+<text id="name">Y-spoke style 191 M</text>
+</content>
+</content>
+</root>

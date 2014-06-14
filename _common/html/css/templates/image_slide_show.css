@@ -1,0 +1,22 @@
+.completeText {position:absolute; top:402px; left:176px; width:514px; height:auto;visibility:hidden; display:block;}
+#contentText {position:relative; top:  0px; left:140px; width:398px; height:112px; -height:114px;}
+*>#contentText {height:112px; display:table-cell; padding-left:140px; }
+.divWidth514 {width:514px;}
+#noOfPages {position:relative; top:0px;}
+.noOfPages {position:relative; top:0px;width:122px; height:16px; float:left; text-align:right; margin-right:18px; color:#4c4c4c;}
+.nextOrPreviousPage {width:374px; height:16px; float:left;}
+#imgBorder {position:absolute; width: 37px; height: 29px; z-index:35; visibility:hidden;}
+#imgBorderPermanent {position:absolute; top:77px; width:37px; height:29px; z-index:30; visibility:hidden;}
+#mainImage {position:relative; top: 60px; left:318px; width:528px; height:303px; z-index:20; overflow:hidden; visibility:hidden;}
+#displayedImage {width:528px; height:303px; overflow:hidden;}
+#imagebar {position:absolute; top:363px; left:318px; width:424px; margin-top:1px;}
+#imagebar img {width:33px; height:23px;}
+a.thumbLink {margin-left:1px;}
+a.thumbLink img {width:33px; height:23px; border:none;}
+a.thumbLink:hover {margin-left:1px;}
+#bigImageLoader {position:absolute; top:189px; left:492px; z-index:60; visibility:hidden;}
+#teaserContainer {position:absolute; top:363px; left:741px;}
+#close {position:absolute; top:1px; right:1px; width:13px; height:12px; visibility:inherit;}
+#showroomLayer {position:absolute; top:226px; left:316px; width:410px; -width:410px; height:305px; padding:15px 0 9px 7px; border:1px solid #afafaf; background-color:#fff; display:none; z-index:65;}
+a.TLcontextlink {color:#666666;}
+a.TLcontextlinkHigh {color:#003399;}
